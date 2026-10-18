@@ -1,3 +1,3 @@
 10.7 Capacity planning
 
-fig-10.7.1.png  —  Workstation capacity view showing booked and free hours by day
+fig-10.7.1.png  —  Workstation load chart showing planned hours per day against capacity

@@ -1,3 +1,3 @@
-2.13 Integrations, API and webhooks
+2.13 Integrations and API
 
-fig-2.13.1.png  —  API access section of a user record with generate keys button
+fig-2.13.1.png  —  Integrations page listing connected services and their status

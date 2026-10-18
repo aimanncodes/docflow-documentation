@@ -1,3 +1,3 @@
-2.8 Creating your own document types
+2.8 Custom document types
 
-fig-2.8.1.png  —  New document type for container bookings with fields and permissions
+fig-2.8.1.png  —  New DocType form for Vehicle with fields, naming and permissions

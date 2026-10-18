@@ -1,3 +1,3 @@
-6.7 Calls, emails and WhatsApp
+6.7 Calls, emails, meetings and appointments
 
-fig-6.7.1.png  —  Call log on a lead timeline with duration and notes
+fig-6.7.1.png  —  Lead timeline showing an email, a logged call and a scheduled site visit

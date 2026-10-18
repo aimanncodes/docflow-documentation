@@ -1,161 +1,326 @@
 @@ overview | Website and portal at a glance
-@summary Publish web pages, collect enquiries and give customers and suppliers self-service access.
+@summary Publish a company website, collect enquiries with web forms, give customers, suppliers and employees a self-service portal, run a blog and careers page, and sell online.
 
-DocFlow includes a simple website builder and a secure portal. You can publish a few pages, capture enquiries straight into the CRM and let customers see their orders, invoices and issues without calling your office.
+DocFlow includes a website builder connected to your data. A product added in Stock can appear on the website; a web form creates a lead in CRM; a customer signs in to see their orders and invoices.
 
-!fig Website workspace with pages, web forms and portal settings
+!fig Website workspace with web pages, web forms, portal settings and website settings
 
-## What is included
+## What you can build
 
 | Feature | Use |
 | --- | --- |
-| Web Page | Publish content pages |
-| Web Form | Collect enquiries, applications and feedback |
-| Website Settings | Logo, navigation bar, footer, home page |
-| Portal | Customer and supplier self-service |
-| Blog | News and updates |
+| [Web pages](/website/web-pages) | Home, about, services, contact |
+| [Web forms](/website/web-forms) | Enquiry, quote request, feedback, applications |
+| [Portal](/website/portal) | Customers see orders, invoices and issues; suppliers see RFQs and POs |
+| [Blog](/website/blog) | News and articles |
+| [Careers](/website/careers-page) | Job openings and online applications |
+| Online shop | Product catalogue, cart, checkout with payment gateway |
+| [Themes](/website/themes-branding) | Your brand colours and fonts |
+| [Arabic site](/website/arabic-website) | Right-to-left Arabic pages |
 
-@@ web-pages | Web pages and website settings
-@summary Build pages, set your navigation and brand the website.
+## Website Settings
+
+| Setting | Use |
+| --- | --- |
+| Home Page | Which page is the home page |
+| Top Bar and Footer | Menus, logo, contact links |
+| Brand HTML, Favicon | Logo and tab icon |
+| Disable Signup | Stop public sign-up if only invited users should log in |
+| Google Analytics / tracking | Visitor statistics |
+| Hide Footer Signup | Hide newsletter sign-up |
+
+## Domain and SSL
+
+Point your domain (for example www.yourcompany.ae) to DocFlow with a DNS record. An SSL certificate is applied automatically.
+
+## Related pages
+
+- [Web pages](/website/web-pages)
+- [Customer portal](/website/portal)
+
+@@ web-pages | Web pages and the page builder
+@summary Create website pages with the block builder or rich text, set routes, menus and meta tags, and publish or schedule them.
 
 ## Creating a page
 
 1. Go to **Website › Web Page › New**.
-2. Enter the title and the **Route** (the address), for example `about-us`.
-3. Add content using blocks: hero, text, image, cards or call-to-action.
-4. Tick **Published** and save.
+2. Enter the **Title** and the **Route**, for example `about-us`.
+3. Choose **Content Type**: Page Builder (blocks), Rich Text, Markdown or HTML.
+4. With the page builder, add blocks: hero, section with cards, image and text, testimonials, call to action, FAQ, contact.
+5. Tick **Published**, or set a start and end date.
+6. Save and click **See on Website**.
 
-!fig Web page builder with hero and content blocks
+!fig Page builder editing the About Us page with hero and cards blocks
 
-## Website settings
+## Menus
 
-Under **Website Settings** set your logo, favicon, top navigation links, footer columns and home page. Add both English and Arabic versions of key pages for UAE visitors.
+Add the page to the **Top Bar Items** in Website Settings, with sub-menus if needed. Footer links go under **Footer Items**.
 
-:::tip Your own domain
-Ask your administrator to point a domain such as `portal.yourcompany.ae` to DocFlow and enable SSL. Customers then see your brand, not a generic address.
-:::
+## Common pages for a UAE company
+
+| Page | Content |
+| --- | --- |
+| Home | What you do, key sectors, brands, call to action |
+| About | Story, licences, certifications, locations |
+| Products / Services | Generated from item groups or written pages |
+| Projects | References with photos |
+| Contact | Web form, map, phone, WhatsApp link, office hours |
+| Legal | Privacy policy, terms, cookie policy |
+
+## Meta tags
+
+Each page has **Meta Title**, **Meta Description** and **Meta Image** for search engines and social sharing. See [SEO and analytics](/website/seo-analytics).
+
+## Related pages
+
+- [Themes and branding](/website/themes-branding)
+- [Arabic website](/website/arabic-website)
 
 @@ web-forms | Web forms
-@summary Collect enquiries and data from the public into DocFlow records.
+@summary Build forms that create records in DocFlow: enquiries, quote requests, feedback, registrations and applications, with validation, login options and success messages.
 
-A **Web Form** is a public form that creates a DocFlow record when submitted.
-
-## Example: a quotation request form
+## Creating a web form
 
 1. Go to **Website › Web Form › New**.
-2. Choose **Document Type** = Lead.
-3. Add fields: name, company, mobile, email, emirate and message.
-4. Set the **Route**, for example `request-a-quote`.
-5. Tick **Published**, and choose whether login is required.
-6. Save, and link to it from your website.
+2. Choose the **Document Type** the form creates, for example Lead, Issue or Quality Feedback.
+3. Enter the **Title** and **Route** (`request-a-quote`).
+4. Add **Fields** from the document type, with labels, mandatory flags and default values.
+5. Choose **Login Required** (for portal users) or allow guests.
+6. Set the **Success Message** and **Success URL**.
+7. Tick **Published** and save.
 
-!fig Web form for quotation requests creating leads
+!fig Web form for quote requests with fields from the Lead document type
 
-Each submission creates a lead with source Website, ready to be assigned.
+## Useful web forms
 
-:::uae Privacy notice
-Collecting personal data online is covered by the UAE Personal Data Protection Law. Add a short privacy notice and a consent checkbox to public forms.
+| Form | Creates |
+| --- | --- |
+| Contact us | Lead |
+| Request a quote | Lead or Opportunity |
+| Report a problem | Issue |
+| Feedback after a visit | Quality Feedback |
+| Supplier registration | Supplier (draft) |
+| Event registration | Lead with campaign |
+
+## Options
+
+| Option | Use |
+| --- | --- |
+| Allow Edit / Allow Multiple | Let logged-in users change or submit several |
+| Allow Print / Delete | For portal users |
+| Show attachments | Allow file uploads |
+| Client script | Validation in the browser |
+| Anonymous | No login required |
+
+:::uae Personal data on forms
+Collect only what you need, explain how you use it, and link your privacy policy on each form, in line with UAE data protection law.
 :::
 
-@@ portal | Customer and supplier portal
-@summary Give customers and suppliers secure access to their own documents.
+## Related pages
 
-## What customers can do
+- [Leads](/crm/leads)
+- [Issues](/support/issues)
 
-- View quotations, sales orders, delivery notes and invoices
-- Download invoices as PDF and see outstanding balances
-- Raise and follow support issues
-- Accept quotations online
+@@ portal | Customer, supplier and employee portal
+@summary Give external users secure self-service: customers see quotations, orders, invoices and issues and can pay online; suppliers answer RFQs and see orders; employees use self-service.
 
-## What suppliers can do
+## Who uses the portal
 
-- Respond to requests for quotation
-- View purchase orders and their status
-- See their invoices and payments
+| User | Sees |
+| --- | --- |
+| Customers | Quotations, sales orders, invoices, delivery notes, projects, issues, addresses |
+| Suppliers | Requests for quotation, purchase orders, purchase invoices |
+| Applicants | Their job applications |
+| Employees | [Self-service](/hr-payroll/self-service) through the desk or portal |
+
+!fig Customer portal showing orders, invoices with pay buttons and issues
 
 ## Giving access
 
-1. Open the customer's or supplier's **Contact** and click **Invite as User**.
-2. The contact receives an email to set a password.
-3. They sign in and see only their own documents.
+1. Open the contact of the customer or supplier.
+2. Click **Invite as User**. DocFlow creates a website user linked to that party and emails a sign-in link.
+3. The user sees only documents for their own customer or supplier.
 
-!fig Customer portal showing invoices and their payment status
+## Portal settings
 
-:::details Can I control which menu items portal users see?
-Yes. Use **Portal Settings** to switch menu items on or off and to set the default role for new portal users.
-:::
+In **Portal Settings** choose which menu items appear (Orders, Invoices, Issues, Projects, Addresses) and for which roles. Hide what you do not want to show.
 
-@@ blog | Blog and news
-@summary Publish company news, product updates and guides.
+## Paying online
 
-1. Create **Blog Categories**, such as News, Product Updates, Guides.
-2. Add **Bloggers**: the staff who write posts, with a short bio and photo.
-3. Go to **Website › Blog Post › New**. Write the title, the content and a short intro, and add a cover image.
-4. Tick **Published** and set the publish date.
+With a payment gateway, invoices in the portal show **Pay**. Payment creates a payment request and payment entry automatically. See [payment requests](/accounting/payment-request).
 
-!fig Blog post editor with category, cover image and published flag
+## Supplier quotations
 
-:::tip Useful topics
-Short guides perform well, such as "How to prepare for UAE e-invoicing" or "Choosing a combi oven for a hotel kitchen". They bring in leads through search.
-:::
+Suppliers sign in to answer [RFQs](/buying/rfq-supplier-quotation) with rates and lead times, which creates supplier quotations for comparison.
 
-@@ themes-branding | Website themes and branding
-@summary Match your website to the DocFlow look or to your own brand.
+## Related pages
+
+- [Customer collaboration on projects](/projects/customer-collaboration)
+- [Web forms](/website/web-forms)
+
+@@ blog | Blog
+@summary Publish news and articles with bloggers, categories, featured images and meta tags, and use them for marketing and SEO.
+
+## Writing a post
+
+1. Set up **Blogger** records for authors (name, bio, avatar).
+2. Create **Blog Category** records, for example News, Projects, Guides.
+3. Go to **Website › Blog Post › New**: title, blogger, category, **Blog Intro**, content (rich text, markdown or page builder) and **Meta Image**.
+4. Tick **Published** and set the **Published On** date.
+
+!fig Blog post editor with title, category, intro and featured image
+
+## Blog settings
+
+In **Blog Settings** set the blog title, introduction, whether comments and likes are allowed, and the number of posts per page. Posts appear at `/blog`, by category and author.
+
+## Ideas for UAE businesses
+
+| Post | Example |
+| --- | --- |
+| Project showcase | Hotel kitchen completed in Downtown Dubai |
+| Regulation explained | What e-invoicing means for your suppliers |
+| Seasonal | Ramadan opening hours |
+| Event | See us at Gulfood, stand number |
+
+## Related pages
+
+- [SEO and analytics](/website/seo-analytics)
+- [Campaigns](/crm/campaigns)
+
+@@ themes-branding | Themes and branding
+@summary Apply your brand: logo, colours, fonts, buttons and custom CSS through website themes, and keep the website consistent with printed documents.
+
+## Website themes
 
 1. Go to **Website › Website Theme › New**.
-2. Set the primary colour, fonts, button style and background.
-3. Add custom CSS for anything else.
-4. Set it as the active theme in **Website Settings**.
+2. Choose **Primary Colour**, **Text Colour**, **Background**, **Font** (Google Fonts) and font size.
+3. Set **Button Rounded Corners**, shadows and gradients.
+4. Add **Custom SCSS** for finer control.
+5. Save and **Set as Default**.
 
-!fig Website theme with primary colour and font settings
+!fig Website theme with brand colour, font and custom styles
 
-:::tip Consistent colours
-Use the same purple (#8765D7) and lavender background (#F8F4FF) as DocFlow if your website should feel like part of the platform, or your own brand colours if it represents your company.
-:::
+## Branding checklist
 
-@@ seo-analytics | Search engine optimisation and analytics
-@summary Help customers find your pages and measure how visitors use them.
+| Item | Where |
+| --- | --- |
+| Logo (light and dark versions) | Website Settings › Brand |
+| Favicon | Website Settings |
+| Colours and fonts | Website Theme |
+| Footer address and licence details | Website Settings › Footer |
+| Social links | Footer items |
+| Matching letterheads | [Printing](/getting-started/printing) |
 
-## Page metadata
+## Arabic fonts
 
-On each web page or blog post, fill in the **Meta Title**, **Meta Description** and **Meta Image**. These appear in search results and when links are shared on social media and WhatsApp.
+Choose a font that includes Arabic glyphs, or set a separate font for the Arabic site, so both languages look consistent. See [Arabic website](/website/arabic-website).
 
-!fig Web page SEO section with meta title, description and image
+## Related pages
 
-## Sitemaps and redirects
+- [Web pages](/website/web-pages)
+- [Website overview](/website/overview)
 
-DocFlow generates a sitemap automatically. Use **Website Route Redirects** when you rename a page, so old links keep working.
+@@ seo-analytics | SEO and analytics
+@summary Help customers find you: page titles and descriptions, clean routes, sitemaps, redirects, structured content and visitor analytics.
+
+## On-page SEO
+
+| Item | Where | Tip |
+| --- | --- | --- |
+| Meta title | Each page / post | Under 60 characters, include the main keyword and emirate |
+| Meta description | Each page / post | 120–160 characters |
+| Meta image | Each page / post | Used when shared on social media |
+| Route | Each page | Short and readable: `/kitchen-equipment-dubai` |
+| Headings | Page content | One H1, then H2s |
+| Image alt text | Images | Describe the image |
+
+!fig Page settings with meta title, description and image for search engines
+
+## Sitemap and robots
+
+DocFlow generates a sitemap at `/sitemap.xml` listing published pages, posts and items. Submit it in Google Search Console. Edit **robots.txt** in Website Settings if needed.
+
+## Redirects
+
+When you rename a route, add a **Website Route Redirect** from the old path to the new one so links and rankings are kept.
 
 ## Analytics
 
-Add your analytics tracking code in **Website Settings**, or use the built-in **Web Page View** report for simple visit counts.
+Add Google Analytics or another tracker in Website Settings. DocFlow's **Web Page View** records also count page views and sources inside DocFlow.
 
-:::uae Cookie consent
-If you use tracking cookies, show a consent banner and explain how data is used, in line with the UAE Personal Data Protection Law.
+## Local search
+
+Create a Google Business Profile for each location with the same name, address and phone as on your website, and link to your contact page.
+
+## Related pages
+
+- [Web pages](/website/web-pages)
+- [Blog](/website/blog)
+
+@@ careers-page | Careers page
+@summary Publish job openings on your website, accept applications with CVs, and move applicants straight into the recruitment process.
+
+## Publishing a job
+
+1. In **HR › Job Opening**, create the opening: designation, department, location, description, salary range (optional).
+2. Tick **Publish on Website** and set the route.
+3. The job appears at `/jobs` with an **Apply** button.
+
+!fig Careers page listing open positions with apply buttons
+
+## Applications
+
+The apply form creates a **Job Applicant** with name, email, phone, cover letter and CV attachment, linked to the opening. HR continues from there with interviews and offers. See [recruitment](/hr-payroll/recruitment).
+
+## Tips
+
+| Tip | Why |
+| --- | --- |
+| Say where the job is based (Dubai, Abu Dhabi) | Applicants filter by emirate |
+| State visa or Emiratisation information | Sets expectations |
+| Close openings when filled | Avoid unwanted applications |
+
+:::uae Fair hiring
+UAE Labour Law prohibits discrimination in employment on grounds such as race, colour, sex, religion, national or social origin, or disability. Keep job ads focused on skills and requirements.
 :::
 
-@@ careers-page | Careers page and online applications
-@summary Publish job openings and receive applications straight into HR.
+## Related pages
 
-1. Create a **Job Opening** in HR and tick **Publish on Website**.
-2. The opening appears on your `/jobs` page with the description, location and salary range if you choose to show it.
-3. Candidates apply online with their CV. Each application becomes a **Job Applicant** linked to the opening.
+- [Recruitment](/hr-payroll/recruitment)
+- [Web forms](/website/web-forms)
 
-!fig Careers page listing open jobs with apply buttons
+@@ arabic-website | Arabic website
+@summary Offer your website in Arabic with right-to-left layout: translated pages and menus, Arabic product names, language switching and bilingual SEO.
 
-See [Recruitment and onboarding](/hr-payroll/recruitment) for the rest of the hiring process.
+## How languages work
 
-@@ arabic-website | Arabic and bilingual websites
-@summary Serve visitors in Arabic with right-to-left layout.
+Each visitor sees the site in the language chosen in the language switcher (or their browser). With Arabic, the layout switches to right-to-left automatically.
 
-DocFlow websites support Arabic with full right-to-left layout.
+!fig Website in Arabic with right-to-left menu and language switcher
 
-1. Create the Arabic version of each page with its own route, for example `/ar/about-us`.
-2. Add a language switcher link in the navigation bar.
-3. Translate menu labels and footer text using [Translations](/framework/translations).
+## Translating content
 
-!fig Arabic version of the home page with right-to-left layout
+| Content | How |
+| --- | --- |
+| Interface text (buttons, labels) | Built-in Arabic translations; adjust with [Translation](/framework/translations) |
+| Menus | Translation records for menu labels |
+| Web pages | Create Arabic versions of pages or translate text blocks |
+| Product names and descriptions | Arabic fields on items |
+| Blog posts | Separate Arabic posts in an Arabic category |
 
-:::tip Write, don't just translate
-Arabic marketing copy reads better when it is written for Arabic readers, not translated word for word. Use a native writer for key pages.
-:::
+## Bilingual SEO
+
+Give Arabic pages their own meta titles and descriptions in Arabic, and use Arabic keywords people actually search for. Link English and Arabic versions to each other.
+
+## Checklist
+
+- Choose an Arabic-capable font.
+- Check images with text; provide Arabic versions where needed.
+- Test forms in Arabic, including Arabic names and numbers.
+- Have a native speaker review key pages.
+
+## Related pages
+
+- [Translations](/framework/translations)
+- [Themes and branding](/website/themes-branding)

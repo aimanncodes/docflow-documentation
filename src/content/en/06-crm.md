@@ -1,203 +1,391 @@
 @@ overview | CRM at a glance
-@summary Capture leads, nurture opportunities and keep every customer conversation in one place.
+@summary Capture enquiries, qualify them into opportunities, follow up on time and convert them into quotations and customers, with campaigns, contracts and pipeline reports.
 
-The CRM module tracks your potential business before it becomes a sale. Enquiries from your website, exhibitions such as GITEX or Gulfood, WhatsApp, phone calls and walk-ins are all captured as **leads**, qualified into **opportunities**, and turned into quotations in Selling.
+The CRM module covers everything before a customer places an order: the enquiry from a website form or an exhibition stand, the follow-up calls, the site visit, the quotation and the decision. Everything stays connected, so when a lead becomes a customer, the full history travels with it.
 
-!fig CRM workspace with leads by source and opportunity pipeline chart
+!fig CRM workspace with open leads, opportunities by stage and expected revenue
 
-## The pipeline
+## The sales funnel
 
-| Stage | Record | Question it answers |
+| Stage | Record | Typical question |
 | --- | --- | --- |
-| Enquiry | Lead | Who is interested? |
-| Qualified need | Opportunity | What do they want, and how much is it worth? |
-| Offer | Quotation | What are we proposing? |
-| Won | Customer + Sales Order | What did they buy? |
+| Interest | [Lead](/crm/leads) | Who is this and how did they find us? |
+| Qualification | Lead status, [prospect](/crm/prospects) | Do they have a need, budget and authority? |
+| Opportunity | [Opportunity](/crm/opportunities) | What exactly do they want, how much, and when? |
+| Proposal | [Quotation](/selling/quotations) | What is our offer? |
+| Commitment | [Sales order](/selling/sales-order) / [contract](/crm/contracts) | Won |
+| Lost | Lost reason | Why did we lose? |
+
+## Where leads come from
+
+| Source | How it enters DocFlow |
+| --- | --- |
+| Website contact form | Web form creates a lead automatically |
+| Email to sales@ | Incoming email account creates a lead |
+| Exhibitions (Gulfood, Big 5, GITEX) | Data import or mobile entry on the stand |
+| Phone and walk-ins | Quick entry by sales coordinator |
+| Campaigns and newsletters | UTM source and campaign fields |
+| Referrals and partners | Source = Referral, Sales Partner |
+
+## Reports
+
+| Report | Shows |
+| --- | --- |
+| Sales Pipeline Analytics | Opportunity value by stage, owner or period |
+| Sales Funnel | Leads → opportunities → quotations → orders |
+| Lead Details, Lead Conversion Time | Volume and speed of conversion |
+| Opportunity Summary by Sales Stage | Weighted pipeline |
+| Lost Opportunity | Reasons for losses and competitors |
+| Campaign Efficiency | Leads and revenue per campaign |
+| First Response Time for Opportunity | Speed of first reply |
+
+## Related pages
+
+- [Leads](/crm/leads)
+- [Pipeline](/crm/pipeline)
+- [Selling overview](/selling/overview)
 
 @@ leads | Leads
-@summary Record new enquiries and qualify them quickly.
+@summary Record enquiries, assign and follow them up, qualify them, avoid duplicates and convert them into customers, prospects or opportunities.
 
 ## Creating a lead
 
 1. Go to **CRM › Lead › New**.
-2. Enter the person's name, company, mobile number and email.
-3. Choose the **Source**, for example Exhibition, Website, Referral or Cold Call.
-4. Choose the **Territory** (emirate) and **Industry**.
-5. Save.
+2. Enter the person's **First Name** and **Last Name**, **Organisation Name**, email and mobile.
+3. Choose **Source** (Website, Exhibition, Referral, Cold Call, Campaign) and, if relevant, **Campaign**.
+4. Add **Territory**, **Industry**, **Market Segment** and the **Lead Owner**.
+5. Save. The lead starts with status **Lead**.
 
-!fig New lead form with contact details, source and territory
+!fig Lead form for a hotel procurement manager with source, territory and owner
 
-:::tip Capture leads from your website
-A [web form](/website/web-forms) on your website can create leads directly. Every enquiry lands in DocFlow with its source set to Website.
-:::
+## Lead fields
 
-## Lead statuses
+| Field | Example |
+| --- | --- |
+| Organisation Name | Jumeirah Grand Hotel |
+| Job Title | Purchasing Manager |
+| Mobile | +971 50 123 4567 |
+| City / Emirate / Country | Dubai / Dubai / UAE |
+| Request Type | Product Enquiry, Request for Information, Suggestions |
+| Qualification Status | Unqualified, In Process, Qualified |
+| Annual Revenue, No. of Employees | For B2B qualification |
+
+## Statuses
 
 | Status | Meaning |
 | --- | --- |
 | Lead | New, not yet contacted |
-| Open | Contacted, conversation ongoing |
-| Replied | They have responded |
-| Opportunity | Converted to an opportunity |
-| Interested / Converted / Do Not Contact | Outcome |
+| Open | Being worked on |
+| Replied | They responded |
+| Opportunity | An opportunity has been created |
+| Quotation | A quotation has been sent |
+| Lost Quotation | The quotation was lost |
+| Interested | Positive but not ready |
+| Converted | Became a customer |
+| Do Not Contact | Opted out |
 
-## Importing an exhibition list
+## Following up
 
-After an exhibition, import the badge scans as leads using [Data Import](/getting-started/data-import), with the source set to the event name. Assign them to salespeople with an [assignment rule](/framework/automation).
+From the lead, you can **Add Activity**: log a call, create a **ToDo**, schedule an **Event** (meeting or site visit) or send an email. The **Activities** and **Notes** tabs show everything so far. Use [assignment rules](/framework/automation) to spread new leads across the team by territory.
 
-:::uae Consent for marketing messages
-Before sending marketing SMS or WhatsApp messages, make sure you have the person's consent and that your sender ID is registered with the telecom provider. Tick **Unsubscribed** on leads who opt out.
+## Duplicates
+
+DocFlow warns when a lead with the same email exists. Search by mobile number before creating, and merge duplicates by renaming one to the other with **Merge** ticked.
+
+## Converting
+
+| Action | Creates |
+| --- | --- |
+| Create › Opportunity | An opportunity linked to the lead |
+| Create › Quotation | A quotation directly, for simple deals |
+| Create › Customer | A customer with the lead's address and contact |
+| Create › Prospect | A prospect (organisation) grouping several leads |
+
+:::tip Qualify before you quote
+Use **Qualification Status** and a short note on need, budget, decision-maker and timing. Reporting on qualified leads gives a far more realistic pipeline than counting every enquiry.
 :::
+
+:::uae Consent and marketing
+Under UAE data protection rules and the TDRA rules on marketing messages, get consent before sending promotional SMS or emails, and honour opt-outs. Set **Unsubscribed** or **Do Not Contact** when a lead asks.
+:::
+
+## Related pages
+
+- [Opportunities](/crm/opportunities)
+- [Communication](/crm/communication)
 
 @@ opportunities | Opportunities
-@summary Track qualified deals, their value and their stage until they are won or lost.
+@summary Track specific deals with items, value, probability, stage and expected close date, and turn them into quotations, orders, or a documented loss.
 
-## From lead to opportunity
+## Creating an opportunity
 
-Open a qualified lead and click **Create › Opportunity**. The contact details carry over. Add:
+1. From a lead or customer click **Create › Opportunity**, or go to **CRM › Opportunity › New**.
+2. **Opportunity From**: Lead, Customer or Prospect, and the party.
+3. **Opportunity Type**: Sales, Maintenance, Support.
+4. **Sales Stage**: for example Needs Analysis.
+5. Enter **Expected Closing**, **Probability (%)** and the **Opportunity Amount**, or add **Items** with quantities and rates to calculate it.
+6. Choose the **Opportunity Owner** and save.
 
-- **Opportunity Type**: Sales, Maintenance or Support
-- **Items** with expected quantities, or an **Opportunity Amount**
-- **Sales Stage**: for example Needs Analysis, Proposal, Negotiation
-- **Probability (%)** and **Expected Closing** date
+!fig Opportunity for a hotel kitchen refit with items, stage, probability and expected closing date
 
-!fig Opportunity with items, sales stage and expected closing date
+## Fields that drive the pipeline
 
-:::example Example: a hotel kitchen fit-out
-A new hotel on Saadiyat Island needs a full commercial kitchen. Al Waha Trading's salesperson creates an opportunity worth AED 1.4 million, stage Proposal, 40% probability, closing in June. The sales manager sees it in the pipeline forecast straight away.
-:::
+| Field | Use |
+| --- | --- |
+| Sales Stage | Position in your pipeline (Prospecting, Qualification, Needs Analysis, Proposal, Negotiation) |
+| Probability | Weighted value = amount × probability |
+| Expected Closing | Forecast month |
+| Currency | AED, or USD for export deals |
+| Competitors | Who else is quoting |
+| Contact Person | Decision maker |
+
+## From opportunity to quotation
+
+Click **Create › Quotation**. Items, customer and rates are copied. When the quotation is submitted, the opportunity status becomes **Quotation**; when an order is made, it becomes **Converted**.
 
 ## Lost opportunities
 
-When a deal is lost, set the status to **Lost** and record the **Lost Reason** (price, competitor, timing, specification) and the competitor's name. Over time, the **Lost Opportunity** report shows where you lose business.
+Click **Declare Lost** and choose one or more **Lost Reasons** (price, delivery time, specification, competitor won) and competitors. Write a detail note. Review the **Lost Opportunity** report monthly with the sales team.
 
-@@ pipeline | Sales pipeline and follow-ups
-@summary Plan next steps, log activity and see the whole pipeline at a glance.
+:::example Example
+Al Waha Trading receives a request for a full kitchen refit at a Downtown hotel. The salesperson creates an opportunity for AED 640,000 at 40% probability, expected to close in May. After a site visit the stage moves to Proposal and a quotation is issued from the opportunity.
+:::
+
+## Related pages
+
+- [Pipeline](/crm/pipeline)
+- [Quotations](/selling/quotations)
+
+@@ pipeline | Pipeline and sales forecasting
+@summary See the pipeline by stage, owner and month in kanban and reports, forecast weighted revenue, and run a weekly pipeline review.
 
 ## Kanban board
 
-Switch the opportunity list to **Kanban** view and group by **Sales Stage**. Drag cards between columns as deals move forward.
+Open the **Opportunity** list and switch to **Kanban** by Sales Stage. Each card shows the party, value and owner. Drag a card to move it to the next stage; the change is recorded on the opportunity.
 
-!fig Opportunity Kanban board grouped by sales stage
+!fig Opportunity kanban board with cards grouped by sales stage
 
-## Activities
+## Defining sales stages
 
-Every lead, opportunity and customer has an activity timeline. Log calls, meetings and site visits with **New Event** or **Add Note**. Emails sent from DocFlow appear there too.
+Edit **Sales Stage** records to match your process. Keep five to seven stages with clear exit criteria:
 
-## Follow-up reminders
-
-Set **Next Contact Date** and **Next Contact By** on a lead or opportunity. The salesperson gets a reminder on that date.
-
-## Pipeline reports
-
-| Report | Shows |
+| Stage | Exit criterion |
 | --- | --- |
-| Sales Pipeline Analytics | Opportunity value by stage and owner |
-| Lead Conversion Time | How long leads take to become customers |
-| Lead Owner Efficiency | Conversion rate by salesperson |
-| Campaign Efficiency | Results by marketing campaign |
+| Prospecting | First meeting booked |
+| Qualification | Need, budget and timing confirmed |
+| Needs Analysis | Site visit or requirement list done |
+| Proposal | Quotation submitted |
+| Negotiation | Commercial terms under discussion |
 
-@@ campaigns | Campaigns and email marketing
-@summary Plan campaigns and send newsletters to segmented contact lists.
+## Reports for forecasting
+
+| Report | Use |
+| --- | --- |
+| Sales Pipeline Analytics | Value or count by stage, owner or territory, monthly or quarterly |
+| Opportunity Summary by Sales Stage | Totals per stage, with weighted values |
+| Sales Funnel | Conversion rates between stages |
+| Quotation Trends | Quoted value over time |
+
+Weighted pipeline = Σ (opportunity amount × probability). A healthy pipeline for next quarter is usually two to three times the sales target.
+
+## Weekly pipeline review
+
+1. Filter opportunities with expected closing in the next 60 days.
+2. Check each has a next activity scheduled.
+3. Update stage, probability and amount.
+4. Declare lost anything stalled for more than 90 days.
+5. Compare with targets in the [sales partner and salesperson](/selling/sales-partners) reports.
+
+## Related pages
+
+- [Opportunities](/crm/opportunities)
+- [Selling reports](/selling/selling-reports)
+
+@@ campaigns | Campaigns, email campaigns and newsletters
+@summary Plan marketing campaigns, send scheduled email sequences and newsletters, track UTM sources and measure leads and revenue per campaign.
 
 ## Campaigns
 
-Create a **Campaign** for each marketing push, for example "Ramadan 2026 promotion" or "Big 5 Global exhibition". Link leads and opportunities to the campaign to measure the results.
+1. Go to **CRM › Campaign › New**.
+2. Enter the name, for example "Gulfood 2026", a description and the budget.
+3. Optionally add a **Campaign Schedule**: a list of email templates and days after start for each.
+4. Save. Link leads and opportunities to the campaign with the **Campaign** field.
+
+!fig Campaign record for an exhibition with email schedule and linked leads
 
 ## Email campaigns
 
-1. Build an **Email Group** of contacts, such as all hotel procurement managers.
-2. Create an **Email Campaign**, choose the campaign, the email group and a schedule of emails.
-3. DocFlow sends each email on its scheduled day and tracks opens and unsubscribes.
+An **Email Campaign** sends the campaign's email schedule to a lead, contact or email group:
 
-!fig Email campaign with a three-step schedule
+| Field | Example |
+| --- | --- |
+| Campaign | Ramadan Offers 2026 |
+| Email Campaign For | Email Group "Restaurant buyers" |
+| Start Date | 20-02-2026 |
+| Sender | sales@ address |
 
-:::uae Ramadan timing
-Response rates change during Ramadan. Many teams schedule campaigns for the evening hours after Iftar, and avoid sending on Eid holidays.
+Emails go out on schedule; replies arrive on the recipient's timeline.
+
+## Newsletters
+
+**Newsletter** sends one message to one or more **Email Groups** (subscribers). Write the content, attach files, preview, and schedule or send. Recipients can unsubscribe with the link at the bottom. Subscribers can be imported or added from website sign-up forms.
+
+## Tracking sources
+
+Leads from the website carry **UTM Source, Medium and Campaign** from the visitor's link, so you know whether a lead came from LinkedIn, Google Ads or a newsletter. **Campaign Efficiency** shows leads, opportunities, quotations and orders per campaign.
+
+:::uae Marketing rules
+Send marketing emails and SMS only to people who agreed to receive them, include a clear unsubscribe option, and identify your company. Promotional SMS in the UAE follow TDRA and telecom operator rules, including sender registration and time windows.
 :::
 
-## Appointments
+## Related pages
 
-If customers book showroom visits or consultations, use **Appointment** with your scheduling settings. Confirmations go out by email, and the meeting is linked to the lead.
+- [Leads](/crm/leads)
+- [Email templates](/framework/email-templates)
 
-@@ prospects | Prospects and account-based selling
-@summary Group several leads from the same company into one prospect.
+@@ prospects | Prospects
+@summary Group several leads from the same organisation into a prospect, track the account before it becomes a customer, and manage key-account opportunities.
 
-When you sell to large organisations, such as a hotel group or a master developer, you deal with many people. A **Prospect** groups all the leads and opportunities for one company.
+A **Prospect** is an organisation you are working to win, often with several leads (the procurement manager, the executive chef, the finance director). It brings all their leads and opportunities together.
 
-1. Go to **CRM › Prospect › New**, or click **Create › Prospect** from a lead.
-2. Enter the company name, industry, territory, annual revenue band and number of employees.
-3. Add leads from that company in the **Leads** table.
-4. Opportunities linked to those leads appear on the prospect.
+## Creating a prospect
+
+1. From a lead click **Create › Prospect**, or go to **CRM › Prospect › New**.
+2. Enter the company name, industry, market segment, territory, annual revenue and number of employees.
+3. Add leads in the **Leads** table and set the **Prospect Owner**.
+4. Save. Opportunities created from the prospect appear in its **Opportunities** table.
 
 !fig Prospect for a hotel group with linked leads and opportunities
 
-:::example Example: a hotel group in Abu Dhabi
-Al Waha Trading is talking to the procurement manager, the executive chef and the engineering head of one hotel group. All three are leads on one prospect, so the account manager sees every conversation and quote in one place.
-:::
+## When to use prospects
+
+| Situation | Use |
+| --- | --- |
+| One-off enquiry from a person | A lead is enough |
+| Several contacts at a large organisation | Prospect |
+| Group with several properties (hotel group) | Prospect with leads for each property |
+| Tender with a government entity | Prospect with the tender as opportunity |
+
+## Converting
+
+When the first order is won, click **Create › Customer**. The prospect's details become the customer; keep the prospect for history.
+
+## Related pages
+
+- [Leads](/crm/leads)
+- [Customers](/selling/customers)
 
 @@ contracts | Contracts
-@summary Keep agreements with customers and suppliers, with terms, dates and signatures.
+@summary Record signed agreements with customers and suppliers, track their dates and fulfilment terms, use templates, and get reminders before renewal.
+
+## Creating a contract
 
 1. Go to **CRM › Contract › New**.
-2. Choose the **Party Type** and **Party**.
-3. Set the **Start Date** and **End Date**.
+2. Choose **Party Type** (Customer, Supplier, Employee) and the party.
+3. Enter **Start Date** and **End Date**.
 4. Choose a **Contract Template** or write the terms.
-5. Add fulfilment terms, for example quarterly maintenance visits or a minimum order quantity.
-6. Save. When the other side signs, tick **Signed** and attach the signed copy.
+5. Add **Fulfilment Terms**: obligations to complete, such as "Quarterly preventive maintenance visit".
+6. Tick **Signed** and enter the signee and date when signed; attach the signed PDF.
+7. Submit.
 
-!fig Contract with party, dates, terms and signed status
+!fig Contract for an annual maintenance agreement with fulfilment terms and signature details
+
+## Statuses
+
+| Status | Meaning |
+| --- | --- |
+| Unsigned | Draft for negotiation |
+| Active | Signed and within dates |
+| Inactive | Expired or not yet started |
+| Fulfilment status | Unfulfilled, Partially Fulfilled, Fulfilled, Lapsed |
 
 ## Contract templates
 
-Store standard terms, such as an annual maintenance contract or a supply agreement, as **Contract Templates** with placeholders for the party name, amount and dates.
+Create **Contract Template** records with standard terms and fields such as `{{ party_name }}` and `{{ end_date }}`. Typical templates: annual maintenance contract (AMC), supply agreement, distribution agreement, NDA.
 
-:::uae Arabic versions
-Contracts with government entities, and some court proceedings, may require an Arabic version. Keep both languages in the template, and agree which version prevails in case of difference.
+## Renewals
+
+Add a [notification](/getting-started/notifications) 60 days before **End Date** to the contract owner. For recurring billing under the contract, use [subscriptions](/accounting/subscriptions) or auto repeat.
+
+:::example Example
+Rimal Facilities Management signs a one-year AMC with a residential tower in Al Nahda, Sharjah, worth AED 96,000, billed monthly. The contract lists 12 monthly visits as fulfilment terms; each completed [maintenance visit](/support/warranty-maintenance) is ticked off.
 :::
 
-@@ communication | Calls, emails and WhatsApp
-@summary Keep every customer conversation on the record it belongs to.
+## Related pages
 
-## Email
+- [Warranty and maintenance](/support/warranty-maintenance)
+- [Subscriptions](/accounting/subscriptions)
 
-Emails sent from a lead, opportunity, customer or quotation are stored on its timeline. Replies come back to the same record when your email account is connected with **Enable Incoming**.
+@@ communication | Calls, emails, meetings and appointments
+@summary Keep every interaction with a lead or customer on its timeline: emails, call logs, events and site visits, appointments booked from the website, and follow-up to-dos.
+
+## Emails
+
+Connect the sales mailbox as an [email account](/getting-started/notifications). Emails sent from a lead, opportunity or quotation, and replies to them, are stored on that record's timeline. Incoming emails from unknown senders can create new leads automatically.
 
 ## Call logs
 
-If your telephony provider is integrated, incoming and outgoing calls are logged automatically, with the caller matched to a lead or contact. You can add notes after each call.
+With a telephony integration, calls are logged automatically with duration and recording link. Without one, use **Add Activity › New Call** to log the outcome manually.
 
-!fig Call log on a lead timeline with duration and notes
+!fig Lead timeline showing an email, a logged call and a scheduled site visit
 
-## WhatsApp
+## Events and meetings
 
-With a WhatsApp Business integration, messages to and from customers are stored on the matching contact or lead. Approved message templates can be used for quotation follow-ups and delivery updates.
+Create an **Event** for a meeting, site visit or demo: date and time, participants (users and contacts), and the linked lead or opportunity. Events appear in the calendar and can sync with Google Calendar.
 
-| Channel | Best for |
+## Appointments
+
+The **Appointment** booking page lets prospects book a slot from your website. You set the available days and hours; each booking creates an appointment linked to a lead or customer and is assigned to a salesperson.
+
+## To-dos and reminders
+
+| Need | Use |
 | --- | --- |
-| Email | Quotations, formal documents, statements |
-| Phone | Negotiation and urgent issues |
-| WhatsApp | Quick updates, delivery coordination, photos from site |
+| Call back next Tuesday | ToDo with date on the lead |
+| Remind me about this opportunity | **Remind Me** from the ⋯ menu |
+| Team follow-up | Assign To with a comment |
 
-:::uae WhatsApp is the norm
-In the UAE, many customers prefer WhatsApp for day-to-day contact. Integrating it keeps those conversations in DocFlow instead of on a salesperson's personal phone.
-:::
+## WhatsApp and SMS
+
+Many UAE buyers prefer WhatsApp. If a WhatsApp integration is configured, messages can be sent from the lead and logged on the timeline; otherwise record important WhatsApp conversations as a comment or call note so the history is complete.
+
+## Related pages
+
+- [Collaboration](/getting-started/collaboration)
+- [Leads](/crm/leads)
 
 @@ crm-settings | CRM settings
-@summary Choose how leads, opportunities and quotations behave.
+@summary Configure lead and opportunity defaults: duplicate checks, auto-creation from emails, default sales stages, carry-forward of communication, and master lists such as sources and lost reasons.
 
-Open **CRM › CRM Settings** to set:
+## CRM Settings
 
-| Setting | Effect |
+| Setting | Recommended |
 | --- | --- |
-| Campaign naming | By campaign name or a naming series |
-| Allow lead duplication based on email | Off, to avoid duplicate leads |
-| Auto close replied opportunity after days | Closes stale opportunities automatically |
-| Carry forward communication and comments | Copies the history from lead to opportunity to quotation |
-| Default quotation validity days | For example 30 |
+| Allow Lead Duplication based on Emails | Off |
+| Auto Creation of Contact | On, creates a contact from a new lead's details |
+| Close Replied Opportunity After Days | 15 to 30 |
+| Default Quotation Validity Days | 15 or 30 |
+| Carry Forward Communication and Comments | On, so the history moves to the opportunity and quotation |
+| Update timestamp on new communication | On |
 
-!fig CRM settings with duplication and carry forward options
+!fig CRM settings with lead duplication, contact creation and carry-forward options
 
-## Sales stages and lost reasons
+## Master lists
 
-Edit the list of **Sales Stages** to match your process, for example Enquiry, Site Visit, Proposal, Negotiation, Verbal Award, LPO Received. Keep **Opportunity Lost Reasons** short and clear so reports are useful.
+| List | Examples |
+| --- | --- |
+| Lead Source | Website, Exhibition, Referral, LinkedIn, Google Ads, Walk-in |
+| Sales Stage | Prospecting, Qualification, Needs Analysis, Proposal, Negotiation |
+| Opportunity Lost Reason | Price, Delivery time, Specification, Budget cancelled, Competitor |
+| Competitor | Names of competing suppliers |
+| Industry Type | Hospitality, Construction, Healthcare, Government |
+| Market Segment | Enterprise, SME, Government |
+
+## Assignment and permissions
+
+Set assignment rules for new leads by territory or source, and restrict sales staff to their own leads with **If Owner** or a territory user permission ([permissions](/framework/permissions)).
+
+## Related pages
+
+- [Selling settings](/selling/selling-settings)
+- [Automation tools](/framework/automation)

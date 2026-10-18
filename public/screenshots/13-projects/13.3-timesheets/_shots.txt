@@ -1,3 +1,3 @@
-13.3 Timesheets and project billing
+13.3 Timesheets and activity costs
 
-fig-13.3.1.png  —  Timesheet with billable and non-billable hours across two projects
+fig-13.3.1.png  —  Timesheet with rows for site supervision and design on two projects

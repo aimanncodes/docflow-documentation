@@ -1,4 +1,4 @@
 11.2 Subcontracting orders and receipts
 
-fig-11.2.1.png  —  Subcontracting order with finished items and raw materials to supply
-fig-11.2.2.png  —  Subcontracting receipt with received goods and consumed materials
+fig-11.2.1.png  —  Subcontracting order with finished goods and supplied raw materials
+fig-11.2.2.png  —  Subcontracting receipt with accepted, rejected and consumed quantities

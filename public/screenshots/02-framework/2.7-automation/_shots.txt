@@ -1,4 +1,4 @@
 2.7 Automation tools
 
-fig-2.7.1.png  —  Assignment rule with round robin assignment and a territory condition
-fig-2.7.2.png  —  Auto repeat set to create a maintenance invoice each month
+fig-2.7.1.png  —  Auto Repeat set up for a monthly maintenance invoice
+fig-2.7.2.png  —  Server script that validates TRN before an invoice is saved

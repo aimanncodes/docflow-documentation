@@ -1,3 +1,3 @@
 11.1 Setting up subcontracting
 
-fig-11.1.1.png  —  Subcontracting BOM linking the finished item, service item and BOM
+fig-11.1.1.png  —  Subcontracting BOM linking the coated frame, its BOM and the coating service item

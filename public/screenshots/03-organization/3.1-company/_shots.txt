@@ -1,4 +1,4 @@
 3.1 Companies
 
-fig-3.1.1.png  —  New company form with name, abbreviation, currency and country
-fig-3.1.2.png  —  Company accounts tab showing default receivable and payable accounts
+fig-3.1.1.png  —  New company form with name, abbreviation, currency and chart of accounts
+fig-3.1.2.png  —  Company accounts tab showing default receivable, payable and bank accounts

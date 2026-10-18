@@ -1,3 +1,3 @@
-2.6 Report Builder
+2.6 Report builder and custom reports
 
-fig-2.6.1.png  —  Report view of sales invoices grouped by territory with totals
+fig-2.6.1.png  —  Report view with chosen columns, group by customer and totals row

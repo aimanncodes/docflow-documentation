@@ -1,3 +1,3 @@
 6.1 Leads
 
-fig-6.1.1.png  —  New lead form with contact details, source and territory
+fig-6.1.1.png  —  Lead form for a hotel procurement manager with source, territory and owner

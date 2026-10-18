@@ -1,3 +1,3 @@
 10.9 Scrap, process loss and rework
 
-fig-10.9.1.png  —  Bill of materials with scrap items and process loss percentage
+fig-10.9.1.png  —  Manufacture entry with finished goods, scrap item and process loss quantity

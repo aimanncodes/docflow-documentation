@@ -1,3 +1,3 @@
 3.7 Running several companies
 
-fig-3.7.1.png  —  Company selector on a sales invoice with two group companies
+fig-3.7.1.png  —  Company switcher in the session defaults with two group companies

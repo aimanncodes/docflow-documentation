@@ -1,3 +1,3 @@
-10.4 Production planning
+10.4 Production planning and material requirements
 
-fig-10.4.1.png  —  Production plan with sales orders, items to make and raw materials to buy
+fig-10.4.1.png  —  Production plan with finished goods, sub-assemblies and raw material requirements

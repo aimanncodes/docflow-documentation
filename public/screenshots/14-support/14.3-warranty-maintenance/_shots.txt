@@ -1,4 +1,4 @@
-14.3 Warranty claims and maintenance visits
+14.3 Warranty, AMC and maintenance visits
 
-fig-14.3.1.png  —  Warranty claim showing serial number and warranty expiry date
-fig-14.3.2.png  —  Maintenance visit recording work done and customer feedback
+fig-14.3.1.png  —  Warranty claim for an oven with serial number, warranty status and resolution
+fig-14.3.2.png  —  Maintenance visit with work done, technician and completion status

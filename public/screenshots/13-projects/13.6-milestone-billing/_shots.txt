@@ -1,3 +1,3 @@
 13.6 Milestone and progress billing
 
-fig-13.6.1.png  —  Sales invoice for a progress milestone with advance recovery
+fig-13.6.1.png  —  Sales order payment schedule with advance, progress and retention milestones

@@ -1,3 +1,3 @@
-10.10 Sales forecasts and master production schedule
+10.10 Production forecasting
 
-fig-10.10.1.png  —  Master production schedule combining forecast and sales orders
+fig-10.10.1.png  —  Exponential smoothing forecast for date products by month

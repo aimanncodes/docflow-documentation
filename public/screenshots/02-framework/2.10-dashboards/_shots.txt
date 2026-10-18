@@ -1,3 +1,3 @@
 2.10 Dashboards, charts and number cards
 
-fig-2.10.1.png  —  Dashboard chart showing monthly sales for 12 months
+fig-2.10.1.png  —  Management dashboard with monthly sales, receivables and stock value charts

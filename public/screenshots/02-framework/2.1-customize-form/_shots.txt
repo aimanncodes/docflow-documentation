@@ -1,4 +1,4 @@
-2.1 Customising forms
+2.1 Customise form
 
-fig-2.1.1.png  —  Customise Form screen listing the fields of the Customer form
-fig-2.1.2.png  —  Field properties panel with label, mandatory and default options
+fig-2.1.1.png  —  Customise Form for Customer with the fields table and property panel
+fig-2.1.2.png  —  Field properties showing a Depends On condition for free zone customers

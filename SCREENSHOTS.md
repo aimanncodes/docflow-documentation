@@ -34,7 +34,7 @@ Folder: `public/screenshots/01-getting-started/1.3-document-lifecycle/`
 ### 1.4 Users, roles and permissions
 Folder: `public/screenshots/01-getting-started/1.4-users-roles/`
 
-- [ ] `fig-1.4.1.png`: New user form with email, name and user type
+- [ ] `fig-1.4.1.png`: New user form with email, name, user type and role profile
 - [ ] `fig-1.4.2.png`: User permission restricting a user to the Sharjah branch
 
 ### 1.5 Importing your existing data
@@ -56,173 +56,173 @@ Folder: `public/screenshots/01-getting-started/1.7-notifications/`
 - [ ] `fig-1.7.1.png`: Notification panel listing an assignment and a mention
 - [ ] `fig-1.7.2.png`: Notification rule set to alert HR 60 days before visa expiry
 
-### 1.8 Working with lists, filters and views
+### 1.8 Lists, filters and views
 Folder: `public/screenshots/01-getting-started/1.8-list-views/`
 
-- [ ] `fig-1.8.1.png`: Sales invoice list filtered by territory and unpaid status
+- [ ] `fig-1.8.1.png`: Sales invoice list filtered to unpaid invoices for the Abu Dhabi territory
 
-### 1.9 Comments, assignments and sharing
+### 1.9 Working together: comments, assignments and sharing
 Folder: `public/screenshots/01-getting-started/1.9-collaboration/`
 
-- [ ] `fig-1.9.1.png`: Comment with a mention on a purchase order timeline
+- [ ] `fig-1.9.1.png`: Document timeline with a comment, a mention and a version change
 
 ### 1.10 System settings
 Folder: `public/screenshots/01-getting-started/1.10-system-settings/`
 
-- [ ] `fig-1.10.1.png`: System settings with country, time zone and date format
+- [ ] `fig-1.10.1.png`: System Settings with country, time zone, date format and precision
 
-### 1.11 Passwords, two-factor authentication and access
+### 1.11 Passwords, 2FA and security
 Folder: `public/screenshots/01-getting-started/1.11-security/`
 
-- [ ] `fig-1.11.1.png`: Two-factor authentication settings with the authenticator app method
+- [ ] `fig-1.11.1.png`: Two-factor sign-in screen asking for the six-digit code
 
 ### 1.12 Using DocFlow on mobile and tablet
 Folder: `public/screenshots/01-getting-started/1.12-mobile-access/`
 
-- [ ] `fig-1.12.1.png`: DocFlow sales order list on a phone screen
+- [ ] `fig-1.12.1.png`: DocFlow list view on a phone showing sales orders and the search bar
 
-### 1.13 Backups and exporting your data
+### 1.13 Backups and exporting data
 Folder: `public/screenshots/01-getting-started/1.13-backups-export/`
 
-- [ ] `fig-1.13.1.png`: Backups page listing daily database and file backups
+- [ ] `fig-1.13.1.png`: Backups page listing recent database and file backups with download links
 
-### 1.14 Glossary of terms
+### 1.14 Glossary
 Folder: `public/screenshots/01-getting-started/1.14-glossary/`
 
-- [ ] `fig-1.14.1.png`: Global search showing a glossary term in the help results
+- [ ] `fig-1.14.1.png`: Search results showing a glossary term highlighted
 
 ## 02-framework
 
 ### 2.0 Framework at a glance
 Folder: `public/screenshots/02-framework/2.0-overview/`
 
-- [ ] `fig-2.0.1.png`: Framework workspace showing customisation, automation and settings shortcuts
+- [ ] `fig-2.0.1.png`: Framework workspace with links to customisation, automation, permissions and integrations
 
-### 2.1 Customising forms
+### 2.1 Customise form
 Folder: `public/screenshots/02-framework/2.1-customize-form/`
 
-- [ ] `fig-2.1.1.png`: Customise Form screen listing the fields of the Customer form
-- [ ] `fig-2.1.2.png`: Field properties panel with label, mandatory and default options
+- [ ] `fig-2.1.1.png`: Customise Form for Customer with the fields table and property panel
+- [ ] `fig-2.1.2.png`: Field properties showing a Depends On condition for free zone customers
 
-### 2.2 Adding custom fields
+### 2.2 Custom fields
 Folder: `public/screenshots/02-framework/2.2-custom-fields/`
 
-- [ ] `fig-2.2.1.png`: New custom field for Bill of Entry number on Purchase Receipt
+- [ ] `fig-2.2.1.png`: New custom field for trade licence expiry on the Customer form
 
-### 2.3 Document numbering
+### 2.3 Naming series and document numbers
 Folder: `public/screenshots/02-framework/2.3-naming-series/`
 
-- [ ] `fig-2.3.1.png`: Document naming settings listing sales invoice series
+- [ ] `fig-2.3.1.png`: Document naming settings with two sales invoice series for Dubai and Abu Dhabi
 
 ### 2.4 Approval workflows
 Folder: `public/screenshots/02-framework/2.4-workflows/`
 
-- [ ] `fig-2.4.1.png`: Purchase order showing an Approve action from a workflow
-- [ ] `fig-2.4.2.png`: Workflow transitions table with states, actions and conditions
+- [ ] `fig-2.4.1.png`: Workflow for purchase orders with states and transitions table
+- [ ] `fig-2.4.2.png`: Purchase order showing workflow actions Approve and Reject in the toolbar
 
 ### 2.5 Role permissions
 Folder: `public/screenshots/02-framework/2.5-permissions/`
 
-- [ ] `fig-2.5.1.png`: Role permission manager showing rights for the Accounts User role on Sales Invoice
+- [ ] `fig-2.5.1.png`: Role Permissions Manager for Sales Invoice with roles and rights
 
-### 2.6 Report Builder
+### 2.6 Report builder and custom reports
 Folder: `public/screenshots/02-framework/2.6-report-builder/`
 
-- [ ] `fig-2.6.1.png`: Report view of sales invoices grouped by territory with totals
+- [ ] `fig-2.6.1.png`: Report view with chosen columns, group by customer and totals row
 
 ### 2.7 Automation tools
 Folder: `public/screenshots/02-framework/2.7-automation/`
 
-- [ ] `fig-2.7.1.png`: Assignment rule with round robin assignment and a territory condition
-- [ ] `fig-2.7.2.png`: Auto repeat set to create a maintenance invoice each month
+- [ ] `fig-2.7.1.png`: Auto Repeat set up for a monthly maintenance invoice
+- [ ] `fig-2.7.2.png`: Server script that validates TRN before an invoice is saved
 
-### 2.8 Creating your own document types
+### 2.8 Custom document types
 Folder: `public/screenshots/02-framework/2.8-custom-doctypes/`
 
-- [ ] `fig-2.8.1.png`: New document type for container bookings with fields and permissions
+- [ ] `fig-2.8.1.png`: New DocType form for Vehicle with fields, naming and permissions
 
 ### 2.9 Customising workspaces
 Folder: `public/screenshots/02-framework/2.9-workspace-customisation/`
 
-- [ ] `fig-2.9.1.png`: Workspace in edit mode with blocks being rearranged
+- [ ] `fig-2.9.1.png`: Accounting workspace in edit mode with blocks being added and moved
 
 ### 2.10 Dashboards, charts and number cards
 Folder: `public/screenshots/02-framework/2.10-dashboards/`
 
-- [ ] `fig-2.10.1.png`: Dashboard chart showing monthly sales for 12 months
+- [ ] `fig-2.10.1.png`: Management dashboard with monthly sales, receivables and stock value charts
 
 ### 2.11 Email templates
 Folder: `public/screenshots/02-framework/2.11-email-templates/`
 
-- [ ] `fig-2.11.1.png`: Email template with subject, body and inserted document fields
+- [ ] `fig-2.11.1.png`: Email template with subject and body using invoice fields
 
 ### 2.12 Arabic labels and translations
 Folder: `public/screenshots/02-framework/2.12-translations/`
 
-- [ ] `fig-2.12.1.png`: A sales invoice form shown in Arabic with right-to-left layout
+- [ ] `fig-2.12.1.png`: Translation record changing the Arabic label for a field
 
-### 2.13 Integrations, API and webhooks
+### 2.13 Integrations and API
 Folder: `public/screenshots/02-framework/2.13-integrations-api/`
 
-- [ ] `fig-2.13.1.png`: API access section of a user record with generate keys button
+- [ ] `fig-2.13.1.png`: Integrations page listing connected services and their status
 
-### 2.14 Role profiles and module access
+### 2.14 Role profiles and module profiles
 Folder: `public/screenshots/02-framework/2.14-role-profiles/`
 
-- [ ] `fig-2.14.1.png`: Role profile for storekeepers with selected roles
+- [ ] `fig-2.14.1.png`: Role profile for a storekeeper with stock roles ticked
 
-### 2.15 Bulk update, rename and delete tools
+### 2.15 Bulk tools
 Folder: `public/screenshots/02-framework/2.15-bulk-tools/`
 
-- [ ] `fig-2.15.1.png`: Rename tool with a CSV of old and new customer names
+- [ ] `fig-2.15.1.png`: Bulk edit dialog setting the default warehouse on selected items
 
 ### 2.16 Version history and audit logs
 Folder: `public/screenshots/02-framework/2.16-audit-logs/`
 
-- [ ] `fig-2.16.1.png`: Document timeline showing a changed rate with old and new values
+- [ ] `fig-2.16.1.png`: Version history showing a changed rate and quantity on a sales order
 
 ## 03-organization
 
 ### 3.0 Organisation at a glance
 Folder: `public/screenshots/03-organization/3.0-overview/`
 
-- [ ] `fig-3.0.1.png`: Organisation workspace with company, branch, department and fiscal year links
+- [ ] `fig-3.0.1.png`: Organisation workspace with links to company, branches, departments and fiscal years
 
 ### 3.1 Companies
 Folder: `public/screenshots/03-organization/3.1-company/`
 
-- [ ] `fig-3.1.1.png`: New company form with name, abbreviation, currency and country
-- [ ] `fig-3.1.2.png`: Company accounts tab showing default receivable and payable accounts
+- [ ] `fig-3.1.1.png`: New company form with name, abbreviation, currency and chart of accounts
+- [ ] `fig-3.1.2.png`: Company accounts tab showing default receivable, payable and bank accounts
 
 ### 3.2 Branches, departments and designations
 Folder: `public/screenshots/03-organization/3.2-branches-departments/`
 
-- [ ] `fig-3.2.1.png`: Branch list showing Mussafah Factory, Dubai Showroom and Sharjah Warehouse
+- [ ] `fig-3.2.1.png`: Department tree with Operations, Finance and Sales departments and their approvers
 
 ### 3.3 Fiscal years
 Folder: `public/screenshots/03-organization/3.3-fiscal-year/`
 
-- [ ] `fig-3.3.1.png`: Fiscal year form for 2027 with linked companies
+- [ ] `fig-3.3.1.png`: Fiscal year 2026 with start and end dates and linked companies
 
-### 3.4 Holiday lists and weekends
+### 3.4 Holiday lists
 Folder: `public/screenshots/03-organization/3.4-holiday-list/`
 
-- [ ] `fig-3.4.1.png`: Holiday list with weekly holidays and UAE public holidays
+- [ ] `fig-3.4.1.png`: Holiday list for 2026 with weekly offs and UAE public holidays
 
 ### 3.5 Addresses and contacts
 Folder: `public/screenshots/03-organization/3.5-addresses-contacts/`
 
-- [ ] `fig-3.5.1.png`: Address form with address type, emirate and preferred billing flag
+- [ ] `fig-3.5.1.png`: Address form for a customer with emirate, P.O. Box and billing preference
 
 ### 3.6 Territories and groups
 Folder: `public/screenshots/03-organization/3.6-territories-groups/`
 
-- [ ] `fig-3.6.1.png`: Territory tree with emirates and GCC countries
+- [ ] `fig-3.6.1.png`: Territory tree with UAE emirates and GCC countries
 
 ### 3.7 Running several companies
 Folder: `public/screenshots/03-organization/3.7-multi-company/`
 
-- [ ] `fig-3.7.1.png`: Company selector on a sales invoice with two group companies
+- [ ] `fig-3.7.1.png`: Company switcher in the session defaults with two group companies
 
 ## 04-accounting
 
@@ -394,72 +394,72 @@ Folder: `public/screenshots/05-assets/5.0-overview/`
 ### 5.1 Asset categories
 Folder: `public/screenshots/05-assets/5.1-asset-category/`
 
-- [ ] `fig-5.1.1.png`: Asset category form for motor vehicles with accounts and depreciation settings
+- [ ] `fig-5.1.1.png`: Asset category for motor vehicles with depreciation settings and accounts per company
 
-### 5.2 Buying and registering assets
+### 5.2 Buying and capitalising assets
 Folder: `public/screenshots/05-assets/5.2-asset-purchase/`
 
-- [ ] `fig-5.2.1.png`: Draft asset created automatically from a purchase receipt
+- [ ] `fig-5.2.1.png`: Asset form created from a purchase receipt with location, custodian and depreciation schedule
 
 ### 5.3 Depreciation
 Folder: `public/screenshots/05-assets/5.3-depreciation/`
 
-- [ ] `fig-5.3.1.png`: Depreciation schedule for a delivery van showing monthly rows
+- [ ] `fig-5.3.1.png`: Depreciation schedule for a vehicle showing monthly amounts and accumulated depreciation
 
-### 5.4 Moving, repairing and revaluing assets
+### 5.4 Locations, movements, maintenance and repairs
 Folder: `public/screenshots/05-assets/5.4-asset-movement/`
 
-- [ ] `fig-5.4.1.png`: Asset movement transferring a generator from Mussafah to the Dubai site
+- [ ] `fig-5.4.1.png`: Asset movement transferring two laptops from head office to the Abu Dhabi branch
 
-### 5.5 Selling and scrapping assets
+### 5.5 Selling, scrapping and revaluing assets
 Folder: `public/screenshots/05-assets/5.5-asset-disposal/`
 
-- [ ] `fig-5.5.1.png`: Sales invoice for the sale of a used delivery van
-- [ ] `fig-5.5.2.png`: Fixed asset register filtered by category
+- [ ] `fig-5.5.1.png`: Sales invoice selling a used vehicle with the asset selected on the item row
+- [ ] `fig-5.5.2.png`: Asset value adjustment reducing the value of damaged equipment
 
-### 5.6 Composite assets and capitalisation
+### 5.6 Composite and grouped assets
 Folder: `public/screenshots/05-assets/5.6-composite-assets/`
 
-- [ ] `fig-5.6.1.png`: Asset capitalisation combining machine, installation and freight costs
+- [ ] `fig-5.6.1.png`: Asset capitalisation combining stock items, a service and an existing asset into a cold room
 
 ### 5.7 Shift-based depreciation
 Folder: `public/screenshots/05-assets/5.7-shift-depreciation/`
 
-- [ ] `fig-5.7.1.png`: Asset shift allocation changing a press from single to double shift
+- [ ] `fig-5.7.1.png`: Asset shift allocation changing future months to double shift
 
 ### 5.8 Asset settings and reports
 Folder: `public/screenshots/05-assets/5.8-asset-settings/`
 
-- [ ] `fig-5.8.1.png`: Asset depreciation settings with automatic posting enabled
+- [ ] `fig-5.8.1.png`: Asset settings on the company form with depreciation and disposal accounts
 
 ## 06-crm
 
 ### 6.0 CRM at a glance
 Folder: `public/screenshots/06-crm/6.0-overview/`
 
-- [ ] `fig-6.0.1.png`: CRM workspace with leads by source and opportunity pipeline chart
+- [ ] `fig-6.0.1.png`: CRM workspace with open leads, opportunities by stage and expected revenue
 
 ### 6.1 Leads
 Folder: `public/screenshots/06-crm/6.1-leads/`
 
-- [ ] `fig-6.1.1.png`: New lead form with contact details, source and territory
+- [ ] `fig-6.1.1.png`: Lead form for a hotel procurement manager with source, territory and owner
 
 ### 6.2 Opportunities
 Folder: `public/screenshots/06-crm/6.2-opportunities/`
 
-- [ ] `fig-6.2.1.png`: Opportunity with items, sales stage and expected closing date
+- [ ] `fig-6.2.1.png`: Opportunity for a hotel kitchen refit with items, stage, probability and expected closing date
 
-### 6.3 Sales pipeline and follow-ups
+### 6.3 Pipeline and sales forecasting
 Folder: `public/screenshots/06-crm/6.3-pipeline/`
 
-- [ ] `fig-6.3.1.png`: Opportunity Kanban board grouped by sales stage
+- [ ] `fig-6.3.1.png`: Opportunity kanban board with cards grouped by sales stage
 
-### 6.4 Campaigns and email marketing
+### 6.4 Campaigns, email campaigns and newsletters
 Folder: `public/screenshots/06-crm/6.4-campaigns/`
 
-- [ ] `fig-6.4.1.png`: Email campaign with a three-step schedule
+- [ ] `fig-6.4.1.png`: Campaign record for an exhibition with email schedule and linked leads
 
-### 6.5 Prospects and account-based selling
+### 6.5 Prospects
 Folder: `public/screenshots/06-crm/6.5-prospects/`
 
 - [ ] `fig-6.5.1.png`: Prospect for a hotel group with linked leads and opportunities
@@ -467,17 +467,17 @@ Folder: `public/screenshots/06-crm/6.5-prospects/`
 ### 6.6 Contracts
 Folder: `public/screenshots/06-crm/6.6-contracts/`
 
-- [ ] `fig-6.6.1.png`: Contract with party, dates, terms and signed status
+- [ ] `fig-6.6.1.png`: Contract for an annual maintenance agreement with fulfilment terms and signature details
 
-### 6.7 Calls, emails and WhatsApp
+### 6.7 Calls, emails, meetings and appointments
 Folder: `public/screenshots/06-crm/6.7-communication/`
 
-- [ ] `fig-6.7.1.png`: Call log on a lead timeline with duration and notes
+- [ ] `fig-6.7.1.png`: Lead timeline showing an email, a logged call and a scheduled site visit
 
 ### 6.8 CRM settings
 Folder: `public/screenshots/06-crm/6.8-crm-settings/`
 
-- [ ] `fig-6.8.1.png`: CRM settings with duplication and carry forward options
+- [ ] `fig-6.8.1.png`: CRM settings with lead duplication, contact creation and carry-forward options
 
 ## 07-selling
 
@@ -733,58 +733,58 @@ Folder: `public/screenshots/09-stock/9.19-retain-sample/`
 ### 10.0 Manufacturing at a glance
 Folder: `public/screenshots/10-manufacturing/10.0-overview/`
 
-- [ ] `fig-10.0.1.png`: Manufacturing workspace with work order status and production trend
+- [ ] `fig-10.0.1.png`: Manufacturing workspace with open work orders, job cards and production by item
 
-### 10.1 Bills of materials
+### 10.1 Bill of materials (BOM)
 Folder: `public/screenshots/10-manufacturing/10.1-bom/`
 
-- [ ] `fig-10.1.1.png`: Bill of materials for a pallet racking bay with raw materials and operations
+- [ ] `fig-10.1.1.png`: BOM for a steel storage rack with raw materials, operations and cost summary
 
-### 10.2 Workstations and routings
+### 10.2 Workstations, operations and routing
 Folder: `public/screenshots/10-manufacturing/10.2-workstations-routing/`
 
-- [ ] `fig-10.2.1.png`: Workstation for the welding bay with hourly cost components
+- [ ] `fig-10.2.1.png`: Workstation with hourly cost breakdown and working hours
 
 ### 10.3 Work orders and job cards
 Folder: `public/screenshots/10-manufacturing/10.3-work-order/`
 
-- [ ] `fig-10.3.1.png`: Work order for 40 racking bays with required materials
-- [ ] `fig-10.3.2.png`: Job card for welding with time logs and completed quantity
+- [ ] `fig-10.3.1.png`: Work order for 40 steel racks with required items, operations and warehouses
+- [ ] `fig-10.3.2.png`: Job card for welding with time logs, employee and completed quantity
 
-### 10.4 Production planning
+### 10.4 Production planning and material requirements
 Folder: `public/screenshots/10-manufacturing/10.4-production-plan/`
 
-- [ ] `fig-10.4.1.png`: Production plan with sales orders, items to make and raw materials to buy
+- [ ] `fig-10.4.1.png`: Production plan with finished goods, sub-assemblies and raw material requirements
 
 ### 10.5 Manufacturing reports
 Folder: `public/screenshots/10-manufacturing/10.5-manufacturing-reports/`
 
-- [ ] `fig-10.5.1.png`: Work order summary showing late and on-time orders
+- [ ] `fig-10.5.1.png`: Production analytics chart of quantity produced by item and month
 
 ### 10.6 Manufacturing settings
 Folder: `public/screenshots/10-manufacturing/10.6-manufacturing-settings/`
 
-- [ ] `fig-10.6.1.png`: Manufacturing settings with backflush and overproduction options
+- [ ] `fig-10.6.1.png`: Manufacturing settings with default warehouses and backflush options
 
 ### 10.7 Capacity planning
 Folder: `public/screenshots/10-manufacturing/10.7-capacity-planning/`
 
-- [ ] `fig-10.7.1.png`: Workstation capacity view showing booked and free hours by day
+- [ ] `fig-10.7.1.png`: Workstation load chart showing planned hours per day against capacity
 
-### 10.8 Material consumption and backflushing
+### 10.8 Backflushing and material consumption
 Folder: `public/screenshots/10-manufacturing/10.8-backflush-consumption/`
 
-- [ ] `fig-10.8.1.png`: Material consumption entry showing actual quantities against the BOM
+- [ ] `fig-10.8.1.png`: Manufacture stock entry showing consumed raw materials and the finished item
 
 ### 10.9 Scrap, process loss and rework
 Folder: `public/screenshots/10-manufacturing/10.9-scrap-rework/`
 
-- [ ] `fig-10.9.1.png`: Bill of materials with scrap items and process loss percentage
+- [ ] `fig-10.9.1.png`: Manufacture entry with finished goods, scrap item and process loss quantity
 
-### 10.10 Sales forecasts and master production schedule
+### 10.10 Production forecasting
 Folder: `public/screenshots/10-manufacturing/10.10-production-forecast/`
 
-- [ ] `fig-10.10.1.png`: Master production schedule combining forecast and sales orders
+- [ ] `fig-10.10.1.png`: Exponential smoothing forecast for date products by month
 
 ## 11-subcontracting
 
@@ -796,204 +796,204 @@ Folder: `public/screenshots/11-subcontracting/11.0-overview/`
 ### 11.1 Setting up subcontracting
 Folder: `public/screenshots/11-subcontracting/11.1-setup/`
 
-- [ ] `fig-11.1.1.png`: Subcontracting BOM linking the finished item, service item and BOM
+- [ ] `fig-11.1.1.png`: Subcontracting BOM linking the coated frame, its BOM and the coating service item
 
 ### 11.2 Subcontracting orders and receipts
 Folder: `public/screenshots/11-subcontracting/11.2-subcontracting-order/`
 
-- [ ] `fig-11.2.1.png`: Subcontracting order with finished items and raw materials to supply
-- [ ] `fig-11.2.2.png`: Subcontracting receipt with received goods and consumed materials
+- [ ] `fig-11.2.1.png`: Subcontracting order with finished goods and supplied raw materials
+- [ ] `fig-11.2.2.png`: Subcontracting receipt with accepted, rejected and consumed quantities
 
 ### 11.3 Tracking materials at subcontractors
 Folder: `public/screenshots/11-subcontracting/11.3-supplied-items-tracking/`
 
-- [ ] `fig-11.3.1.png`: Subcontract order summary with pending quantities per supplier
+- [ ] `fig-11.3.1.png`: Supplied items table showing required, supplied, consumed and returned quantities
 
 ### 11.4 Customer-provided materials
 Folder: `public/screenshots/11-subcontracting/11.4-customer-provided-items/`
 
-- [ ] `fig-11.4.1.png`: Stock entry receiving customer-provided steel at zero valuation
+- [ ] `fig-11.4.1.png`: Stock entry receiving customer-provided fabric at zero value
 
-### 11.5 Costing subcontracted goods
+### 11.5 Subcontracting costs
 Folder: `public/screenshots/11-subcontracting/11.5-subcontracting-costing/`
 
-- [ ] `fig-11.5.1.png`: Subcontracting receipt with raw material cost, service cost and additional costs
+- [ ] `fig-11.5.1.png`: Subcontracting receipt cost breakdown with materials, service and additional costs
 
 ## 12-quality
 
 ### 12.0 Quality at a glance
 Folder: `public/screenshots/12-quality/12.0-overview/`
 
-- [ ] `fig-12.0.1.png`: Quality workspace with inspection results and open non-conformances
+- [ ] `fig-12.0.1.png`: Quality workspace with inspections, open non-conformances and quality goals
 
 ### 12.1 Quality inspections
 Folder: `public/screenshots/12-quality/12.1-inspection/`
 
-- [ ] `fig-12.1.1.png`: Quality inspection template with numeric and text parameters
-- [ ] `fig-12.1.2.png`: Quality inspection with readings marked as accepted and rejected
+- [ ] `fig-12.1.1.png`: Quality inspection template for dates with numeric and visual parameters
+- [ ] `fig-12.1.2.png`: Quality inspection on a purchase receipt row with readings and accepted status
 
 ### 12.2 Quality goals, procedures and reviews
 Folder: `public/screenshots/12-quality/12.2-goals-reviews/`
 
-- [ ] `fig-12.2.1.png`: Quality review with actual figures against each goal
+- [ ] `fig-12.2.1.png`: Quality goal for on-time delivery with objectives and monitoring frequency
 
-### 12.3 Non-conformance and actions
+### 12.3 Non-conformance and corrective actions
 Folder: `public/screenshots/12-quality/12.3-non-conformance/`
 
-- [ ] `fig-12.3.1.png`: Non-conformance record with corrective and preventive actions
+- [ ] `fig-12.3.1.png`: Non-conformance record for damaged cartons with corrective and preventive actions
 
-### 12.4 In-process and final inspection
+### 12.4 In-process inspection
 Folder: `public/screenshots/12-quality/12.4-in-process-inspection/`
 
-- [ ] `fig-12.4.1.png`: Job card with a linked quality inspection for weld checks
+- [ ] `fig-12.4.1.png`: Job card with an in-process quality inspection for weld quality
 
-### 12.5 Customer and supplier feedback
+### 12.5 Customer and internal feedback
 Folder: `public/screenshots/12-quality/12.5-quality-feedback/`
 
-- [ ] `fig-12.5.1.png`: Quality feedback with ratings for each parameter
+- [ ] `fig-12.5.1.png`: Quality feedback from a customer after a maintenance visit with ratings
 
 ### 12.6 Internal audits
 Folder: `public/screenshots/12-quality/12.6-internal-audits/`
 
-- [ ] `fig-12.6.1.png`: Internal audit review with findings linked to non-conformances
+- [ ] `fig-12.6.1.png`: Internal audit project with tasks per procedure and linked non-conformances
 
 ## 13-projects
 
 ### 13.0 Projects at a glance
 Folder: `public/screenshots/13-projects/13.0-overview/`
 
-- [ ] `fig-13.0.1.png`: Projects workspace with active projects, overdue tasks and hours logged
+- [ ] `fig-13.0.1.png`: Projects workspace with active projects, overdue tasks and hours logged this month
 
-### 13.1 Creating projects
+### 13.1 Setting up a project
 Folder: `public/screenshots/13-projects/13.1-project-setup/`
 
-- [ ] `fig-13.1.1.png`: Project form with customer, dates, estimated cost and progress method
+- [ ] `fig-13.1.1.png`: Project form with customer, dates, completion method and costing section
 
-### 13.2 Tasks and milestones
+### 13.2 Tasks, dependencies and Gantt
 Folder: `public/screenshots/13-projects/13.2-tasks/`
 
-- [ ] `fig-13.2.1.png`: Task list for a fit-out project with dependencies
-- [ ] `fig-13.2.2.png`: Gantt chart of project tasks over eight weeks
+- [ ] `fig-13.2.1.png`: Task form with dependencies, expected time and assignee
+- [ ] `fig-13.2.2.png`: Gantt chart of a fit-out project showing task bars and dependencies
 
-### 13.3 Timesheets and project billing
+### 13.3 Timesheets and activity costs
 Folder: `public/screenshots/13-projects/13.3-timesheets/`
 
-- [ ] `fig-13.3.1.png`: Timesheet with billable and non-billable hours across two projects
+- [ ] `fig-13.3.1.png`: Timesheet with rows for site supervision and design on two projects
 
-### 13.4 Project types, activity types and settings
+### 13.4 Project settings
 Folder: `public/screenshots/13-projects/13.4-project-settings/`
 
-- [ ] `fig-13.4.1.png`: Activity types with default costing and billing rates
+- [ ] `fig-13.4.1.png`: Projects settings with timesheet overlap and working hours options
 
-### 13.5 Project costing and budgets
+### 13.5 Project costing and profitability
 Folder: `public/screenshots/13-projects/13.5-project-costing/`
 
-- [ ] `fig-13.5.1.png`: Project costing summary showing budget, actual cost and margin
+- [ ] `fig-13.5.1.png`: Project costing section with labour, materials, purchases, billing and margin
 
 ### 13.6 Milestone and progress billing
 Folder: `public/screenshots/13-projects/13.6-milestone-billing/`
 
-- [ ] `fig-13.6.1.png`: Sales invoice for a progress milestone with advance recovery
+- [ ] `fig-13.6.1.png`: Sales order payment schedule with advance, progress and retention milestones
 
-### 13.7 Project updates and status reports
+### 13.7 Project updates and reporting
 Folder: `public/screenshots/13-projects/13.7-project-updates/`
 
-- [ ] `fig-13.7.1.png`: Project update with team responses and summary
+- [ ] `fig-13.7.1.png`: Project update with progress notes from the team
 
-### 13.8 Sharing projects with customers
+### 13.8 Working with customers on projects
 Folder: `public/screenshots/13-projects/13.8-customer-collaboration/`
 
-- [ ] `fig-13.8.1.png`: Customer portal view of a project with tasks and progress
+- [ ] `fig-13.8.1.png`: Customer portal showing project progress, open tasks and invoices
 
 ## 14-support
 
 ### 14.0 Support at a glance
 Folder: `public/screenshots/14-support/14.0-overview/`
 
-- [ ] `fig-14.0.1.png`: Support workspace with open issues by priority and SLA status
+- [ ] `fig-14.0.1.png`: Support workspace with open issues by priority, SLA status and maintenance visits due
 
 ### 14.1 Issues and tickets
 Folder: `public/screenshots/14-support/14.1-issues/`
 
-- [ ] `fig-14.1.1.png`: Issue with customer details, priority, SLA timer and email conversation
+- [ ] `fig-14.1.1.png`: Issue form with customer, priority, SLA timers and email conversation
 
 ### 14.2 Service level agreements
 Folder: `public/screenshots/14-support/14.2-sla/`
 
-- [ ] `fig-14.2.1.png`: Service level agreement with priorities and working hours
+- [ ] `fig-14.2.1.png`: SLA with priorities, response and resolution times and working hours
 
-### 14.3 Warranty claims and maintenance visits
+### 14.3 Warranty, AMC and maintenance visits
 Folder: `public/screenshots/14-support/14.3-warranty-maintenance/`
 
-- [ ] `fig-14.3.1.png`: Warranty claim showing serial number and warranty expiry date
-- [ ] `fig-14.3.2.png`: Maintenance visit recording work done and customer feedback
+- [ ] `fig-14.3.1.png`: Warranty claim for an oven with serial number, warranty status and resolution
+- [ ] `fig-14.3.2.png`: Maintenance visit with work done, technician and completion status
 
-### 14.4 Support settings, issue types and priorities
+### 14.4 Support settings
 Folder: `public/screenshots/14-support/14.4-support-settings/`
 
-- [ ] `fig-14.4.1.png`: Support settings with auto-close and SLA options
+- [ ] `fig-14.4.1.png`: Support settings with auto-close days and portal options
 
-### 14.5 Help articles and knowledge base
+### 14.5 Knowledge base and help articles
 Folder: `public/screenshots/14-support/14.5-knowledge-base/`
 
-- [ ] `fig-14.5.1.png`: Help article with category and published flag
+- [ ] `fig-14.5.1.png`: Help article on descaling a combination oven, with category and published flag
 
-### 14.6 Turning emails into tickets
+### 14.6 Support email setup
 Folder: `public/screenshots/14-support/14.6-email-setup/`
 
-- [ ] `fig-14.6.1.png`: Email account for support with incoming enabled and append to issue
+- [ ] `fig-14.6.1.png`: Email account for support with incoming enabled and Append To set to Issue
 
 ### 14.7 Support reports
 Folder: `public/screenshots/14-support/14.7-support-reports/`
 
-- [ ] `fig-14.7.1.png`: Issue analytics by priority and month
+- [ ] `fig-14.7.1.png`: Support analytics chart of issues opened and closed by week
 
 ## 15-website
 
 ### 15.0 Website and portal at a glance
 Folder: `public/screenshots/15-website/15.0-overview/`
 
-- [ ] `fig-15.0.1.png`: Website workspace with pages, web forms and portal settings
+- [ ] `fig-15.0.1.png`: Website workspace with web pages, web forms, portal settings and website settings
 
-### 15.1 Web pages and website settings
+### 15.1 Web pages and the page builder
 Folder: `public/screenshots/15-website/15.1-web-pages/`
 
-- [ ] `fig-15.1.1.png`: Web page builder with hero and content blocks
+- [ ] `fig-15.1.1.png`: Page builder editing the About Us page with hero and cards blocks
 
 ### 15.2 Web forms
 Folder: `public/screenshots/15-website/15.2-web-forms/`
 
-- [ ] `fig-15.2.1.png`: Web form for quotation requests creating leads
+- [ ] `fig-15.2.1.png`: Web form for quote requests with fields from the Lead document type
 
-### 15.3 Customer and supplier portal
+### 15.3 Customer, supplier and employee portal
 Folder: `public/screenshots/15-website/15.3-portal/`
 
-- [ ] `fig-15.3.1.png`: Customer portal showing invoices and their payment status
+- [ ] `fig-15.3.1.png`: Customer portal showing orders, invoices with pay buttons and issues
 
-### 15.4 Blog and news
+### 15.4 Blog
 Folder: `public/screenshots/15-website/15.4-blog/`
 
-- [ ] `fig-15.4.1.png`: Blog post editor with category, cover image and published flag
+- [ ] `fig-15.4.1.png`: Blog post editor with title, category, intro and featured image
 
-### 15.5 Website themes and branding
+### 15.5 Themes and branding
 Folder: `public/screenshots/15-website/15.5-themes-branding/`
 
-- [ ] `fig-15.5.1.png`: Website theme with primary colour and font settings
+- [ ] `fig-15.5.1.png`: Website theme with brand colour, font and custom styles
 
-### 15.6 Search engine optimisation and analytics
+### 15.6 SEO and analytics
 Folder: `public/screenshots/15-website/15.6-seo-analytics/`
 
-- [ ] `fig-15.6.1.png`: Web page SEO section with meta title, description and image
+- [ ] `fig-15.6.1.png`: Page settings with meta title, description and image for search engines
 
-### 15.7 Careers page and online applications
+### 15.7 Careers page
 Folder: `public/screenshots/15-website/15.7-careers-page/`
 
-- [ ] `fig-15.7.1.png`: Careers page listing open jobs with apply buttons
+- [ ] `fig-15.7.1.png`: Careers page listing open positions with apply buttons
 
-### 15.8 Arabic and bilingual websites
+### 15.8 Arabic website
 Folder: `public/screenshots/15-website/15.8-arabic-website/`
 
-- [ ] `fig-15.8.1.png`: Arabic version of the home page with right-to-left layout
+- [ ] `fig-15.8.1.png`: Website in Arabic with right-to-left menu and language switcher
 
 ## 16-hr-payroll
 
@@ -1105,7 +1105,7 @@ Folder: `public/screenshots/16-hr-payroll/16.20-promotions-transfers/`
 
 - [ ] `fig-16.20.1.png`: Employee promotion with old and new designation and effective date
 
-### 16.21 Payroll reports
+### 16.21 Payroll and HR reports
 Folder: `public/screenshots/16-hr-payroll/16.21-payroll-reports/`
 
 - [ ] `fig-16.21.1.png`: Salary register for March with earnings and deductions columns
@@ -1127,7 +1127,7 @@ Folder: `public/screenshots/17-uae-compliance/17.1-vat-setup/`
 
 - [ ] `fig-17.1.1.png`: Sales taxes and charges template for UAE VAT 5%
 
-### 17.2 Zero-rated and exempt supplies
+### 17.2 Zero-rated, exempt and out-of-scope supplies
 Folder: `public/screenshots/17-uae-compliance/17.2-zero-rated-exempt/`
 
 - [ ] `fig-17.2.1.png`: Sales invoice for an export to Oman using the zero-rated template
@@ -1202,7 +1202,7 @@ Folder: `public/screenshots/17-uae-compliance/17.16-ubo-register/`
 
 - [ ] `fig-17.16.1.png`: Beneficial owner record with ownership percentage and identification
 
-### 17.17 Anti-money laundering for dealers in precious metals
+### 17.17 Anti-money laundering for dealers in precious metals and other DNFBPs
 Folder: `public/screenshots/17-uae-compliance/17.17-aml-goaml/`
 
 - [ ] `fig-17.17.1.png`: Report of cash sales above the DPMSR threshold

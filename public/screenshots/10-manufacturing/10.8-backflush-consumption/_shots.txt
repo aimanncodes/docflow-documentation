@@ -1,3 +1,3 @@
-10.8 Material consumption and backflushing
+10.8 Backflushing and material consumption
 
-fig-10.8.1.png  —  Material consumption entry showing actual quantities against the BOM
+fig-10.8.1.png  —  Manufacture stock entry showing consumed raw materials and the finished item

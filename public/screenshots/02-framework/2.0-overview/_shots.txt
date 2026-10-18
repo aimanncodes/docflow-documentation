@@ -1,3 +1,3 @@
 2.0 Framework at a glance
 
-fig-2.0.1.png  —  Framework workspace showing customisation, automation and settings shortcuts
+fig-2.0.1.png  —  Framework workspace with links to customisation, automation, permissions and integrations

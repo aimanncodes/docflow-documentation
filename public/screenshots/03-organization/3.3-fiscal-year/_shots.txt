@@ -1,3 +1,3 @@
 3.3 Fiscal years
 
-fig-3.3.1.png  —  Fiscal year form for 2027 with linked companies
+fig-3.3.1.png  —  Fiscal year 2026 with start and end dates and linked companies

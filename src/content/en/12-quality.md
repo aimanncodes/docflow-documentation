@@ -1,142 +1,235 @@
 @@ overview | Quality at a glance
-@summary Inspect goods, set quality goals, run reviews and handle non-conformances.
+@summary Build a simple quality management system in DocFlow: inspections at receipt, in process and before delivery, goals and reviews, non-conformances and actions, feedback and internal audits.
 
-The Quality module supports a quality management system such as ISO 9001, and the product checks that UAE regulators and customers expect, from Dubai Municipality food safety to ESMA/MoIAT conformity for regulated products.
+The Quality module supports ISO 9001-style management without a separate system. Inspections are linked to the stock documents they check, and goals, reviews, procedures and actions keep the system running.
 
-!fig Quality workspace with inspection results and open non-conformances
+!fig Quality workspace with inspections, open non-conformances and quality goals
 
-| Tool | Purpose |
+## Parts of the module
+
+| Record | Purpose |
 | --- | --- |
-| Quality Inspection | Check incoming, in-process and outgoing goods |
-| Quality Goal | Measurable objectives, such as on-time delivery of 95% |
-| Quality Procedure | Documented processes |
-| Quality Review | Periodic check against goals |
-| Non Conformance | Record and fix problems |
-| Quality Action | Corrective and preventive actions |
+| [Quality Inspection](/quality/inspection) | Check goods against parameters at receipt, in production or before delivery |
+| Quality Inspection Template | Reusable list of parameters and acceptance criteria |
+| [Quality Goal](/quality/goals-reviews) | Measurable objective, such as on-time delivery 95% |
+| Quality Review | Periodic check of goals |
+| Quality Procedure | Documented process in a tree |
+| [Non Conformance](/quality/non-conformance) | Record of a problem, its cause and correction |
+| Quality Action | Corrective or preventive action |
+| [Quality Feedback](/quality/quality-feedback) | Customer or internal feedback with ratings |
+| Quality Meeting | Minutes and agenda of management reviews |
+
+## Typical UAE uses
+
+| Industry | Example |
+| --- | --- |
+| Food | Incoming inspection of dates for moisture and foreign matter; batch release |
+| Construction products | Steel thickness and coating tests; mill certificates |
+| Trading | Visual checks at receipt; supplier scorecards |
+| Facilities management | Customer feedback after maintenance visits |
+
+:::uae Regulated products
+Food products need to meet municipality and ESMA/MoIAT requirements; many construction and electrical products need conformity marks. Store certificates as attachments on items, batches or inspections so you can produce them during inspections by authorities.
+:::
+
+## Related pages
+
+- [Quality inspection](/quality/inspection)
+- [Non-conformance](/quality/non-conformance)
 
 @@ inspection | Quality inspections
-@summary Define what to check and record results on receipts, deliveries and production.
+@summary Set up inspection templates and make inspections mandatory at purchase receipt, delivery or manufacture, record readings, accept or reject, and block stock movement until passed.
 
 ## Inspection templates
 
 1. Go to **Quality › Quality Inspection Template › New**.
-2. Name it, for example "Packed dates – incoming".
-3. Add parameters, either numeric with minimum and maximum values or text with acceptable values.
+2. Add **Parameters**: name, numeric or not, minimum and maximum, or acceptance value.
+3. Save, and set the template on the **Item** (Inspection Template field).
 
 | Parameter | Type | Acceptance |
 | --- | --- | --- |
-| Moisture content | Numeric | 18% – 24% |
-| Foreign matter | Text | None found |
-| Pack seal integrity | Text | Intact |
-| Arabic/English label present | Text | Yes |
+| Moisture (%) | Numeric | 15–22 |
+| Foreign matter | Non-numeric | None |
+| Packaging condition | Non-numeric | Intact |
+| Coating thickness (µm) | Numeric | 60–90 |
 
-!fig Quality inspection template with numeric and text parameters
+!fig Quality inspection template for dates with numeric and visual parameters
 
 ## Making inspection mandatory
 
-On the item, tick **Inspection Required before Purchase**, **before Delivery** or both, and choose the template.
+On the item, tick **Inspection Required before Purchase**, **before Delivery**, or both. For manufacturing, set it on the operation or in the stock entry. The document then cannot be submitted without a submitted inspection.
 
 ## Recording an inspection
 
-1. On the purchase receipt, click **Create › Quality Inspection** for the item.
-2. Enter the sample size and readings.
-3. DocFlow marks each reading as accepted or rejected and sets the overall status.
-4. Submit, then complete the receipt.
+1. In the purchase receipt row, click **Quality Inspection** (or create from the inspection list).
+2. **Inspection Type**: Incoming, Outgoing, In Process.
+3. Enter **Sample Size** and readings per parameter. DocFlow sets each reading Accepted or Rejected automatically.
+4. Set the overall **Status** and submit.
 
-!fig Quality inspection with readings marked as accepted and rejected
+!fig Quality inspection on a purchase receipt row with readings and accepted status
 
-:::uae Food labelling
-Food sold in the UAE must carry labels in Arabic, with the production and expiry dates. Add a label check to every incoming inspection template for imported food.
-:::
+## Rejected goods
+
+If rejected, receive the quantity into the **Rejected Warehouse** on the purchase receipt and return it with a purchase return, or raise a [non-conformance](/quality/non-conformance).
+
+## Reports
+
+**Quality Inspection Summary** shows inspections by item, supplier and status. Rejection rates feed into the [supplier scorecard](/buying/supplier-scorecard).
+
+## Related pages
+
+- [In-process inspection](/quality/in-process-inspection)
+- [Purchase receipts](/buying/purchase-receipt)
 
 @@ goals-reviews | Quality goals, procedures and reviews
-@summary Set measurable objectives, document processes and review performance.
+@summary Set measurable quality objectives, document procedures, review progress regularly and record management review meetings.
 
 ## Quality goals
 
-Create a **Quality Goal** for each objective, with a measurable target and a review frequency.
+1. Go to **Quality › Quality Goal › New**.
+2. Enter the goal, for example "On-time delivery".
+3. Add **Objectives** with target and unit: 95%, "Customer complaints per month" target 2.
+4. Choose the **Monitoring Frequency** (monthly, quarterly) and the procedure it belongs to.
 
-| Goal | Target | Review |
-| --- | --- | --- |
-| On-time delivery | 95% of orders | Monthly |
-| Incoming rejection rate | Below 2% | Monthly |
-| Customer complaints | Fewer than 5 a quarter | Quarterly |
+!fig Quality goal for on-time delivery with objectives and monitoring frequency
 
-## Procedures
+## Quality procedures
 
-Write each process as a **Quality Procedure** with its steps, linked to the responsible role. Procedures can be nested, for example "Purchasing › Supplier evaluation".
+Document processes as a tree under **Quality Procedure**: Purchasing › Supplier evaluation, Warehouse › Receiving inspection. Each procedure has steps, a process owner and linked goals. This becomes your quality manual inside DocFlow.
 
 ## Reviews
 
-On the review date, DocFlow creates a **Quality Review**. Record the actual result for each goal, mark it as passed or failed, and add notes.
+DocFlow creates a **Quality Review** at each monitoring date. The owner enters actual values; DocFlow marks each objective passed or failed. Failed objectives lead to a [quality action](/quality/non-conformance).
 
-!fig Quality review with actual figures against each goal
+## Management review meetings
 
-@@ non-conformance | Non-conformance and actions
-@summary Record problems, find the root cause and track corrective actions.
+Use **Quality Meeting** to record the agenda (results of reviews, audits, customer feedback, risks) and minutes with decisions and owners.
+
+## Related pages
+
+- [Internal audits](/quality/internal-audits)
+- [Quality feedback](/quality/quality-feedback)
+
+@@ non-conformance | Non-conformance and corrective actions
+@summary Record problems in products, processes or services, investigate root causes, and track corrective and preventive actions to closure.
 
 ## Recording a non-conformance
 
 1. Go to **Quality › Non Conformance › New**.
-2. Describe the problem, the procedure it relates to and how it was found.
-3. Record the **Corrective Action** and **Preventive Action**.
-4. Track the status until it is closed.
+2. Choose the **Subject**, the **Procedure** involved and the **Process Owner**.
+3. Describe the **Details**, the **Corrective Action** taken immediately and the **Preventive Action** to stop it recurring.
+4. Set the status and save.
 
-!fig Non-conformance record with corrective and preventive actions
+!fig Non-conformance record for damaged cartons with corrective and preventive actions
 
-:::example Example: wrong coating thickness
-An inspection at Saqr Steel finds powder coating at 45 microns against a 60-micron requirement on a batch of beams for a customer in Dubai South. The non-conformance records the cause (a worn spray nozzle), the correction (recoat the batch) and the prevention (a weekly nozzle check in the maintenance plan).
+## Quality actions
+
+A **Quality Action** tracks the work: type **Corrective** or **Preventive**, linked goal, review or feedback, each step with responsible person, date and status. Status becomes Completed when all steps are done.
+
+## Root cause
+
+Use the "5 whys" or a fishbone diagram in the details. Common root causes in warehouses: unclear procedure, missing training, unsuitable packaging, supplier quality.
+
+:::example Example
+A hotel rejects a delivery of 30 cartons of nuts because outer cartons are crushed. Lulu Pearl Foods records a non-conformance: correction, replace the goods; root cause, pallets stacked four high in the truck; preventive action, maximum three high and corner boards, procedure updated.
 :::
 
-## Quality meetings
+## Related pages
 
-Record management review meetings with **Quality Meeting**: the agenda, attendees and minutes, linked to the goals and actions discussed.
+- [Quality inspection](/quality/inspection)
+- [Scrap and rework](/manufacturing/scrap-rework)
 
-@@ in-process-inspection | In-process and final inspection
-@summary Check quality during production, not only at receipt and dispatch.
+@@ in-process-inspection | In-process inspection
+@summary Check quality during production at specific operations, with job card inspections that must pass before the work moves on.
 
-## Inspection on job cards
+## Setting up
 
-On a BOM operation, set a **Quality Inspection Template**. When the job card for that operation is completed, the operator must record an inspection before moving on.
+1. Create an inspection template for the operation, for example "Weld check".
+2. On the **Operation** (or BOM operation), set the **Quality Inspection Template**.
+3. In manufacturing settings or the job card, require inspection before completing.
 
-!fig Job card with a linked quality inspection for weld checks
+## Recording
+
+When the operator completes the job card, they create a **Quality Inspection** of type **In Process** from it, enter readings and submit. The job card cannot be completed until the inspection is accepted.
+
+!fig Job card with an in-process quality inspection for weld quality
 
 ## Final inspection
 
-Tick **Inspection Required before Delivery** on the finished item. The delivery note cannot be submitted until a passing inspection exists.
+For finished goods, require an inspection on the **Manufacture** stock entry. Rejected units go to the rejected warehouse for [rework](/manufacturing/scrap-rework).
 
-## Rejected quantities
+## Benefits
 
-If the inspection fails, record rejected quantities on the job card. They can go to a [rework](/manufacturing/scrap-rework) work order or to scrap.
+| Benefit | Why |
+| --- | --- |
+| Catch problems early | Fewer finished goods scrapped |
+| Traceability | Inspection linked to the batch and work order |
+| Evidence | Records for customers and certification audits |
 
-:::example Example: weld checks
-Saqr Steel checks weld penetration and dimensions on the first, tenth and last bay of every work order. Each check is an in-process inspection on the welding job card, so the quality history follows the batch.
+## Related pages
+
+- [Work orders and job cards](/manufacturing/work-order)
+- [Quality inspection](/quality/inspection)
+
+@@ quality-feedback | Customer and internal feedback
+@summary Collect structured feedback from customers and staff with templates and ratings, link it to actions, and track satisfaction over time.
+
+## Feedback templates
+
+Create a **Quality Feedback Template** with parameters, for example: Timeliness, Workmanship, Cleanliness, Communication, each rated 1 to 5.
+
+## Recording feedback
+
+1. Go to **Quality › Quality Feedback › New**.
+2. Choose **Document Type** (Customer, User) and the party, and the template.
+3. Enter ratings and comments, and save.
+
+!fig Quality feedback from a customer after a maintenance visit with ratings
+
+Feedback can also be collected through a [web form](/website/web-forms) sent after a delivery or visit.
+
+## Acting on feedback
+
+Low scores trigger a **Quality Action**. Review average ratings by customer and period in report view to spot trends.
+
+:::tip Ask at the right moment
+For facilities management, send a short feedback form right after each [maintenance visit](/support/warranty-maintenance) is completed. Response rates are much higher than with quarterly surveys.
 :::
 
-@@ quality-feedback | Customer and supplier feedback
-@summary Collect structured feedback and turn complaints into actions.
+## Related pages
 
-1. Create a **Quality Feedback Template** with parameters, for example on-time delivery, product condition, documentation and communication, each rated 1–5.
-2. Create **Quality Feedback** records for a customer or supplier, manually or automatically after a delivery.
-3. Low scores can trigger a **Non Conformance** or a **Quality Action**.
-
-!fig Quality feedback with ratings for each parameter
-
-:::tip Link feedback to support
-Customer complaints raised as [support issues](/support/issues) can be linked to quality feedback, so the quality team sees patterns across tickets.
-:::
+- [Non-conformance](/quality/non-conformance)
+- [Support overview](/support/overview)
 
 @@ internal-audits | Internal audits
-@summary Plan and record internal audits of your procedures.
+@summary Plan and record internal quality audits, log findings, and track corrective actions for certification such as ISO 9001.
 
-1. Create an audit **Quality Procedure** checklist for each area, such as purchasing, warehousing or production.
-2. Schedule audits as **Quality Review** records with the auditor and date.
-3. During the audit, record findings against each procedure step.
-4. Raise a **Non Conformance** for each finding, with an owner and due date.
-5. Review open findings in the management review meeting.
+DocFlow does not need a separate audit tool: use quality procedures, reviews, meetings and actions together.
 
-!fig Internal audit review with findings linked to non-conformances
+## Planning audits
 
-:::uae Certification and licensing audits
-External certification bodies, municipality inspectors and free zone authorities may ask for evidence of internal audits. Keep the records and attached evidence in DocFlow, ready to show.
-:::
+1. Create a yearly audit plan as **Quality Meeting** agenda items or as a [project](/projects/project-setup) with one task per audit (procedure, auditor, date).
+2. Assign auditors independent of the area they audit.
+
+## Recording findings
+
+| Finding type | Record as |
+| --- | --- |
+| Major non-conformity | Non Conformance with Quality Action |
+| Minor non-conformity | Non Conformance |
+| Observation / opportunity for improvement | Quality Action (preventive) |
+
+!fig Internal audit project with tasks per procedure and linked non-conformances
+
+## Closing out
+
+Each finding has an owner and due date. The auditor verifies effectiveness and closes the action. Summarise results in the management review meeting.
+
+## For certification audits
+
+Certification bodies ask for evidence: procedures, records of reviews, audits, non-conformances and actions, training records and supplier evaluations. With everything in DocFlow, you can show them directly.
+
+## Related pages
+
+- [Goals and reviews](/quality/goals-reviews)
+- [Training](/hr-payroll/training)

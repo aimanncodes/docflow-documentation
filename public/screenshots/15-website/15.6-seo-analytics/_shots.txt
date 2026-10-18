@@ -1,3 +1,3 @@
-15.6 Search engine optimisation and analytics
+15.6 SEO and analytics
 
-fig-15.6.1.png  —  Web page SEO section with meta title, description and image
+fig-15.6.1.png  —  Page settings with meta title, description and image for search engines

@@ -1,3 +1,3 @@
-5.6 Composite assets and capitalisation
+5.6 Composite and grouped assets
 
-fig-5.6.1.png  —  Asset capitalisation combining machine, installation and freight costs
+fig-5.6.1.png  —  Asset capitalisation combining stock items, a service and an existing asset into a cold room

@@ -1,3 +1,3 @@
-14.6 Turning emails into tickets
+14.6 Support email setup
 
-fig-14.6.1.png  —  Email account for support with incoming enabled and append to issue
+fig-14.6.1.png  —  Email account for support with incoming enabled and Append To set to Issue

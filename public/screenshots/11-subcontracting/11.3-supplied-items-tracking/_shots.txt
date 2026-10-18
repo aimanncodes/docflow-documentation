@@ -1,3 +1,3 @@
 11.3 Tracking materials at subcontractors
 
-fig-11.3.1.png  —  Subcontract order summary with pending quantities per supplier
+fig-11.3.1.png  —  Supplied items table showing required, supplied, consumed and returned quantities

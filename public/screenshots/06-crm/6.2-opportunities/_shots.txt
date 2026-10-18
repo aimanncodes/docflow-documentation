@@ -1,3 +1,3 @@
 6.2 Opportunities
 
-fig-6.2.1.png  —  Opportunity with items, sales stage and expected closing date
+fig-6.2.1.png  —  Opportunity for a hotel kitchen refit with items, stage, probability and expected closing date
