@@ -1,0 +1,3 @@
+13.8 Sharing projects with customers
+
+fig-13.8.1.png  —  Customer portal view of a project with tasks and progress

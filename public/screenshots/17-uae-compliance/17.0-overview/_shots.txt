@@ -1,0 +1,3 @@
+17.0 UAE compliance at a glance
+
+fig-17.0.1.png  —  UAE compliance workspace with VAT summary, return status and upcoming deadlines

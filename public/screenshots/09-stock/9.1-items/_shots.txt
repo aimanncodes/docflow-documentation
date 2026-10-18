@@ -1,0 +1,4 @@
+9.1 Items
+
+fig-9.1.1.png  —  Item form with code, group, unit of measure and stock settings
+fig-9.1.2.png  —  Item with batches, reorder levels and supplier part numbers

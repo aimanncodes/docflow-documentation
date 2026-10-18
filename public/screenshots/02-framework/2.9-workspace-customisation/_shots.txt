@@ -1,0 +1,3 @@
+2.9 Customising workspaces
+
+fig-2.9.1.png  —  Workspace in edit mode with blocks being rearranged

@@ -1,0 +1,3 @@
+18.5 Monthly payroll
+
+fig-18.5.1.png  —  Payroll entry with salary slip totals and the WPS file action

@@ -1,0 +1,4 @@
+18.2 Procure to pay with an import
+
+fig-18.2.1.png  —  Purchase order in USD with CIF terms and advance payment schedule
+fig-18.2.2.png  —  Purchase invoice in USD with the advance applied and the balance due

@@ -1,0 +1,3 @@
+16.19 Emiratisation targets
+
+fig-16.19.1.png  —  Emiratisation dashboard with current Emirati headcount against target

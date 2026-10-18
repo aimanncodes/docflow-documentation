@@ -1,0 +1,3 @@
+5.1 Asset categories
+
+fig-5.1.1.png  —  Asset category form for motor vehicles with accounts and depreciation settings

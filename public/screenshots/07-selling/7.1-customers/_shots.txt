@@ -1,0 +1,3 @@
+7.1 Customers
+
+fig-7.1.1.png  —  Customer form with group, territory, TRN, credit limit and addresses

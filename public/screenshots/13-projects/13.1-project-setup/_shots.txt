@@ -1,0 +1,3 @@
+13.1 Creating projects
+
+fig-13.1.1.png  —  Project form with customer, dates, estimated cost and progress method

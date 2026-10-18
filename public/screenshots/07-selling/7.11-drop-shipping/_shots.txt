@@ -1,0 +1,3 @@
+7.11 Drop shipping
+
+fig-7.11.1.png  —  Sales order line marked for drop shipping with the supplier

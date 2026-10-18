@@ -1,0 +1,4 @@
+1.3 How documents move through DocFlow
+
+fig-1.3.1.png  —  A sales invoice form showing the Draft status indicator next to the title
+fig-1.3.2.png  —  Connections tab showing a sales order linked to its delivery note and invoice

@@ -1,0 +1,3 @@
+2.15 Bulk update, rename and delete tools
+
+fig-2.15.1.png  —  Rename tool with a CSV of old and new customer names

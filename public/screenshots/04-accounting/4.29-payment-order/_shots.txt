@@ -1,0 +1,3 @@
+4.29 Bulk supplier payments
+
+fig-4.29.1.png  —  Payment order grouping supplier payments for one bank upload

@@ -1,0 +1,4 @@
+4.7 Bank reconciliation
+
+fig-4.7.1.png  —  Bank statement import with column mapping
+fig-4.7.2.png  —  Reconciliation screen matching a bank credit to a payment entry

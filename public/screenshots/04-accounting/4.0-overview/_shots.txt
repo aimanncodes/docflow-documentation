@@ -1,0 +1,3 @@
+4.0 Accounting at a glance
+
+fig-4.0.1.png  —  Accounting workspace with receivables, payables and profit and loss charts

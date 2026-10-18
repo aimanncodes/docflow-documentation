@@ -1,0 +1,3 @@
+9.7 Stock settings
+
+fig-9.7.1.png  —  Stock settings page with valuation method and negative stock options

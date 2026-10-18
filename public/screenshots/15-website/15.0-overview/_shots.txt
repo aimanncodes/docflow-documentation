@@ -1,0 +1,3 @@
+15.0 Website and portal at a glance
+
+fig-15.0.1.png  —  Website workspace with pages, web forms and portal settings

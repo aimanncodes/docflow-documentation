@@ -1,0 +1,3 @@
+5.8 Asset settings and reports
+
+fig-5.8.1.png  —  Asset depreciation settings with automatic posting enabled

@@ -1,0 +1,5 @@
+1.2 Finding your way around
+
+fig-1.2.1.png  —  Home screen with greeting, quick actions and module cards
+fig-1.2.2.png  —  Accounting workspace with number cards, charts and shortcuts
+fig-1.2.3.png  —  Global search showing results for a customer name

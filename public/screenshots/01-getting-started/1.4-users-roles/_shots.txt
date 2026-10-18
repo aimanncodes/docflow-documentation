@@ -1,0 +1,4 @@
+1.4 Users, roles and permissions
+
+fig-1.4.1.png  —  New user form with email, name and user type
+fig-1.4.2.png  —  User permission restricting a user to the Sharjah branch

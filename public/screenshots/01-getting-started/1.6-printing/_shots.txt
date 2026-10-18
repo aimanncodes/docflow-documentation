@@ -1,0 +1,5 @@
+1.6 Print formats and letterheads
+
+fig-1.6.1.png  —  Letter head form with logo upload and footer containing TRN and address
+fig-1.6.2.png  —  Print preview of a tax invoice with format and letterhead selectors
+fig-1.6.3.png  —  Print format builder with draggable fields and section layout

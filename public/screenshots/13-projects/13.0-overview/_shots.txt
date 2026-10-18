@@ -1,0 +1,3 @@
+13.0 Projects at a glance
+
+fig-13.0.1.png  —  Projects workspace with active projects, overdue tasks and hours logged

@@ -1,0 +1,4 @@
+8.3 Requests for quotation and supplier quotations
+
+fig-8.3.1.png  —  Request for quotation sent to three suppliers
+fig-8.3.2.png  —  Supplier quotation comparison for steel sheets from three suppliers

@@ -1,0 +1,3 @@
+7.15 Proforma invoices
+
+fig-7.15.1.png  —  Sales order printed with a proforma invoice heading and bank details

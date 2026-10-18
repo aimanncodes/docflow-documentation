@@ -1,0 +1,3 @@
+5.0 Assets at a glance
+
+fig-5.0.1.png  —  Assets workspace with asset value by category and upcoming depreciation

@@ -1,0 +1,3 @@
+9.16 Goods in transit
+
+fig-9.16.1.png  —  Stock entry moving goods into the goods in transit warehouse

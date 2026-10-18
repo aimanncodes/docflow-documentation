@@ -1,0 +1,4 @@
+4.2 Sales invoices
+
+fig-4.2.1.png  —  Get items from several delivery notes into one sales invoice
+fig-4.2.2.png  —  Taxes and charges table with VAT 5 percent and a freight charge

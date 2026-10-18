@@ -1,0 +1,3 @@
+16.16 Air tickets and leave salary
+
+fig-16.16.1.png  —  Employee air ticket entitlement with frequency, destination and value

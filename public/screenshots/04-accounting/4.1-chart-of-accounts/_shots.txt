@@ -1,0 +1,3 @@
+4.1 Chart of accounts
+
+fig-4.1.1.png  —  Chart of accounts tree with assets expanded to show bank and receivable accounts

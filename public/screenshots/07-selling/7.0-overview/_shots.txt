@@ -1,0 +1,3 @@
+7.0 Selling at a glance
+
+fig-7.0.1.png  —  Selling workspace with sales trend, top customers and pending orders

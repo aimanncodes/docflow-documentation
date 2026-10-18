@@ -1,0 +1,4 @@
+16.5 Monthly payroll and WPS
+
+fig-16.5.1.png  —  Payroll entry for March 2026 with employees and salary slip totals
+fig-16.5.2.png  —  WPS salary file preview with employee detail and summary records

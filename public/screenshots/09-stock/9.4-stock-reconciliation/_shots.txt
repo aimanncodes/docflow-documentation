@@ -1,0 +1,3 @@
+9.4 Stock counts and reconciliation
+
+fig-9.4.1.png  —  Stock reconciliation with system and counted quantities

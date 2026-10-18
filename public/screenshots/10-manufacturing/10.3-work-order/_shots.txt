@@ -1,0 +1,4 @@
+10.3 Work orders and job cards
+
+fig-10.3.1.png  —  Work order for 40 racking bays with required materials
+fig-10.3.2.png  —  Job card for welding with time logs and completed quantity

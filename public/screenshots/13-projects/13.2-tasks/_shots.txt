@@ -1,0 +1,4 @@
+13.2 Tasks and milestones
+
+fig-13.2.1.png  —  Task list for a fit-out project with dependencies
+fig-13.2.2.png  —  Gantt chart of project tasks over eight weeks

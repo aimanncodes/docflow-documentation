@@ -1,0 +1,3 @@
+17.16 Ultimate beneficial owner register
+
+fig-17.16.1.png  —  Beneficial owner record with ownership percentage and identification

@@ -1,0 +1,3 @@
+8.4 Purchase orders
+
+fig-8.4.1.png  —  Purchase order with supplier, items, delivery dates and Incoterms

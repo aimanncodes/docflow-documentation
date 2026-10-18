@@ -1,0 +1,3 @@
+9.0 Stock at a glance
+
+fig-9.0.1.png  —  Stock workspace with stock value by warehouse and recent stock movements

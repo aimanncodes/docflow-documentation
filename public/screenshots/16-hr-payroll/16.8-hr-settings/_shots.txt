@@ -1,0 +1,3 @@
+16.8 HR and payroll settings
+
+fig-16.8.1.png  —  Payroll settings with daily wage basis and salary slip emailing

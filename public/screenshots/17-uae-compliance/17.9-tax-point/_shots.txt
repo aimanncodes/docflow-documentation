@@ -1,0 +1,3 @@
+17.9 Tax point and VAT on advances
+
+fig-17.9.1.png  —  Advance payment entry with VAT applied on the advance

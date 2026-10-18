@@ -1,0 +1,3 @@
+10.2 Workstations and routings
+
+fig-10.2.1.png  —  Workstation for the welding bay with hourly cost components

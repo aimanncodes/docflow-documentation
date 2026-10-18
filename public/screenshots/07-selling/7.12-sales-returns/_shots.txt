@@ -1,0 +1,3 @@
+7.12 Sales returns
+
+fig-7.12.1.png  —  Sales return created from a delivery note with negative quantities

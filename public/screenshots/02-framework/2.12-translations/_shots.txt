@@ -1,0 +1,3 @@
+2.12 Arabic labels and translations
+
+fig-2.12.1.png  —  A sales invoice form shown in Arabic with right-to-left layout

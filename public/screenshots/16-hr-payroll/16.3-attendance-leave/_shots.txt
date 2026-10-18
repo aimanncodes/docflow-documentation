@@ -1,0 +1,4 @@
+16.3 Attendance and leave
+
+fig-16.3.1.png  —  Attendance calendar for a team showing present, absent and on leave
+fig-16.3.2.png  —  Leave application with balance, dates and approver

@@ -1,0 +1,3 @@
+4.13 Modes of payment
+
+fig-4.13.1.png  —  Mode of payment for card terminal with default account per company

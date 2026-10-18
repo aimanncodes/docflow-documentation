@@ -1,0 +1,4 @@
+7.2 Price lists and pricing rules
+
+fig-7.2.1.png  —  Item price list showing standard selling prices in AED
+fig-7.2.2.png  —  Pricing rule giving 7% off for quantities of 20 or more

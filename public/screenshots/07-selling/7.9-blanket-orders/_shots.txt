@@ -1,0 +1,3 @@
+7.9 Blanket orders and rate contracts
+
+fig-7.9.1.png  —  Blanket order with agreed rates and quantities for one year

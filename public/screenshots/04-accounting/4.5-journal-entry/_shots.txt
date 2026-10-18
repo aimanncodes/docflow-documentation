@@ -1,0 +1,3 @@
+4.5 Journal entries
+
+fig-4.5.1.png  —  Journal entry with accrual rows, cost centres and a user remark

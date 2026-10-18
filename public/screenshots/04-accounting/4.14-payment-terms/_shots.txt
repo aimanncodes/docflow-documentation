@@ -1,0 +1,3 @@
+4.14 Payment terms
+
+fig-4.14.1.png  —  Payment terms template with advance, delivery and retention lines

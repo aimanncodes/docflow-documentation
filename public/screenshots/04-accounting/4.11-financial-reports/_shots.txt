@@ -1,0 +1,4 @@
+4.11 Financial reports
+
+fig-4.11.1.png  —  Profit and loss statement for Q1 2026 with monthly columns
+fig-4.11.2.png  —  Accounts receivable ageing chart with buckets coloured by age

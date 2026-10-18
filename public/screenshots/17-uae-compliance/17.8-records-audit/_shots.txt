@@ -1,0 +1,3 @@
+17.8 Records, audits and FTA requests
+
+fig-17.8.1.png  —  FTA audit file generation for a selected tax period

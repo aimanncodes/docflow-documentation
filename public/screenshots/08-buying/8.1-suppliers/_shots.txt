@@ -1,0 +1,3 @@
+8.1 Suppliers
+
+fig-8.1.1.png  —  Supplier form with group, country, TRN, payment terms and holds

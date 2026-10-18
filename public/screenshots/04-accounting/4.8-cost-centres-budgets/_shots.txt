@@ -1,0 +1,4 @@
+4.8 Cost centres, dimensions and budgets
+
+fig-4.8.1.png  —  Cost centre tree with Dubai and Abu Dhabi branches and divisions
+fig-4.8.2.png  —  Budget for the marketing cost centre with monthly distribution and warning controls

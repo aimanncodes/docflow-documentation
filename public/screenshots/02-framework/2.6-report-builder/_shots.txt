@@ -1,0 +1,3 @@
+2.6 Report Builder
+
+fig-2.6.1.png  —  Report view of sales invoices grouped by territory with totals

@@ -1,0 +1,3 @@
+10.8 Material consumption and backflushing
+
+fig-10.8.1.png  —  Material consumption entry showing actual quantities against the BOM

@@ -1,0 +1,3 @@
+5.2 Buying and registering assets
+
+fig-5.2.1.png  —  Draft asset created automatically from a purchase receipt

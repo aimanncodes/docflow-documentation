@@ -1,0 +1,4 @@
+5.5 Selling and scrapping assets
+
+fig-5.5.1.png  —  Sales invoice for the sale of a used delivery van
+fig-5.5.2.png  —  Fixed asset register filtered by category

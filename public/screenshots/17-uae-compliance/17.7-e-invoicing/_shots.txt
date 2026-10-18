@@ -1,0 +1,3 @@
+17.7 E-invoicing
+
+fig-17.7.1.png  —  E-invoice readiness report highlighting customers without a TRN

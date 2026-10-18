@@ -1,0 +1,3 @@
+14.1 Issues and tickets
+
+fig-14.1.1.png  —  Issue with customer details, priority, SLA timer and email conversation

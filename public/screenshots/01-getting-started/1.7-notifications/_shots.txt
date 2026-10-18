@@ -1,0 +1,4 @@
+1.7 Notifications, emails and alerts
+
+fig-1.7.1.png  —  Notification panel listing an assignment and a mention
+fig-1.7.2.png  —  Notification rule set to alert HR 60 days before visa expiry

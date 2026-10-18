@@ -1,0 +1,3 @@
+12.5 Customer and supplier feedback
+
+fig-12.5.1.png  —  Quality feedback with ratings for each parameter

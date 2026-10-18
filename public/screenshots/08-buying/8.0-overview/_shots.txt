@@ -1,0 +1,3 @@
+8.0 Buying at a glance
+
+fig-8.0.1.png  —  Buying workspace with purchase trend, top suppliers and pending orders

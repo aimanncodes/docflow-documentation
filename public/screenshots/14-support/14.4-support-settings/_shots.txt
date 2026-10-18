@@ -1,0 +1,3 @@
+14.4 Support settings, issue types and priorities
+
+fig-14.4.1.png  —  Support settings with auto-close and SLA options

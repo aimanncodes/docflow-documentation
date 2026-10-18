@@ -1,0 +1,4 @@
+4.4 Payments and receipts
+
+fig-4.4.1.png  —  Payment entry allocating a receipt across three invoices with an unallocated balance
+fig-4.4.2.png  —  PDC register listing cheques by maturity date

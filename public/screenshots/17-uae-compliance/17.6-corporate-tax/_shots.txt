@@ -1,0 +1,3 @@
+17.6 Corporate Tax
+
+fig-17.6.1.png  —  Profit and loss with a non-deductible expense dimension filter

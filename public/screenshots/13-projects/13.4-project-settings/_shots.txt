@@ -1,0 +1,3 @@
+13.4 Project types, activity types and settings
+
+fig-13.4.1.png  —  Activity types with default costing and billing rates

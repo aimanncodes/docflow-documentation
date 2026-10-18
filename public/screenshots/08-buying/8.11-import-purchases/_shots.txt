@@ -1,0 +1,3 @@
+8.11 Importing goods end to end
+
+fig-8.11.1.png  —  Purchase order for an import with USD currency and CIF Incoterms

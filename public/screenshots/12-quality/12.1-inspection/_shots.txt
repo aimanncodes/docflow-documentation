@@ -1,0 +1,4 @@
+12.1 Quality inspections
+
+fig-12.1.1.png  —  Quality inspection template with numeric and text parameters
+fig-12.1.2.png  —  Quality inspection with readings marked as accepted and rejected

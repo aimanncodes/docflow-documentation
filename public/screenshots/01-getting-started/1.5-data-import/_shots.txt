@@ -1,0 +1,4 @@
+1.5 Importing your existing data
+
+fig-1.5.1.png  —  Data Import form with document type, import type and template download
+fig-1.5.2.png  —  Import log listing successful rows and one failed row with its error message

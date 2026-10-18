@@ -1,0 +1,3 @@
+16.0 HR & Payroll at a glance
+
+fig-16.0.1.png  —  HR workspace with headcount, leave today, expiring documents and payroll summary

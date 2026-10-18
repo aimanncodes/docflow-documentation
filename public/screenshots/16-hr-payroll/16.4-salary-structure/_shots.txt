@@ -1,0 +1,3 @@
+16.4 Salary structures
+
+fig-16.4.1.png  —  Salary structure with basic, housing and transport components
