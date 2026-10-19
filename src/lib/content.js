@@ -6,6 +6,7 @@ import { parseBlocks, plainText } from "./markdown";
  * Each file holds every page of one module. A page starts with
  *   @@ page-slug | Page title
  *   @summary One-line description shown under the title
+ *   @status planned                       (optional) the whole page describes a planned feature
  * Page numbers (4.3) and figure numbers (4.3.2) come from the English file order,
  * so the Arabic file must keep the same page slugs and figure order.
  */
@@ -43,6 +44,8 @@ function splitPages(raw) {
       pages.push(cur);
     } else if (cur && line.startsWith("@summary ")) {
       cur.summary = line.slice(9).trim();
+    } else if (cur && line.trim() === "@status planned") {
+      cur.planned = true;
     } else if (cur) cur.body.push(line);
   }
   return pages.map((p) => ({ ...p, body: p.body.join("\n") }));
@@ -68,6 +71,10 @@ function build(lang) {
       const blocks = parseBlocks(body);
       let fig = 0;
       let sec = 0;
+      let lastAnchor = "";
+      const plannedItems = [];
+      const hasPlanned = (s) => typeof s === "string" && s.includes("{planned}");
+      const clean = (s) => s.replace(/\{planned\}/g, "").replace(/\*\*|`|\[|\]\([^)]*\)/g, "").trim();
       const folder = `${mod.file}/${num}-${enPage.slug}`;
       const number = (list) =>
         list.forEach((b) => {
@@ -78,6 +85,10 @@ function build(lang) {
             b.folder = `public/screenshots/${folder}/`;
           }
           if (b.type === "h2") b.anchor = `s${++sec}`;
+          if (b.type === "h3") b.anchor = `s${sec}-${list.indexOf(b)}`;
+          if (b.anchor) lastAnchor = b.anchor;
+          const lines = [b.text, b.title, ...(b.items || []), ...(b.rows || []).map((r) => (r.some(hasPlanned) ? r.slice(0, 2).join(" — ") + " {planned}" : ""))];
+          lines.filter(hasPlanned).forEach((l) => plannedItems.push({ anchor: lastAnchor, text: clean(l), heading: b.type === "h2" || b.type === "h3" }));
           if (b.children) number(b.children);
         });
       number(blocks);
@@ -89,6 +100,8 @@ function build(lang) {
         summary: p.summary,
         blocks,
         translated: lang === "en" || Boolean(bySlug[enPage.slug]),
+        planned: Boolean(enPage.planned || p.planned),
+        plannedItems,
         text: plainText(blocks),
       };
     });

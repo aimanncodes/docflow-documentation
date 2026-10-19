@@ -53,6 +53,10 @@ export default function Sidebar({ lang, t, activeModule, onSearch, onNavigate, o
           <Icon name="home" size={16} />
           <span>{t.home}</span>
         </NavLink>
+        <NavLink to={`/${lang}/planned`} className="df-sb-row df-sb-top" onClick={onNavigate}>
+          <Icon name="flag" size={16} />
+          <span>{t.plannedFeatures}</span>
+        </NavLink>
 
         {GROUPS.map((g) => (
           <div key={g.id} className="df-sb-group">
@@ -94,6 +98,7 @@ export default function Sidebar({ lang, t, activeModule, onSearch, onNavigate, o
                         >
                           <span className="df-sb-num">{p.num}</span>
                           <span className="df-sb-label">{p.title}</span>
+                          {p.planned && <span className="df-sb-planned" title={t.planned} />}
                         </NavLink>
                       ))}
                     </div>

@@ -13,7 +13,7 @@ The HR & Payroll module covers the full employee journey for UAE companies: recr
 | Hiring | Job Opening, Job Applicant, Interview, Job Offer |
 | Joining | Employee, Employee Onboarding, documents |
 | Day to day | Attendance, Leave Application, Expense Claim, Shift Request |
-| Monthly | Salary Slip, Payroll Entry, WPS file |
+| Monthly {planned} | Salary Slip, Payroll Entry, WPS file |
 | Development | Appraisal, Goals, Training Event |
 | Changes | Promotion, Transfer, new Salary Structure Assignment |
 | Leaving | Employee Separation, Full and Final Statement, gratuity |
@@ -30,7 +30,7 @@ This section follows Federal Decree-Law No. 33 of 2021 on the regulation of labo
 | Leave / expense approver | Approves their team's requests |
 | HR User | Employee records, onboarding, leave, documents |
 | HR Manager | Policies, salary structures, payroll and settlements |
-| PRO | Visa, Emirates ID and labour card renewals |
+| PRO {planned} | Visa, Emirates ID and labour card renewals |
 | Accounts Manager | Payroll posting, WPS payment, gratuity accrual |
 
 ## Setting up HR & Payroll
@@ -110,7 +110,7 @@ Employees can also be created from a **Job Offer** once the candidate accepts, w
 | Current and Permanent Address | Contact and home-country address for air tickets |
 | Emergency Contact | Name, relation and phone |
 
-### UAE identification (custom fields)
+### UAE identification (custom fields) {planned}
 
 | Field | Example | Why |
 | --- | --- | --- |
@@ -378,8 +378,8 @@ A **Salary Component** is one line on a payslip.
 | Overtime | Earning | From approved overtime |
 | Commission / Incentive | Earning | Additional salary |
 | Leave Salary / Encashment | Earning | From leave encashment |
-| Pension – Employee (UAE nationals) | Deduction | Percentage of contribution salary |
-| Pension – Employer | Earning, not paid | Employer cost, shown separately |
+| Pension – Employee (UAE nationals) {planned} | Deduction | Percentage of contribution salary |
+| Pension – Employer {planned} | Earning, not paid | Employer cost, shown separately |
 | Loan Repayment | Deduction | From employee loans |
 | Advance Recovery | Deduction | From employee advances |
 | Unpaid Leave | Deduction | Days without pay × daily rate |
@@ -463,7 +463,7 @@ Finish attendance and leave for the month, approve overtime and expense claims, 
 | 2. Create salary slips | Payroll Entry |
 | 3. Review | Salary Register, comparison with last month |
 | 4. Submit | Salary slips and payroll journal |
-| 5. Generate WPS file | WPS Salary File (SIF) |
+| 5. Generate WPS file {planned} | WPS Salary File (SIF) |
 | 6. Pay | Upload to the bank, record the payment |
 | 7. Distribute payslips | Email or self-service |
 
@@ -491,7 +491,7 @@ Finish attendance and leave for the month, approve overtime and expense claims, 
 | Deductions | Loans, advances, unpaid leave, employee pension share |
 | Net pay | Earnings minus deductions |
 
-## The WPS salary file
+## The WPS salary file {planned}
 
 Salaries in the UAE private sector are paid through the **Wage Protection System**, using a **Salary Information File (SIF)** uploaded to an approved bank or exchange house.
 
@@ -654,7 +654,7 @@ Notice is set in the contract and must be between 30 and 90 days. During probati
 | Clearance from finance (advances, loans, expense claims) | Accounts |
 | Exit interview | HR |
 | Final settlement calculated and approved | HR / Accounts |
-| Cancellation of labour card and visa, or transfer to a new employer | PRO |
+| Cancellation of labour card and visa, or transfer to a new employer {planned} | PRO |
 | Health insurance cancellation | HR |
 | Experience certificate | HR |
 
@@ -1024,6 +1024,7 @@ Most UAE HR teams spend hours each week on salary certificate and leave balance 
 
 @@ air-tickets | Air tickets and leave salary
 @summary Manage annual air ticket entitlements, accrue their cost, pay or book them, and handle leave salary paid before annual leave.
+@status planned
 
 Air tickets are not required by UAE labour law, but many contracts include an annual or biennial ticket to the employee's home country, sometimes for family members too.
 
@@ -1065,6 +1066,7 @@ Some companies pay salary for annual leave days before the employee travels. Cre
 
 @@ visa-pro | Visas, Emirates ID and PRO tasks
 @summary Track every employee document and the PRO work needed to issue, renew and cancel visas, IDs and work permits on time.
+@status planned
 
 ## Documents to track
 
@@ -1115,6 +1117,7 @@ Late renewals of residence visas, IDs and work permits can lead to fines, and an
 
 @@ pension | Pension contributions for UAE and GCC nationals
 @summary Set up and pay pension contributions for UAE nationals (GPSSA or the Abu Dhabi fund) and GCC nationals through payroll.
+@status planned
 
 UAE nationals in the private sector are registered with the **General Pension and Social Security Authority (GPSSA)**, or with the **Abu Dhabi Pension Fund** for those working in Abu Dhabi. GCC nationals are covered by their home country's scheme through the GCC extension of insurance protection.
 
@@ -1152,6 +1155,7 @@ Contribution rates and the definition of contribution salary have changed in rec
 
 @@ emiratisation | Emiratisation targets
 @summary Track your Emirati headcount against MOHRE targets, record support programmes and avoid contributions for shortfalls.
+@status planned
 
 Private sector companies on the mainland with 50 or more employees must increase the share of UAE nationals in skilled roles each year, and some smaller companies in selected sectors must employ at least one or two Emiratis. Companies that miss their targets pay a monthly contribution for each missing Emirati.
 
@@ -1233,7 +1237,7 @@ A change of job title or salary must be reflected in the employee's MOHRE contra
 | Employee Leave Balance | Leave per type |
 | Employees Working on a Holiday | For compensatory leave |
 | Recruitment Analytics | Openings, applicants and hires |
-| Document expiry (custom) | Visas, IDs and permits expiring soon |
+| Document expiry (custom) {planned} | Visas, IDs and permits expiring soon |
 
 :::tip Compare month on month
 Before submitting payroll, compare this month's salary register with last month's. Every big difference (joiners, leavers, overtime spikes, deductions) should have a clear reason.
@@ -1246,6 +1250,7 @@ Before submitting payroll, compare this month's salary register with last month'
 
 @@ insurance | Health insurance and unemployment insurance
 @summary Track employee health cover and the ILOE unemployment scheme, with renewals, dependants and costs.
+@status planned
 
 ## Health insurance
 

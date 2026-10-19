@@ -531,7 +531,7 @@ DocFlow keeps every submitted and cancelled document, with its version history a
 - Stock records and asset registers
 - Contracts and agreements for significant transactions
 
-## The FTA Audit File (FAF)
+## The FTA Audit File (FAF) {planned}
 
 During an audit, the FTA may request data in the **FTA Audit File** format.
 
@@ -692,7 +692,7 @@ Businesses that import excise goods, produce them, hold them in a designated zon
 2. Create accounts for **Excise Tax Payable** and, for recoverable amounts, **Excise Tax Recoverable**.
 3. Create an **Excise Tax** template for purchases (imports) and production.
 4. Track stock of excise goods in separate warehouses if you hold them in a designated zone.
-5. Use the **Excise Tax Return** report to prepare the monthly return.
+5. Use the **Excise Tax Return** report to prepare the monthly return. {planned}
 
 !fig Item with excise category and excise tax template
 
@@ -717,7 +717,7 @@ Retailers registered in the **Tax Refund for Tourists Scheme** can issue tax-fre
 ## How it works
 
 1. Register with the scheme operator and install their terminal or integration.
-2. At the point of sale, for an eligible tourist, mark the invoice as **Tourist Refund** and capture the passport details through the operator's system.
+2. At the point of sale, for an eligible tourist, mark the invoice as **Tourist Refund** and capture the passport details through the operator's system. {planned}
 3. The tourist validates the purchase at the airport or border on departure.
 4. The operator refunds the tourist (less an administration fee).
 5. DocFlow reports the refunded VAT in **Box 2** of the VAT return.

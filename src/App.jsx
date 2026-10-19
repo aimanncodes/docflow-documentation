@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Search from "./components/Search";
 import DocPage from "./components/DocPage";
 import Home from "./components/Home";
+import Planned from "./components/Planned";
 import Icon from "./components/Icon";
 
 function Shell() {
@@ -68,7 +69,7 @@ function Shell() {
         </header>
 
         <main className="df-content">
-          {activeModule ? <DocPage lang={lang} t={t} /> : <Home lang={lang} t={t} onSearch={() => setSearchOpen(true)} />}
+          {activeModule === "planned" ? <Planned lang={lang} t={t} /> : activeModule ? <DocPage lang={lang} t={t} /> : <Home lang={lang} t={t} onSearch={() => setSearchOpen(true)} />}
         </main>
       </div>
 

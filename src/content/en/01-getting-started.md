@@ -505,7 +505,7 @@ Useful rules for UAE companies:
 | --- | --- | --- |
 | Invoice overdue | 7 days after due date | Customer's accounts contact |
 | Trade licence expiring | 30 days before expiry | PRO |
-| Visa, Emirates ID or passport expiring | 60 days before | HR officer |
+| Visa, Emirates ID or passport expiring {planned} | 60 days before | HR officer |
 | Large purchase order | Grand total above AED 50,000 | Finance manager |
 | VAT return due | 10 days before the deadline | Accounts manager |
 | Bank guarantee expiring | 30 days before | Finance |
@@ -560,7 +560,7 @@ Every document type in DocFlow has a list. Learning to filter and switch views w
 | --- | --- |
 | Overdue invoices over AED 10,000 | Status = Overdue, Outstanding Amount > 10000 |
 | This quarter's purchase orders from China | Supplier Country = China, Transaction Date timespan = this quarter |
-| Employees with visas expiring in 60 days | Visa Expiry between today and today + 60 |
+| Employees with visas expiring in 60 days {planned} | Visa Expiry between today and today + 60 |
 
 ## Saving filters and sharing views
 
@@ -892,7 +892,7 @@ Exports are recorded in the access log.
 
 Do not delete transactions to save space; DocFlow is designed to keep them, and cancelled documents remain for audit.
 
-## FTA audit file
+## FTA audit file {planned}
 
 For a tax audit, generate the **FTA Audit File (FAF)** from [UAE Compliance](/uae-compliance/records-audit), which exports the general ledger, sales and purchase listings in the format the FTA expects.
 

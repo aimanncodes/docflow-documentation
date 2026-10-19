@@ -590,7 +590,7 @@ A **Dashboard** collects charts and number cards on one page. Examples:
 | Management | Sales, gross profit, cash, receivables, payables |
 | Sales | Orders by territory, top customers, conversion |
 | Stock | Stock value, slow-moving items, items below reorder level |
-| HR | Headcount, joiners and leavers, visas expiring |
+| HR {planned} | Headcount, joiners and leavers, visas expiring |
 | VAT | Output and input VAT per quarter |
 
 ## Refresh and permissions
@@ -737,7 +737,7 @@ Send document events to other systems automatically. See [Automation tools](/fra
 | Logistics / courier | Delivery notes out; tracking numbers in |
 | Bank statements | Import statements for [reconciliation](/accounting/bank-reconciliation) |
 | Biometric attendance | Device pushes check-ins to Employee Checkin |
-| WPS | SIF file generated for your bank or exchange house |
+| WPS {planned} | SIF file generated for your bank or exchange house |
 | BI tools | Power BI or similar via API or read-only reports |
 
 :::warning Least privilege

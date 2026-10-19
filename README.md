@@ -80,3 +80,12 @@ Add a block to `src/content/<lang>/extra/NN-module.md`:
 3. Save the PNG with that name. The manual shows it automatically instead of the placeholder.
 
 Both languages use the same image files.
+
+## Planned features
+
+Mark content that describes something not yet built in DocFlow:
+
+- `@status planned` on the line after `@summary` marks a whole page.
+- `{planned}` at the end of a heading, list item or step, or in the first cell of a table row, marks just that part.
+
+Marked items get an orange **Planned** label and appear automatically on the **Planned features** page (`/en/planned`). Keep the markers identical in the `en` and `ar` files. See `PLANNED_FEATURES.md` for the current list.

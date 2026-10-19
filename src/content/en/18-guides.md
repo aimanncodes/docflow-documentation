@@ -183,7 +183,7 @@ The supplier invoices are entered in their currencies, with the advance applied.
 5. Create the [payroll entry](/hr-payroll/wps-payroll), get employees and create salary slips.
 6. Compare the salary register with last month and explain big differences.
 7. Submit salary slips; the payroll journal is posted.
-8. Generate the WPS SIF file and upload it to the bank.
+8. Generate the WPS SIF file and upload it to the bank. {planned}
 9. When the bank confirms, record the payment entry.
 
 !fig Payroll entry with salary slip totals and the WPS file action
@@ -191,8 +191,8 @@ The supplier invoices are entered in their currencies, with the advance applied.
 ## After payment
 
 10. Payslips are emailed to employees as password-protected PDFs.
-11. The gratuity accrual and air ticket accrual are posted.
-12. Pension contributions for UAE nationals are paid to the authority.
+11. The gratuity accrual and air ticket accrual are posted. {planned}
+12. Pension contributions for UAE nationals are paid to the authority. {planned}
 
 @@ fit-out-project | A fit-out project
 @summary Win, plan, deliver and bill a lobby fit-out with milestones and retention.
@@ -295,7 +295,7 @@ Pin the **HR & Payroll** workspace with shortcuts for Employee, Leave Applicatio
 ## Monthly
 
 - Prepare data for [payroll](/guides/monthly-payroll).
-- Review visa, Emirates ID and insurance expiries.
+- Review visa, Emirates ID and insurance expiries. {planned}
 - Onboard joiners and process leavers.
 
 ## Pages to read first

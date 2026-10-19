@@ -34,7 +34,10 @@ export default function DocPage({ lang, t }) {
   const active = useActiveHeading(headings.map((h) => h.anchor));
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const id = window.location.hash.slice(1);
+    const el = id && document.getElementById(id);
+    if (el) el.scrollIntoView({ block: "start" });
+    else window.scrollTo(0, 0);
   }, [modSlug, pageSlug]);
 
   if (!mod) return <Navigate to={`/${lang}`} replace />;
@@ -64,12 +67,14 @@ export default function DocPage({ lang, t }) {
             <span className="df-chip">{t.section} {page.num}</span>
             <span className="df-meta-dot">·</span>
             <span>{minutes} {t.minRead}</span>
+            {page.planned && <span className="df-planned">{t.planned}</span>}
           </div>
           <h1>{page.title}</h1>
           {page.summary && <p className="df-lede">{page.summary}</p>}
         </header>
 
         {!page.translated && <div className="df-banner">{t.notTranslated}</div>}
+        {page.planned && <div className="df-banner df-banner-planned">{t.plannedBanner}</div>}
 
         <div className="df-prose">
           <Blocks blocks={page.blocks} lang={lang} t={t} />
@@ -100,7 +105,7 @@ export default function DocPage({ lang, t }) {
                 e.preventDefault();
                 document.getElementById(h.anchor)?.scrollIntoView({ behavior: "smooth", block: "start" });
               }}>
-              {h.text.replace(/\*\*|`/g, "")}
+              {h.text.replace(/\{planned\}|\*\*|`/g, "").trim()}
             </a>
           ))}
         </aside>

@@ -756,3 +756,42 @@ html[dir="rtl"] .df-home-group-title { letter-spacing: 0; }
   .df-details-body { padding: 0 14px 4px; }
   html[dir="rtl"] .df-details-body { padding: 0 14px 4px; }
 }
+
+/* Planned features */
+.df-planned {
+  display: inline-block;
+  background: var(--warning-bg);
+  color: var(--warning);
+  border: 1px solid #f5d5ad;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  padding: 0 8px;
+  margin-inline: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+h1 .df-planned, h2 .df-planned, h3 .df-planned { font-size: 12px; }
+.df-banner-planned { border: 1px solid #f5d5ad; }
+.df-sb-planned {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--warning);
+  margin-inline-start: auto;
+}
+.df-pl-group h2 { margin-top: 36px; }
+.df-pl-page { margin: 14px 0 18px; }
+.df-pl-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--heading);
+  text-decoration: none;
+}
+.df-pl-title:hover { color: var(--primary-text); }
+.df-pl-page ul { margin-top: 6px; }

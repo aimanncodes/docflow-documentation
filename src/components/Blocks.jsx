@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { parseInline } from "../lib/markdown";
 import Icon from "./Icon";
+import { STRINGS } from "../lib/i18n";
 
 export function Inline({ text, lang }) {
   return parseInline(text).map((tok, i) => {
+    if (tok.t === "planned") return <span key={i} className="df-planned">{STRINGS[lang]?.planned || "Planned"}</span>;
     if (tok.t === "b") return <strong key={i}>{tok.v}</strong>;
     if (tok.t === "i") return <em key={i}>{tok.v}</em>;
     if (tok.t === "code") return <code key={i}>{tok.v}</code>;
@@ -61,7 +63,7 @@ export default function Blocks({ blocks, lang, t }) {
       case "h2":
         return <h2 key={i} id={b.anchor}><Inline text={b.text} lang={lang} /></h2>;
       case "h3":
-        return <h3 key={i}><Inline text={b.text} lang={lang} /></h3>;
+        return <h3 key={i} id={b.anchor}><Inline text={b.text} lang={lang} /></h3>;
       case "p":
         return <p key={i}><Inline text={b.text} lang={lang} /></p>;
       case "ul":

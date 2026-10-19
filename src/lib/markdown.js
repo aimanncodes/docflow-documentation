@@ -9,6 +9,7 @@
  *   :::tip|note|warning|uae|example Title   → callout, closed by :::
  *   :::details Question                    → collapsible accordion, closed by :::
  *   inline: **bold**, *italic*, `code`, [label](/module/page)
+ *   {planned}                              → "Planned" chip; marks a feature not yet built
  */
 
 export function parseBlocks(src) {
@@ -88,13 +89,14 @@ export function parseBlocks(src) {
 /** Splits inline markdown into tokens React can render. */
 export function parseInline(text) {
   const out = [];
-  const re = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g;
+  const re = /(\{planned\}|\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g;
   let last = 0;
   let m;
   while ((m = re.exec(text))) {
     if (m.index > last) out.push({ t: "text", v: text.slice(last, m.index) });
     const s = m[0];
-    if (s.startsWith("**")) out.push({ t: "b", v: s.slice(2, -2) });
+    if (s === "{planned}") out.push({ t: "planned" });
+    else if (s.startsWith("**")) out.push({ t: "b", v: s.slice(2, -2) });
     else if (s.startsWith("`")) out.push({ t: "code", v: s.slice(1, -1) });
     else if (s.startsWith("[")) {
       const [, label, href] = s.match(/\[([^\]]+)\]\(([^)]+)\)/);
@@ -115,5 +117,6 @@ export function plainText(blocks) {
       return b.text || b.caption || "";
     })
     .join(" ")
+    .replace(/\{planned\}/g, "")
     .replace(/\*\*|`|\*|\[|\]\([^)]*\)/g, "");
 }
