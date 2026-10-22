@@ -795,3 +795,4 @@ h1 .df-planned, h2 .df-planned, h3 .df-planned { font-size: 12px; }
 }
 .df-pl-title:hover { color: var(--primary-text); }
 .df-pl-page ul { margin-top: 6px; }
+.df-pl-sub { color: var(--text-3); }
