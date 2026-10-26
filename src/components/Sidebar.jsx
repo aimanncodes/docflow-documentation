@@ -57,6 +57,10 @@ export default function Sidebar({ lang, t, activeModule, onSearch, onNavigate, o
           <Icon name="flag" size={16} />
           <span>{t.plannedFeatures}</span>
         </NavLink>
+        <NavLink to={`/${lang}/uae`} className="df-sb-row df-sb-top" onClick={onNavigate}>
+          <Icon name="pin" size={16} />
+          <span>{t.uaeFeatures}</span>
+        </NavLink>
 
         {GROUPS.map((g) => (
           <div key={g.id} className="df-sb-group">
