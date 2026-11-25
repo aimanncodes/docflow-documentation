@@ -1,0 +1,3 @@
+16.2 Branches and departments
+
+fig-16.2.1.png  —  Department tree with Operations, Finance and Sales departments

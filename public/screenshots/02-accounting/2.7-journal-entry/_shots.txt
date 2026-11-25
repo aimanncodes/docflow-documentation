@@ -1,0 +1,4 @@
+2.7 Journals
+
+fig-2.7.1.png  —  A new Other Expenses document for an entity with two expense lines, one marked Non-Deductible
+fig-2.7.2.png  —  A Mutual Settlement after Get open items, with a customer and a supplier chosen and the open sales invoices listed under Accounts Receivable

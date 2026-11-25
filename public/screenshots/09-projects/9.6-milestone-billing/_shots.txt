@@ -1,0 +1,3 @@
+9.6 Milestone and progress billing
+
+fig-9.6.1.png  —  Sales order payment schedule with advance, progress and retention milestones

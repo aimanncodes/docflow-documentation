@@ -1,3 +1,0 @@
-1.13 Backups and exporting data
-
-fig-1.13.1.png  —  Backups page listing recent database and file backups with download links

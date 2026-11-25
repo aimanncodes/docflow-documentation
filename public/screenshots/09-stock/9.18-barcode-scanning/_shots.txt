@@ -1,3 +1,0 @@
-9.18 Barcodes and scanning
-
-fig-9.18.1.png  —  Item barcodes table with EAN codes for piece and carton

@@ -1,0 +1,4 @@
+1.9 The user menu
+
+fig-1.9.1.png  —  The user menu open from the Accounting sidebar header, with Desktop, Workspaces, Website, Edit Sidebar, Display, Session Defaults, Reload, Help and Logout
+fig-1.9.2.png  —  The Session Defaults window with Default Entity set to Al Noor Trading LLC, the Settings button and the Save button

@@ -1,0 +1,4 @@
+4.6 Purchase Entry
+
+fig-4.6.1.png  —  The Main tab of a Purchase Entry showing the supplier invoice date, posting and due dates, the Lines table with VAT per line, the Tax Invoice Received with This Invoice tick box, Tax Invoice Status Awaiting and the totals
+fig-4.6.2.png  —  The Tax Invoice Received dialog with the Supplier's tax invoice no and Tax invoice date fields and the Record button

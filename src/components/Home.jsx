@@ -5,11 +5,11 @@ import { getContent } from "../lib/content";
 import Icon from "./Icon";
 
 const POPULAR = [
-  ["uae-compliance", "vat-setup"],
+  ["vat-compliance", "vat-setup"],
   ["accounting", "sales-invoice"],
-  ["hr-payroll", "wps-payroll"],
-  ["uae-compliance", "vat-return"],
-  ["hr-payroll", "gratuity"],
+  ["human-resources", "wps-payroll"],
+  ["vat-compliance", "vat-return"],
+  ["human-resources", "gratuity"],
   ["stock", "warehouses"],
 ];
 
@@ -33,7 +33,7 @@ export default function Home({ lang, t, onSearch }) {
             {t.startHere}
             <Icon name="arrow" size={16} className="df-flip" />
           </Link>
-          <Link className="df-btn df-btn-secondary" to={`/${lang}/uae-compliance/vat-setup`}>{t.vatGuide}</Link>
+          <Link className="df-btn df-btn-secondary" to={`/${lang}/vat-compliance/vat-setup`}>{t.vatGuide}</Link>
         </div>
       </section>
 

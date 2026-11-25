@@ -1,4 +1,0 @@
-13.2 Tasks, dependencies and Gantt
-
-fig-13.2.1.png  —  Task form with dependencies, expected time and assignee
-fig-13.2.2.png  —  Gantt chart of a fit-out project showing task bars and dependencies

@@ -1,0 +1,3 @@
+3.0 Assets at a glance
+
+fig-3.0.1.png  —  Assets workspace with asset value by category, upcoming depreciation and the sidebar with Fixed Asset Entry after Depreciation Schedule

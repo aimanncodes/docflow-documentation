@@ -1,0 +1,3 @@
+10.6 Internal audits
+
+fig-10.6.1.png  —  Internal audit project with tasks per procedure and linked non-conformances

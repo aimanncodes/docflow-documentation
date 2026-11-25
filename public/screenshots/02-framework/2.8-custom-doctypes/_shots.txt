@@ -1,3 +1,0 @@
-2.8 Custom document types
-
-fig-2.8.1.png  —  New DocType form for Vehicle with fields, naming and permissions

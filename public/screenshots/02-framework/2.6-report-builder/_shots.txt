@@ -1,3 +1,0 @@
-2.6 Report builder and custom reports
-
-fig-2.6.1.png  —  Report view with chosen columns, group by customer and totals row

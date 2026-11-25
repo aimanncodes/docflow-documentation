@@ -1,3 +1,0 @@
-4.15 Payment reconciliation
-
-fig-4.15.1.png  —  Payment reconciliation matching two payments against three invoices

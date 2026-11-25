@@ -1,7 +1,7 @@
 # Screenshot checklist
 
 Save each PNG with the exact file name shown. The manual picks it up automatically.
-Total screenshots: **275**
+Total screenshots: **334**
 
 
 ## 01-getting-started
@@ -9,782 +9,828 @@ Total screenshots: **275**
 ### 1.0 Welcome to DocFlow
 Folder: `public/screenshots/01-getting-started/1.0-welcome/`
 
-- [ ] `fig-1.0.1.png`: The DocFlow home screen showing the module launcher grouped into Finance, Trade and Production
+- [x] `fig-1.0.1.png`: The DocFlow home screen with the greeting, the quick action buttons and the module tiles grouped under Finance, Trade, Production, Apps and Setup
 
-### 1.1 First login and the setup wizard
-Folder: `public/screenshots/01-getting-started/1.1-first-login/`
+### 1.1 Signing in
+Folder: `public/screenshots/01-getting-started/1.1-sign-in/`
 
-- [ ] `fig-1.1.1.png`: The DocFlow sign-in page with email, password and the Sign In button
-- [ ] `fig-1.1.2.png`: Setup wizard step for company details with name, abbreviation and industry
-- [ ] `fig-1.1.3.png`: Confirmation screen shown when the setup wizard completes
+- [x] `fig-1.1.1.png`: The Sign In page with the Email and Password fields, the Forgot password? link, the Continue button, the Login with Email Link button and the Open Employee Self Service link
+- [x] `fig-1.1.2.png`: The Verification screen with the text "Enter Code displayed in OTP App.", the Verification Code field, the Verify button and the Back to sign in button
 
-### 1.2 Finding your way around
-Folder: `public/screenshots/01-getting-started/1.2-navigating/`
+### 1.2 First-time setup
+Folder: `public/screenshots/01-getting-started/1.2-first-login/`
 
-- [ ] `fig-1.2.1.png`: Home screen with greeting, quick actions and module cards
-- [ ] `fig-1.2.2.png`: Accounting workspace with number cards, charts and shortcuts
-- [ ] `fig-1.2.3.png`: Global search showing results for a customer name
+- [x] `fig-1.2.1.png`: Setup wizard step 1 of 4, Welcome, with Your Language set to English, Your Country to United Arab Emirates, Time Zone to Asia/Dubai, Currency to AED and the Next button
+- [x] `fig-1.2.2.png`: Setup wizard step 4 of 4, Setup your organization, with Entity Name "Al Noor Trading LLC", Entity Abbreviation "ANT", an empty Chart of Accounts, Financial Year Begins On 01/01/2026, the Generate Demo Data for Exploration check box and the Previous and Complete Setup buttons
 
-### 1.3 How documents move through DocFlow
-Folder: `public/screenshots/01-getting-started/1.3-document-lifecycle/`
+### 1.3 The home screen
+Folder: `public/screenshots/01-getting-started/1.3-home-screen/`
 
-- [ ] `fig-1.3.1.png`: A sales invoice form showing the Draft status indicator next to the title
-- [ ] `fig-1.3.2.png`: Connections tab showing a sales order linked to its delivery note and invoice
+- [x] `fig-1.3.1.png`: The home screen with the header bar, the "Good Evening, Administrator" greeting, the quick action buttons and the Finance, Trade, Production, Apps and Setup categories
+- [x] `fig-1.3.2.png`: The Accounting folder opened from its tile, with the module rail on the far left (Invoicing, Finance, Financial Reports, Accounts Setup, Taxes, Banking, Budget, Share Management, Subscription), the sidebar and the Invoicing home page
 
-### 1.4 Users, roles and permissions
-Folder: `public/screenshots/01-getting-started/1.4-users-roles/`
+### 1.4 Moving around a module
+Folder: `public/screenshots/01-getting-started/1.4-navigating/`
 
-- [ ] `fig-1.4.1.png`: New user form with email, name, user type and role profile
-- [ ] `fig-1.4.2.png`: User permission restricting a user to the Sharjah branch
+- [x] `fig-1.4.1.png`: A module with the module rail on the far left, the sidebar with Search, Notification and the module links, the page head with breadcrumbs, and the module home with a Profit and Loss chart, number cards, the Accounting Setup card and Quick Links
+- [x] `fig-1.4.2.png`: The page head of the Sales Invoice list: breadcrumbs, List View, Saved Filters, the refresh and menu buttons, + Add Sales Invoice, the bookmark, the Setup pill showing 0/6 and the theme button
 
-### 1.5 Importing your existing data
-Folder: `public/screenshots/01-getting-started/1.5-data-import/`
+### 1.5 Searching
+Folder: `public/screenshots/01-getting-started/1.5-search/`
 
-- [ ] `fig-1.5.1.png`: Data Import form with document type, import type and template download
-- [ ] `fig-1.5.2.png`: Import log listing successful rows and one failed row with its error message
+- [x] `fig-1.5.1.png`: The search bar opened over the home screen with "sales inv" typed and the results Sales Invoice List, Sales Invoice Report, New Sales Invoice, Report Sales Invoice Trends and Search for sales inv; the footer shows the keys to navigate, select, close and open Global Search
+- [x] `fig-1.5.2.png`: Global Search for "Gulf Horizon" with the chips All, Customer, Supplier, Item, Warehouse, Account and More, and the results grouped as Sales Invoice (4 results) and Customer (1 result)
 
-### 1.6 Print formats and letterheads
-Folder: `public/screenshots/01-getting-started/1.6-printing/`
+### 1.6 Choosing your entity
+Folder: `public/screenshots/01-getting-started/1.6-entity/`
 
-- [ ] `fig-1.6.1.png`: Letter head form with logo upload and footer containing TRN and address
-- [ ] `fig-1.6.2.png`: Print preview of a tax invoice with format and letterhead selectors
-- [ ] `fig-1.6.3.png`: Print format builder with draggable fields and section layout
+- [x] `fig-1.6.1.png`: The Entity picker at the top right of the Sales Invoice list, open with Al Noor Trading LLC (checked) and Al Noor Logistics FZE
 
-### 1.7 Notifications, emails and alerts
-Folder: `public/screenshots/01-getting-started/1.7-notifications/`
+### 1.7 Theme and language
+Folder: `public/screenshots/01-getting-started/1.7-theme-language/`
 
-- [ ] `fig-1.7.1.png`: Notification panel listing an assignment and a mention
-- [ ] `fig-1.7.2.png`: Notification rule set to alert HR 60 days before visa expiry
+- [x] `fig-1.7.1.png`: The Switch Theme window over the home screen with the Light (selected), Dark and Automatic previews
+- [x] `fig-1.7.2.png`: The home screen in Arabic, laid out from right to left, with the logo at the top right, the AR / EN switch and the module tiles under المالية, التجارة and الإنتاج
 
-### 1.8 Lists, filters and views
-Folder: `public/screenshots/01-getting-started/1.8-list-views/`
+### 1.8 Notifications
+Folder: `public/screenshots/01-getting-started/1.8-notifications/`
 
-- [ ] `fig-1.8.1.png`: Sales invoice list filtered to unpaid invoices for the Abu Dhabi territory
+- [x] `fig-1.8.1.png`: The notifications panel open from the bell on the home screen, with the Notifications and Events tabs, the settings, mark-all-read and close icons, an assignment and a mention, and See all Activity
 
-### 1.9 Working together: comments, assignments and sharing
-Folder: `public/screenshots/01-getting-started/1.9-collaboration/`
+### 1.9 The user menu
+Folder: `public/screenshots/01-getting-started/1.9-user-menu/`
 
-- [ ] `fig-1.9.1.png`: Document timeline with a comment, a mention and a version change
+- [x] `fig-1.9.1.png`: The user menu open from the Accounting sidebar header, with Desktop, Workspaces, Website, Edit Sidebar, Display, Session Defaults, Reload, Help and Logout
+- [x] `fig-1.9.2.png`: The Session Defaults window with Default Entity set to Al Noor Trading LLC, the Settings button and the Save button
 
-### 1.10 System settings
-Folder: `public/screenshots/01-getting-started/1.10-system-settings/`
+### 1.10 Working with lists
+Folder: `public/screenshots/01-getting-started/1.10-list-views/`
 
-- [ ] `fig-1.10.1.png`: System Settings with country, time zone, date format and precision
+- [x] `fig-1.10.1.png`: The Sales Invoice list filtered with Customer "Gulf Horizon Hospitality LLC" and Status "Paid", showing one record, 1 of 1
+- [x] `fig-1.10.2.png`: The Sales Invoice list with three rows ticked, "3 items selected", and the Actions menu open with Payment, Copy to Clipboard, Edit, Export, Assign To, Clear Assignment, Apply Assignment Rule, Add Tags, Print, Submit, Cancel and Delete
 
-### 1.11 Passwords, 2FA and security
-Folder: `public/screenshots/01-getting-started/1.11-security/`
+### 1.11 Working with forms
+Folder: `public/screenshots/01-getting-started/1.11-forms/`
 
-- [ ] `fig-1.11.1.png`: Two-factor sign-in screen asking for the six-digit code
+- [x] `fig-1.11.1.png`: A new Sales Invoice form marked Not Saved, with the Details, Payments, Address & Contact, Terms and More Info tabs, mandatory fields marked with a red star and the Save button
+- [x] `fig-1.11.2.png`: A submitted Sales Invoice with the status Unpaid, the View, Create and E-invoice buttons, the Cancel button, the Connections tab and the form sidebar with Assign, Attachments, Tags and Share
+- [x] `fig-1.11.3.png`: The bottom of a Sales Invoice with the Comments box, a comment that mentions @Hessa Al Falasi, the Activity list with field changes, the Show all activity switch and New Email
 
-### 1.12 Using DocFlow on mobile and tablet
-Folder: `public/screenshots/01-getting-started/1.12-mobile-access/`
+### 1.13 How documents move through DocFlow
+Folder: `public/screenshots/01-getting-started/1.13-document-lifecycle/`
 
-- [ ] `fig-1.12.1.png`: DocFlow list view on a phone showing sales orders and the search bar
+- [ ] `fig-1.13.1.png`: A Sales Invoice form showing the Draft status label next to its title
+- [ ] `fig-1.13.2.png`: The Connections tab of a sales order showing its linked delivery note and sales invoice with counts
 
-### 1.13 Backups and exporting data
-Folder: `public/screenshots/01-getting-started/1.13-backups-export/`
+### 1.14 Other views
+Folder: `public/screenshots/01-getting-started/1.14-other-views/`
 
-- [ ] `fig-1.13.1.png`: Backups page listing recent database and file backups with download links
+- [x] `fig-1.14.1.png`: The view switcher open on the Sales Invoice list with Report View, Dashboard View and Kanban View
+- [x] `fig-1.14.2.png`: The Sales Invoice Report View grouped by Customer, with a Count column for each customer and a Totals row of 13
 
-### 1.14 Glossary
-Folder: `public/screenshots/01-getting-started/1.14-glossary/`
+### 1.15 Printing and PDF
+Folder: `public/screenshots/01-getting-started/1.15-printing/`
 
-- [ ] `fig-1.14.1.png`: Search results showing a glossary term highlighted
+- [x] `fig-1.15.1.png`: The print page of a sales invoice with Print Format "UAE Bilingual Tax Invoice", Language "English" and a letter head on the left, the Default language chip, the Full Page, PDF, Refresh and Print buttons, and a bilingual Tax Invoice preview
 
-## 02-framework
+### 1.16 Keyboard shortcuts
+Folder: `public/screenshots/01-getting-started/1.16-keyboard-shortcuts/`
 
-### 2.0 Framework at a glance
-Folder: `public/screenshots/02-framework/2.0-overview/`
+- [ ] `fig-1.16.1.png`: The Keyboard Shortcuts window over a list, with Global Shortcuts (Ctrl+K, Ctrl+G, Ctrl+/, Shift+/, Shift+Ctrl+G) and Page Shortcuts (Down, Up, Shift+Down / Shift+Up, Enter, Space)
+- [x] `fig-1.16.2.png`: The CRM Keyboard shortcuts window over the Pipeline board, with Go to, On a list or board and Anywhere groups
 
-- [ ] `fig-2.0.1.png`: Framework workspace with links to customisation, automation, permissions and integrations
+### 1.18 Using DocFlow on mobile and tablet
+Folder: `public/screenshots/01-getting-started/1.18-mobile-access/`
 
-### 2.1 Customise form
-Folder: `public/screenshots/02-framework/2.1-customize-form/`
+- [ ] `fig-1.18.1.png`: DocFlow list view on a phone showing sales orders and the search bar
 
-- [ ] `fig-2.1.1.png`: Customise Form for Customer with the fields table and property panel
-- [ ] `fig-2.1.2.png`: Field properties showing a Depends On condition for free zone customers
+## 02-accounting
 
-### 2.2 Custom fields
-Folder: `public/screenshots/02-framework/2.2-custom-fields/`
+### 2.0 Accounting at a glance
+Folder: `public/screenshots/02-accounting/2.0-overview/`
 
-- [ ] `fig-2.2.1.png`: New custom field for trade licence expiry on the Customer form
+- [x] `fig-2.0.1.png`: The Finance workspace with its sidebar, the Payments Received per Month chart and the post-dated cheque cards
 
-### 2.3 Naming series and document numbers
-Folder: `public/screenshots/02-framework/2.3-naming-series/`
+### 2.1 The Finance workspace
+Folder: `public/screenshots/02-accounting/2.1-finance-workspace/`
 
-- [ ] `fig-2.3.1.png`: Document naming settings with two sales invoice series for Dubai and Abu Dhabi
+- [x] `fig-2.1.1.png`: The Finance workspace: sidebar on the left, Payments Received per Month chart, and the Received This Month, Paid This Month, Due Post-Dated Cheques and Uncleared Post-Dated Cheques cards
 
-### 2.4 Approval workflows
-Folder: `public/screenshots/02-framework/2.4-workflows/`
+### 2.2 Chart of accounts
+Folder: `public/screenshots/02-accounting/2.2-chart-of-accounts/`
 
-- [ ] `fig-2.4.1.png`: Workflow for purchase orders with states and transitions table
-- [ ] `fig-2.4.2.png`: Purchase order showing workflow actions Approve and Reject in the toolbar
+- [ ] `fig-2.2.1.png`: Chart of accounts tree with assets expanded to show bank and receivable accounts
 
-### 2.5 Role permissions
-Folder: `public/screenshots/02-framework/2.5-permissions/`
+### 2.3 Sales invoices
+Folder: `public/screenshots/02-accounting/2.3-sales-invoice/`
 
-- [ ] `fig-2.5.1.png`: Role Permissions Manager for Sales Invoice with roles and rights
+- [ ] `fig-2.3.1.png`: Get items from several delivery notes into one sales invoice
+- [ ] `fig-2.3.2.png`: Taxes and charges table with VAT 5 percent and a freight charge
 
-### 2.6 Report builder and custom reports
-Folder: `public/screenshots/02-framework/2.6-report-builder/`
+### 2.4 Purchase invoices
+Folder: `public/screenshots/02-accounting/2.4-purchase-invoice/`
 
-- [ ] `fig-2.6.1.png`: Report view with chosen columns, group by customer and totals row
+- [ ] `fig-2.4.1.png`: Purchase invoice created from two purchase receipts
+- [ ] `fig-2.4.2.png`: Purchase taxes table with input VAT and freight added to valuation
 
-### 2.7 Automation tools
-Folder: `public/screenshots/02-framework/2.7-automation/`
+### 2.5 Bank and Cash Transactions
+Folder: `public/screenshots/02-accounting/2.5-payment-entry/`
 
-- [ ] `fig-2.7.1.png`: Auto Repeat set up for a monthly maintenance invoice
-- [ ] `fig-2.7.2.png`: Server script that validates TRN before an invoice is saved
+- [x] `fig-2.5.1.png`: A new Bank Transaction with Receipt / Payment set to Receipt, Type set to Receipt from customer, and Payment Type and Party Type filled in
 
-### 2.8 Custom document types
-Folder: `public/screenshots/02-framework/2.8-custom-doctypes/`
+### 2.6 Post-dated cheques
+Folder: `public/screenshots/02-accounting/2.6-post-dated-cheques/`
 
-- [ ] `fig-2.8.1.png`: New DocType form for Vehicle with fields, naming and permissions
+- [x] `fig-2.6.1.png`: A submitted PDC Received: Account Paid To is PDC Receivable, the amount and the sales invoice it settles are shown, and the Clear button is at the top
+- [x] `fig-2.6.2.png`: A cleared PDC Received with Cleared ticked and the Bank Transaction link at the top
 
-### 2.9 Customising workspaces
-Folder: `public/screenshots/02-framework/2.9-workspace-customisation/`
+### 2.7 Journals
+Folder: `public/screenshots/02-accounting/2.7-journal-entry/`
 
-- [ ] `fig-2.9.1.png`: Accounting workspace in edit mode with blocks being added and moved
+- [x] `fig-2.7.1.png`: A new Other Expenses document for an entity with two expense lines, one marked Non-Deductible
+- [x] `fig-2.7.2.png`: A Mutual Settlement after Get open items, with a customer and a supplier chosen and the open sales invoices listed under Accounts Receivable
 
-### 2.10 Dashboards, charts and number cards
-Folder: `public/screenshots/02-framework/2.10-dashboards/`
+### 2.8 Sales Returns and Purchase Returns
+Folder: `public/screenshots/02-accounting/2.8-credit-debit-notes/`
 
-- [ ] `fig-2.10.1.png`: Management dashboard with monthly sales, receivables and stock value charts
+- [x] `fig-2.8.1.png`: A new sales return with Is Return (Credit Note) ticked, Return Against filled and the Return Type field with its help text
 
-### 2.11 Email templates
-Folder: `public/screenshots/02-framework/2.11-email-templates/`
+### 2.9 Bank reconciliation
+Folder: `public/screenshots/02-accounting/2.9-bank-reconciliation/`
 
-- [ ] `fig-2.11.1.png`: Email template with subject and body using invoice fields
+- [ ] `fig-2.9.1.png`: Bank Reconciliation Tool matching a bank credit to a Bank Transaction
 
-### 2.12 Arabic labels and translations
-Folder: `public/screenshots/02-framework/2.12-translations/`
+### 2.10 Bank Statement Import
+Folder: `public/screenshots/02-accounting/2.10-bank-statement-import/`
 
-- [ ] `fig-2.12.1.png`: Translation record changing the Arabic label for a field
+- [x] `fig-2.10.1.png`: Bank Statement Import for an entity's AED current account, with the column mapping messages and the preview of deposits and withdrawals
 
-### 2.13 Integrations and API
-Folder: `public/screenshots/02-framework/2.13-integrations-api/`
+### 2.11 Cost centres, dimensions and budgets
+Folder: `public/screenshots/02-accounting/2.11-cost-centres-budgets/`
 
-- [ ] `fig-2.13.1.png`: Integrations page listing connected services and their status
+- [ ] `fig-2.11.1.png`: Cost centre tree with Dubai and Abu Dhabi branches and divisions
+- [ ] `fig-2.11.2.png`: Budget for the marketing cost centre with monthly distribution and warning controls
 
-### 2.14 Role profiles and module profiles
-Folder: `public/screenshots/02-framework/2.14-role-profiles/`
+### 2.12 Foreign currency transactions
+Folder: `public/screenshots/02-accounting/2.12-multi-currency/`
 
-- [ ] `fig-2.14.1.png`: Role profile for a storekeeper with stock roles ticked
+- [ ] `fig-2.12.1.png`: Sales invoice in USD showing exchange rate and AED equivalent
 
-### 2.15 Bulk tools
-Folder: `public/screenshots/02-framework/2.15-bulk-tools/`
+### 2.13 Opening Balance
+Folder: `public/screenshots/02-accounting/2.13-opening-balances/`
 
-- [ ] `fig-2.15.1.png`: Bulk edit dialog setting the default warehouse on selected items
+- [x] `fig-2.13.1.png`: The Opening Balance screen with the Debtors section open, two customer rows and the Summary table below
 
-### 2.16 Version history and audit logs
-Folder: `public/screenshots/02-framework/2.16-audit-logs/`
+### 2.14 Month-End Closing
+Folder: `public/screenshots/02-accounting/2.14-period-closing/`
 
-- [ ] `fig-2.16.1.png`: Version history showing a changed rate and quantity on a sales order
+- [x] `fig-2.14.1.png`: The Month-End Closing screen for October with the Entity, Month and Closing Account filled in, and the preview listing each step with its documents and amounts
 
-## 03-organization
+### 2.15 Corporate Tax
+Folder: `public/screenshots/02-accounting/2.15-corporate-tax/`
 
-### 3.0 Organisation at a glance
-Folder: `public/screenshots/03-organization/3.0-overview/`
+- [x] `fig-2.15.1.png`: UAE Compliance Settings with the Corporate Tax Rate, Annual Threshold, the Corporate Tax Ledgers table and the Cash Receipt Threshold
 
-- [ ] `fig-3.0.1.png`: Organisation workspace with links to company, branches, departments and fiscal years
+### 2.16 Non-deductible expenses and Insight
+Folder: `public/screenshots/02-accounting/2.16-non-deductible-expenses/`
 
-### 3.1 Companies
-Folder: `public/screenshots/03-organization/3.1-company/`
+- [x] `fig-2.16.1.png`: A Purchase Entry line opened for editing, with Non-Deductible ticked, Non-Deductible Classification set to Entertainment and Disallowed % showing 50%
 
-- [ ] `fig-3.1.1.png`: New company form with name, abbreviation, currency and chart of accounts
-- [ ] `fig-3.1.2.png`: Company accounts tab showing default receivable, payable and bank accounts
+### 2.17 UAE Compliance Settings
+Folder: `public/screenshots/02-accounting/2.17-uae-compliance-settings/`
 
-### 3.2 Branches, departments and designations
-Folder: `public/screenshots/03-organization/3.2-branches-departments/`
+- [x] `fig-2.17.1.png`: UAE Compliance Settings with its three sections: Corporate Tax Provision (estimate), Corporate Tax Ledgers per Entity and Large Cash Receipts (AML)
 
-- [ ] `fig-3.2.1.png`: Department tree with Operations, Finance and Sales departments and their approvers
+### 2.18 Beneficial owners
+Folder: `public/screenshots/02-accounting/2.18-ubo-register/`
 
-### 3.3 Fiscal years
-Folder: `public/screenshots/03-organization/3.3-fiscal-year/`
+- [ ] `fig-2.18.1.png`: The Beneficial Owners section of the Entity form: a table with Full Name, Nationality, ID Number, Ownership %, Date Became Owner and Date Ceased, and an Add row button
 
-- [ ] `fig-3.3.1.png`: Fiscal year 2026 with start and end dates and linked companies
+### 2.19 Related parties and transfer pricing
+Folder: `public/screenshots/02-accounting/2.19-transfer-pricing/`
 
-### 3.4 Holiday lists
-Folder: `public/screenshots/03-organization/3.4-holiday-list/`
+- [ ] `fig-2.19.1.png`: Related Party Transactions report listing each related party with its relationship and the sales, purchases, journals, received and paid totals
 
-- [ ] `fig-3.4.1.png`: Holiday list for 2026 with weekly offs and UAE public holidays
+### 2.20 Anti-money laundering and large cash receipts
+Folder: `public/screenshots/02-accounting/2.20-aml-goaml/`
 
-### 3.5 Addresses and contacts
-Folder: `public/screenshots/03-organization/3.5-addresses-contacts/`
+- [x] `fig-2.20.1.png`: Large Cash Receipts for one month, showing one customer who paid AED 58,000 in cash on one day
 
-- [ ] `fig-3.5.1.png`: Address form for a customer with emirate, P.O. Box and billing preference
+### 2.21 Financial reports
+Folder: `public/screenshots/02-accounting/2.21-financial-reports/`
 
-### 3.6 Territories and groups
-Folder: `public/screenshots/03-organization/3.6-territories-groups/`
+- [ ] `fig-2.21.1.png`: Profit and loss statement for Q1 2026 with monthly columns
+- [ ] `fig-2.21.2.png`: Accounts receivable ageing chart with buckets coloured by age
 
-- [ ] `fig-3.6.1.png`: Territory tree with UAE emirates and GCC countries
+### 2.22 Finance reports
+Folder: `public/screenshots/02-accounting/2.22-finance-reports/`
 
-### 3.7 Running several companies
-Folder: `public/screenshots/03-organization/3.7-multi-company/`
+- [x] `fig-2.22.1.png`: Cash Flow (Direct Method) for January to November: Operating, Investing and Financing groups, the Unclassified line and the closing check line
 
-- [ ] `fig-3.7.1.png`: Company switcher in the session defaults with two group companies
+### 2.23 Accounts settings
+Folder: `public/screenshots/02-accounting/2.23-accounts-settings/`
 
-## 04-accounting
+- [ ] `fig-2.23.1.png`: Accounts settings with frozen date, credit controller and payment options
 
-### 4.0 Accounting at a glance
-Folder: `public/screenshots/04-accounting/4.0-overview/`
+### 2.24 Modes of payment
+Folder: `public/screenshots/02-accounting/2.24-mode-of-payment/`
 
-- [ ] `fig-4.0.1.png`: Accounting workspace with receivables, payables and profit and loss charts
+- [ ] `fig-2.24.1.png`: Mode of payment for card terminal with default account per company
 
-### 4.1 Chart of accounts
-Folder: `public/screenshots/04-accounting/4.1-chart-of-accounts/`
+### 2.25 Payment terms
+Folder: `public/screenshots/02-accounting/2.25-payment-terms/`
 
-- [ ] `fig-4.1.1.png`: Chart of accounts tree with assets expanded to show bank and receivable accounts
+- [ ] `fig-2.25.1.png`: Payment terms template with advance, delivery and retention lines
 
-### 4.2 Sales invoices
-Folder: `public/screenshots/04-accounting/4.2-sales-invoice/`
+### 2.26 Payment reconciliation
+Folder: `public/screenshots/02-accounting/2.26-payment-reconciliation/`
 
-- [ ] `fig-4.2.1.png`: Get items from several delivery notes into one sales invoice
-- [ ] `fig-4.2.2.png`: Taxes and charges table with VAT 5 percent and a freight charge
+- [ ] `fig-2.26.1.png`: Payment reconciliation matching two payments against three invoices
 
-### 4.3 Purchase invoices
-Folder: `public/screenshots/04-accounting/4.3-purchase-invoice/`
+### 2.27 Payment requests and payment links
+Folder: `public/screenshots/02-accounting/2.27-payment-request/`
 
-- [ ] `fig-4.3.1.png`: Purchase invoice created from two purchase receipts
-- [ ] `fig-4.3.2.png`: Purchase taxes table with input VAT and freight added to valuation
+- [ ] `fig-2.27.1.png`: Payment request email with a pay now link
 
-### 4.4 Payments and receipts
-Folder: `public/screenshots/04-accounting/4.4-payment-entry/`
+### 2.28 Dunning and payment reminders
+Folder: `public/screenshots/02-accounting/2.28-dunning/`
 
-- [ ] `fig-4.4.1.png`: Payment entry allocating a receipt across three invoices with an unallocated balance
-- [ ] `fig-4.4.2.png`: PDC register listing cheques by maturity date
+- [ ] `fig-2.28.1.png`: Dunning letter for an overdue invoice with the outstanding amount
 
-### 4.5 Journal entries
-Folder: `public/screenshots/04-accounting/4.5-journal-entry/`
+### 2.29 Point of sale
+Folder: `public/screenshots/02-accounting/2.29-pos/`
 
-- [ ] `fig-4.5.1.png`: Journal entry with accrual rows, cost centres and a user remark
+- [ ] `fig-2.29.1.png`: POS profile with warehouse, payment modes and print format
+- [ ] `fig-2.29.2.png`: Point of sale screen with items, cart and payment buttons
 
-### 4.6 Credit notes and debit notes
-Folder: `public/screenshots/04-accounting/4.6-credit-debit-notes/`
+### 2.30 Deferred revenue and expenses
+Folder: `public/screenshots/02-accounting/2.30-deferred-revenue/`
 
-- [ ] `fig-4.6.1.png`: Credit note created from a sales invoice with negative quantities and reason
+- [ ] `fig-2.30.1.png`: Sales invoice line with service start and end dates for deferred revenue
 
-### 4.7 Bank reconciliation
-Folder: `public/screenshots/04-accounting/4.7-bank-reconciliation/`
+### 2.31 Subscriptions and recurring billing
+Folder: `public/screenshots/02-accounting/2.31-subscriptions/`
 
-- [ ] `fig-4.7.1.png`: Bank statement import with column mapping
-- [ ] `fig-4.7.2.png`: Reconciliation screen matching a bank credit to a payment entry
+- [ ] `fig-2.31.1.png`: Subscription with a monthly plan and the next invoice date
 
-### 4.8 Cost centres, dimensions and budgets
-Folder: `public/screenshots/04-accounting/4.8-cost-centres-budgets/`
+### 2.32 Inter-company transactions
+Folder: `public/screenshots/02-accounting/2.32-inter-company/`
 
-- [ ] `fig-4.8.1.png`: Cost centre tree with Dubai and Abu Dhabi branches and divisions
-- [ ] `fig-4.8.2.png`: Budget for the marketing cost centre with monthly distribution and warning controls
+- [ ] `fig-2.32.1.png`: Inter-company purchase invoice created from the matching sales invoice
 
-### 4.9 Foreign currency transactions
-Folder: `public/screenshots/04-accounting/4.9-multi-currency/`
+### 2.33 Bank guarantees and letters of credit
+Folder: `public/screenshots/02-accounting/2.33-bank-guarantee/`
 
-- [ ] `fig-4.9.1.png`: Sales invoice in USD showing exchange rate and AED equivalent
+- [ ] `fig-2.33.1.png`: Bank guarantee record with amount, bank and validity dates
 
-### 4.10 Month-end and year-end closing
-Folder: `public/screenshots/04-accounting/4.10-period-closing/`
+### 2.34 Customer statements of account
+Folder: `public/screenshots/02-accounting/2.34-statement-of-accounts/`
 
-- [ ] `fig-4.10.1.png`: Accounting period closing sales and purchase invoices for March 2026
-- [ ] `fig-4.10.2.png`: Period closing voucher for fiscal year 2026
+- [ ] `fig-2.34.1.png`: Process statement of accounts with customers and monthly email schedule
 
-### 4.11 Financial reports
-Folder: `public/screenshots/04-accounting/4.11-financial-reports/`
+### 2.35 Petty cash
+Folder: `public/screenshots/02-accounting/2.35-petty-cash/`
 
-- [ ] `fig-4.11.1.png`: Profit and loss statement for Q1 2026 with monthly columns
-- [ ] `fig-4.11.2.png`: Accounts receivable ageing chart with buckets coloured by age
+- [ ] `fig-2.35.1.png`: Cash entry for site expenses with attached receipts
 
-### 4.12 Accounts settings
-Folder: `public/screenshots/04-accounting/4.12-accounts-settings/`
+### 2.36 Loyalty programmes
+Folder: `public/screenshots/02-accounting/2.36-loyalty-program/`
 
-- [ ] `fig-4.12.1.png`: Accounts settings with frozen date, credit controller and payment options
+- [ ] `fig-2.36.1.png`: Loyalty programme with tiers and collection and conversion factors
 
-### 4.13 Modes of payment
-Folder: `public/screenshots/04-accounting/4.13-mode-of-payment/`
+### 2.37 Shipping rules
+Folder: `public/screenshots/02-accounting/2.37-shipping-rules/`
 
-- [ ] `fig-4.13.1.png`: Mode of payment for card terminal with default account per company
+- [ ] `fig-2.37.1.png`: Shipping rule with net total conditions and charges
 
-### 4.14 Payment terms
-Folder: `public/screenshots/04-accounting/4.14-payment-terms/`
+### 2.38 Customers who are also suppliers
+Folder: `public/screenshots/02-accounting/2.38-common-party-accounting/`
 
-- [ ] `fig-4.14.1.png`: Payment terms template with advance, delivery and retention lines
+- [x] `fig-2.38.1.png`: A Mutual Settlement with a customer and a supplier chosen and their open items listed
 
-### 4.15 Payment reconciliation
-Folder: `public/screenshots/04-accounting/4.15-payment-reconciliation/`
+### 2.39 Bulk supplier payments
+Folder: `public/screenshots/02-accounting/2.39-payment-order/`
 
-- [ ] `fig-4.15.1.png`: Payment reconciliation matching two payments against three invoices
+- [ ] `fig-2.39.1.png`: Payment order grouping supplier payments for one bank upload
 
-### 4.16 Payment requests and payment links
-Folder: `public/screenshots/04-accounting/4.16-payment-request/`
+## 03-assets
 
-- [ ] `fig-4.16.1.png`: Payment request email with a pay now link
+### 3.0 Assets at a glance
+Folder: `public/screenshots/03-assets/3.0-overview/`
 
-### 4.17 Dunning and payment reminders
-Folder: `public/screenshots/04-accounting/4.17-dunning/`
+- [ ] `fig-3.0.1.png`: Assets workspace with asset value by category, upcoming depreciation and the sidebar with Fixed Asset Entry after Depreciation Schedule
 
-- [ ] `fig-4.17.1.png`: Dunning letter for an overdue invoice with the outstanding amount
+### 3.1 Asset categories
+Folder: `public/screenshots/03-assets/3.1-asset-category/`
 
-### 4.18 Point of sale
-Folder: `public/screenshots/04-accounting/4.18-pos/`
+- [ ] `fig-3.1.1.png`: Asset category for motor vehicles with depreciation settings and accounts per Entity
 
-- [ ] `fig-4.18.1.png`: POS profile with warehouse, payment modes and print format
-- [ ] `fig-4.18.2.png`: Point of sale screen with items, cart and payment buttons
+### 3.3 Fixed Asset Entry
+Folder: `public/screenshots/03-assets/3.3-fixed-asset-entry/`
 
-### 4.19 Deferred revenue and expenses
-Folder: `public/screenshots/04-accounting/4.19-deferred-revenue/`
+- [x] `fig-3.3.1.png`: The Create Asset dialog with Asset Category, Asset Name, Location and Custodian
 
-- [ ] `fig-4.19.1.png`: Sales invoice line with service start and end dates for deferred revenue
+### 3.4 Depreciation
+Folder: `public/screenshots/03-assets/3.4-depreciation/`
 
-### 4.20 Subscriptions and recurring billing
-Folder: `public/screenshots/04-accounting/4.20-subscriptions/`
+- [ ] `fig-3.4.1.png`: Depreciation schedule for a vehicle showing monthly amounts and accumulated depreciation
 
-- [ ] `fig-4.20.1.png`: Subscription with a monthly plan and the next invoice date
+### 3.5 Locations, movements, maintenance and repairs
+Folder: `public/screenshots/03-assets/3.5-asset-movement/`
 
-### 4.21 Inter-company transactions
-Folder: `public/screenshots/04-accounting/4.21-inter-company/`
+- [ ] `fig-3.5.1.png`: Asset movement transferring two laptops from head office to the Abu Dhabi branch
 
-- [ ] `fig-4.21.1.png`: Inter-company purchase invoice created from the matching sales invoice
+### 3.6 Selling, scrapping and revaluing assets
+Folder: `public/screenshots/03-assets/3.6-asset-disposal/`
 
-### 4.22 Bank guarantees and letters of credit
-Folder: `public/screenshots/04-accounting/4.22-bank-guarantee/`
+- [ ] `fig-3.6.1.png`: Sales invoice selling a used vehicle with the asset selected on the item row
+- [ ] `fig-3.6.2.png`: Asset value adjustment reducing the value of damaged equipment
 
-- [ ] `fig-4.22.1.png`: Bank guarantee record with amount, bank and validity dates
+### 3.7 Composite and grouped assets
+Folder: `public/screenshots/03-assets/3.7-composite-assets/`
 
-### 4.23 Customer statements of account
-Folder: `public/screenshots/04-accounting/4.23-statement-of-accounts/`
+- [ ] `fig-3.7.1.png`: Fixed Asset Entry combining stock items, a service and an existing asset into a cold room
 
-- [ ] `fig-4.23.1.png`: Process statement of accounts with customers and monthly email schedule
+### 3.8 Shift-based depreciation
+Folder: `public/screenshots/03-assets/3.8-shift-depreciation/`
 
-### 4.24 Petty cash
-Folder: `public/screenshots/04-accounting/4.24-petty-cash/`
+- [ ] `fig-3.8.1.png`: Asset shift allocation changing future months to double shift
 
-- [ ] `fig-4.24.1.png`: Cash entry for site expenses with attached receipts
+### 3.9 Asset settings and reports
+Folder: `public/screenshots/03-assets/3.9-asset-settings/`
 
-### 4.25 Loyalty programmes
-Folder: `public/screenshots/04-accounting/4.25-loyalty-program/`
+- [ ] `fig-3.9.1.png`: The Assets tab of the Entity form with depreciation and disposal accounts
 
-- [ ] `fig-4.25.1.png`: Loyalty programme with tiers and collection and conversion factors
+## 04-buying
 
-### 4.26 Shipping rules
-Folder: `public/screenshots/04-accounting/4.26-shipping-rules/`
+### 4.0 Buying at a glance
+Folder: `public/screenshots/04-buying/4.0-overview/`
 
-- [ ] `fig-4.26.1.png`: Shipping rule with net total conditions and charges
+- [ ] `fig-4.0.1.png`: Buying workspace with purchase trend, top suppliers and pending orders
 
-### 4.27 Opening balances and migration
-Folder: `public/screenshots/04-accounting/4.27-opening-balances/`
+### 4.1 Suppliers
+Folder: `public/screenshots/04-buying/4.1-suppliers/`
 
-- [ ] `fig-4.27.1.png`: Trial balance on go-live day with the temporary opening account at zero
+- [ ] `fig-4.1.1.png`: Supplier form with group, country, TRN, payment terms and holds
 
-### 4.28 Customers who are also suppliers
-Folder: `public/screenshots/04-accounting/4.28-common-party-accounting/`
+### 4.2 Material requests
+Folder: `public/screenshots/04-buying/4.2-material-request/`
 
-- [ ] `fig-4.28.1.png`: Contra journal settling a customer balance against the same company's supplier balance
+- [ ] `fig-4.2.1.png`: Material request for purchase with items and required-by dates
 
-### 4.29 Bulk supplier payments
-Folder: `public/screenshots/04-accounting/4.29-payment-order/`
+### 4.3 Requests for quotation and supplier quotations
+Folder: `public/screenshots/04-buying/4.3-rfq-supplier-quotation/`
 
-- [ ] `fig-4.29.1.png`: Payment order grouping supplier payments for one bank upload
+- [ ] `fig-4.3.1.png`: Request for quotation sent to three suppliers
+- [ ] `fig-4.3.2.png`: Supplier quotation comparison for steel sheets from three suppliers
 
-## 05-assets
+### 4.4 Purchase orders
+Folder: `public/screenshots/04-buying/4.4-purchase-order/`
 
-### 5.0 Assets at a glance
-Folder: `public/screenshots/05-assets/5.0-overview/`
+- [ ] `fig-4.4.1.png`: Purchase order with supplier, items, delivery dates and Incoterms
 
-- [ ] `fig-5.0.1.png`: Assets workspace with asset value by category and upcoming depreciation
+### 4.5 Purchase receipts
+Folder: `public/screenshots/04-buying/4.5-purchase-receipt/`
 
-### 5.1 Asset categories
-Folder: `public/screenshots/05-assets/5.1-asset-category/`
+- [ ] `fig-4.5.1.png`: Purchase receipt with accepted and rejected quantities
 
-- [ ] `fig-5.1.1.png`: Asset category for motor vehicles with depreciation settings and accounts per company
+### 4.6 Purchase Entry
+Folder: `public/screenshots/04-buying/4.6-purchase-entry/`
 
-### 5.2 Buying and capitalising assets
-Folder: `public/screenshots/05-assets/5.2-asset-purchase/`
+- [x] `fig-4.6.1.png`: The Main tab of a Purchase Entry showing the supplier invoice date, posting and due dates, the Lines table with VAT per line, the Tax Invoice Received with This Invoice tick box, Tax Invoice Status Awaiting and the totals
+- [x] `fig-4.6.2.png`: The Tax Invoice Received dialog with the Supplier's tax invoice no and Tax invoice date fields and the Record button
 
-- [ ] `fig-5.2.1.png`: Asset form created from a purchase receipt with location, custodian and depreciation schedule
+### 4.7 Buying reports
+Folder: `public/screenshots/04-buying/4.7-buying-reports/`
 
-### 5.3 Depreciation
-Folder: `public/screenshots/05-assets/5.3-depreciation/`
+- [ ] `fig-4.7.1.png`: Purchase analytics by supplier group for the last 12 months
 
-- [ ] `fig-5.3.1.png`: Depreciation schedule for a vehicle showing monthly amounts and accumulated depreciation
+### 4.8 Buying settings
+Folder: `public/screenshots/04-buying/4.8-buying-settings/`
 
-### 5.4 Locations, movements, maintenance and repairs
-Folder: `public/screenshots/05-assets/5.4-asset-movement/`
+- [ ] `fig-4.8.1.png`: Buying settings with required documents and default price list
 
-- [ ] `fig-5.4.1.png`: Asset movement transferring two laptops from head office to the Abu Dhabi branch
+### 4.9 Supplier scorecards
+Folder: `public/screenshots/04-buying/4.9-supplier-scorecard/`
 
-### 5.5 Selling, scrapping and revaluing assets
-Folder: `public/screenshots/05-assets/5.5-asset-disposal/`
+- [ ] `fig-4.9.1.png`: Supplier scorecard with criteria, weights and current score
 
-- [ ] `fig-5.5.1.png`: Sales invoice selling a used vehicle with the asset selected on the item row
-- [ ] `fig-5.5.2.png`: Asset value adjustment reducing the value of damaged equipment
+### 4.10 Supplier prices and item suppliers
+Folder: `public/screenshots/04-buying/4.10-supplier-price-lists/`
 
-### 5.6 Composite and grouped assets
-Folder: `public/screenshots/05-assets/5.6-composite-assets/`
+- [ ] `fig-4.10.1.png`: Item prices from a supplier's buying price list with validity dates
 
-- [ ] `fig-5.6.1.png`: Asset capitalisation combining stock items, a service and an existing asset into a cold room
+### 4.11 Purchase Returns
+Folder: `public/screenshots/04-buying/4.11-purchase-returns/`
 
-### 5.7 Shift-based depreciation
-Folder: `public/screenshots/05-assets/5.7-shift-depreciation/`
+- [ ] `fig-4.11.1.png`: Purchase return created from a receipt with rejected quantities
 
-- [ ] `fig-5.7.1.png`: Asset shift allocation changing future months to double shift
+### 4.12 Importing goods end to end
+Folder: `public/screenshots/04-buying/4.12-import-purchases/`
 
-### 5.8 Asset settings and reports
-Folder: `public/screenshots/05-assets/5.8-asset-settings/`
+- [ ] `fig-4.12.1.png`: Purchase order for an import with USD currency and CIF Incoterms
 
-- [ ] `fig-5.8.1.png`: Asset settings on the company form with depreciation and disposal accounts
+### 4.13 Customs, HS codes and duty
+Folder: `public/screenshots/04-buying/4.13-customs/`
 
-## 06-crm
+- [ ] `fig-4.13.1.png`: Purchase receipt with bill of entry number and attached customs declaration
 
-### 6.0 CRM at a glance
-Folder: `public/screenshots/06-crm/6.0-overview/`
+### 4.14 Excise tax
+Folder: `public/screenshots/04-buying/4.14-excise-tax/`
 
-- [ ] `fig-6.0.1.png`: CRM workspace with open leads, opportunities by stage and expected revenue
+- [ ] `fig-4.14.1.png`: Item with excise category and excise tax template
 
-### 6.1 Leads
-Folder: `public/screenshots/06-crm/6.1-leads/`
+## 05-selling
 
-- [ ] `fig-6.1.1.png`: Lead form for a hotel procurement manager with source, territory and owner
+### 5.0 Selling at a glance
+Folder: `public/screenshots/05-selling/5.0-overview/`
 
-### 6.2 Opportunities
-Folder: `public/screenshots/06-crm/6.2-opportunities/`
+- [ ] `fig-5.0.1.png`: Selling workspace with sales trend, top customers and pending orders
 
-- [ ] `fig-6.2.1.png`: Opportunity for a hotel kitchen refit with items, stage, probability and expected closing date
+### 5.1 Customers
+Folder: `public/screenshots/05-selling/5.1-customers/`
 
-### 6.3 Pipeline and sales forecasting
-Folder: `public/screenshots/06-crm/6.3-pipeline/`
+- [ ] `fig-5.1.1.png`: Customer form with group, territory, TRN, credit limit and addresses
 
-- [ ] `fig-6.3.1.png`: Opportunity kanban board with cards grouped by sales stage
+### 5.2 Price lists and pricing rules
+Folder: `public/screenshots/05-selling/5.2-price-lists/`
 
-### 6.4 Campaigns, email campaigns and newsletters
-Folder: `public/screenshots/06-crm/6.4-campaigns/`
+- [ ] `fig-5.2.1.png`: Item price list showing standard selling prices in AED
+- [ ] `fig-5.2.2.png`: Pricing rule giving 7% off for quantities of 20 or more
 
-- [ ] `fig-6.4.1.png`: Campaign record for an exhibition with email schedule and linked leads
+### 5.3 Quotations
+Folder: `public/screenshots/05-selling/5.3-quotations/`
 
-### 6.5 Prospects
-Folder: `public/screenshots/06-crm/6.5-prospects/`
+- [ ] `fig-5.3.1.png`: Quotation with items, VAT, validity date and terms
+- [x] `fig-5.3.2.png`: A submitted quotation with the Create menu open on Sales Order
 
-- [ ] `fig-6.5.1.png`: Prospect for a hotel group with linked leads and opportunities
+### 5.4 Sales orders
+Folder: `public/screenshots/05-selling/5.4-sales-order/`
 
-### 6.6 Contracts
-Folder: `public/screenshots/06-crm/6.6-contracts/`
+- [ ] `fig-5.4.1.png`: Sales order with customer LPO number, delivery dates and warehouse
 
-- [ ] `fig-6.6.1.png`: Contract for an annual maintenance agreement with fulfilment terms and signature details
+### 5.5 Delivery notes
+Folder: `public/screenshots/05-selling/5.5-delivery-note/`
 
-### 6.7 Calls, emails, meetings and appointments
-Folder: `public/screenshots/06-crm/6.7-communication/`
+- [ ] `fig-5.5.1.png`: Delivery note with items, batch numbers and transporter details
 
-- [ ] `fig-6.7.1.png`: Lead timeline showing an email, a logged call and a scheduled site visit
+### 5.6 Selling reports
+Folder: `public/screenshots/05-selling/5.6-selling-reports/`
 
-### 6.8 CRM settings
-Folder: `public/screenshots/06-crm/6.8-crm-settings/`
+- [ ] `fig-5.6.1.png`: Sales Order Analysis report with ordered, delivered, billed and pending quantities per order
 
-- [ ] `fig-6.8.1.png`: CRM settings with lead duplication, contact creation and carry-forward options
+### 5.7 Selling settings
+Folder: `public/screenshots/05-selling/5.7-selling-settings/`
 
-## 07-selling
+- [ ] `fig-5.7.1.png`: Selling settings with required documents and pricing options
 
-### 7.0 Selling at a glance
-Folder: `public/screenshots/07-selling/7.0-overview/`
+### 5.8 Product bundles and kits
+Folder: `public/screenshots/05-selling/5.8-product-bundles/`
 
-- [ ] `fig-7.0.1.png`: Selling workspace with sales trend, top customers and pending orders
+- [ ] `fig-5.8.1.png`: Product bundle with three component items and quantities
 
-### 7.1 Customers
-Folder: `public/screenshots/07-selling/7.1-customers/`
+### 5.9 Blanket orders and rate contracts
+Folder: `public/screenshots/05-selling/5.9-blanket-orders/`
 
-- [ ] `fig-7.1.1.png`: Customer form with group, territory, TRN, credit limit and addresses
+- [ ] `fig-5.9.1.png`: Blanket order with agreed rates and quantities for one year
 
-### 7.2 Price lists and pricing rules
-Folder: `public/screenshots/07-selling/7.2-price-lists/`
+### 5.10 Sales partners and commission
+Folder: `public/screenshots/05-selling/5.10-sales-partners/`
 
-- [ ] `fig-7.2.1.png`: Item price list showing standard selling prices in AED
-- [ ] `fig-7.2.2.png`: Pricing rule giving 7% off for quantities of 20 or more
+- [ ] `fig-5.10.1.png`: Sales partner with territory and commission rate
 
-### 7.3 Quotations
-Folder: `public/screenshots/07-selling/7.3-quotations/`
+### 5.11 Drop shipping
+Folder: `public/screenshots/05-selling/5.11-drop-shipping/`
 
-- [ ] `fig-7.3.1.png`: Quotation with items, VAT, validity date and terms
+- [ ] `fig-5.11.1.png`: Sales order line marked for drop shipping with the supplier
 
-### 7.4 Sales orders
-Folder: `public/screenshots/07-selling/7.4-sales-order/`
+### 5.12 Sales Returns
+Folder: `public/screenshots/05-selling/5.12-sales-returns/`
 
-- [ ] `fig-7.4.1.png`: Sales order with customer LPO number, delivery dates and warehouse
+- [ ] `fig-5.12.1.png`: Sales return created from a delivery note with negative quantities
+- [x] `fig-5.12.2.png`: A new sales return showing Is Return ticked, the Return Type field with its help text, Return Against and the Tax Credit Note Values section
 
-### 7.5 Delivery notes
-Folder: `public/screenshots/07-selling/7.5-delivery-note/`
+### 5.13 Installation notes
+Folder: `public/screenshots/05-selling/5.13-installation-notes/`
 
-- [ ] `fig-7.5.1.png`: Delivery note with items, batch numbers and transporter details
+- [ ] `fig-5.13.1.png`: Installation note with serial numbers and customer signature
 
-### 7.6 Selling reports
-Folder: `public/screenshots/07-selling/7.6-selling-reports/`
+### 5.14 Promotional schemes and coupons
+Folder: `public/screenshots/05-selling/5.14-promotional-schemes/`
 
-- [ ] `fig-7.6.1.png`: Sales analytics by territory showing monthly sales per emirate
+- [ ] `fig-5.14.1.png`: Promotional scheme with discount slabs for a festival period
 
-### 7.7 Selling settings
-Folder: `public/screenshots/07-selling/7.7-selling-settings/`
+### 5.15 Proforma invoices
+Folder: `public/screenshots/05-selling/5.15-proforma-invoice/`
 
-- [ ] `fig-7.7.1.png`: Selling settings with required documents and pricing options
+- [ ] `fig-5.15.1.png`: Sales order printed with a proforma invoice heading and bank details
 
-### 7.8 Product bundles and kits
-Folder: `public/screenshots/07-selling/7.8-product-bundles/`
+## 06-stock
 
-- [ ] `fig-7.8.1.png`: Product bundle with three component items and quantities
+### 6.0 Stock at a glance
+Folder: `public/screenshots/06-stock/6.0-overview/`
 
-### 7.9 Blanket orders and rate contracts
-Folder: `public/screenshots/07-selling/7.9-blanket-orders/`
+- [ ] `fig-6.0.1.png`: Stock workspace with stock value by warehouse and recent stock movements
 
-- [ ] `fig-7.9.1.png`: Blanket order with agreed rates and quantities for one year
+### 6.1 Items
+Folder: `public/screenshots/06-stock/6.1-items/`
 
-### 7.10 Sales partners, salespeople and commission
-Folder: `public/screenshots/07-selling/7.10-sales-partners/`
+- [ ] `fig-6.1.1.png`: Item form with code, group, unit of measure and stock settings
+- [ ] `fig-6.1.2.png`: Item with batches, reorder levels and supplier part numbers
 
-- [ ] `fig-7.10.1.png`: Sales partner with territory and commission rate
+### 6.2 Warehouses
+Folder: `public/screenshots/06-stock/6.2-warehouses/`
 
-### 7.11 Drop shipping
-Folder: `public/screenshots/07-selling/7.11-drop-shipping/`
+- [ ] `fig-6.2.1.png`: Warehouse tree with Jebel Ali and Al Quoz groups
 
-- [ ] `fig-7.11.1.png`: Sales order line marked for drop shipping with the supplier
+### 6.3 Stock entries
+Folder: `public/screenshots/06-stock/6.3-stock-entry/`
 
-### 7.12 Sales returns
-Folder: `public/screenshots/07-selling/7.12-sales-returns/`
+- [ ] `fig-6.3.1.png`: Stock entry transferring stock from Jebel Ali to Al Quoz
 
-- [ ] `fig-7.12.1.png`: Sales return created from a delivery note with negative quantities
+### 6.4 Stock counts and reconciliation
+Folder: `public/screenshots/06-stock/6.4-stock-reconciliation/`
 
-### 7.13 Installation notes
-Folder: `public/screenshots/07-selling/7.13-installation-notes/`
+- [ ] `fig-6.4.1.png`: Stock reconciliation with system and counted quantities
 
-- [ ] `fig-7.13.1.png`: Installation note with serial numbers and customer signature
+### 6.5 Landed costs
+Folder: `public/screenshots/06-stock/6.5-landed-cost/`
 
-### 7.14 Promotional schemes and coupons
-Folder: `public/screenshots/07-selling/7.14-promotional-schemes/`
+- [ ] `fig-6.5.1.png`: Landed cost voucher distributing freight and duty across items
 
-- [ ] `fig-7.14.1.png`: Promotional scheme with discount slabs for a festival period
+### 6.6 Stock reports
+Folder: `public/screenshots/06-stock/6.6-stock-reports/`
 
-### 7.15 Proforma invoices
-Folder: `public/screenshots/07-selling/7.15-proforma-invoice/`
+- [ ] `fig-6.6.1.png`: Stock balance report filtered by the Jebel Ali warehouse
+- [ ] `fig-6.6.2.png`: Unbilled Goods Notes report with the Entity and As on Date filters and the Received Items To Be Billed and Delivered Items To Be Billed sections
 
-- [ ] `fig-7.15.1.png`: Sales order printed with a proforma invoice heading and bank details
+### 6.7 Stock Balance
+Folder: `public/screenshots/06-stock/6.7-stock-balance/`
 
-## 08-buying
+- [ ] `fig-6.7.1.png`: Stock Balance page filtered by one warehouse, showing opening, in, out and balance quantity and value per item
 
-### 8.0 Buying at a glance
-Folder: `public/screenshots/08-buying/8.0-overview/`
+### 6.8 Warehouse Capacity Summary
+Folder: `public/screenshots/06-stock/6.8-warehouse-capacity-summary/`
 
-- [ ] `fig-8.0.1.png`: Buying workspace with purchase trend, top suppliers and pending orders
+- [ ] `fig-6.8.1.png`: Warehouse Capacity Summary page with one card per item and warehouse showing capacity, balance quantity and percentage occupied
 
-### 8.1 Suppliers
-Folder: `public/screenshots/08-buying/8.1-suppliers/`
+### 6.9 Stock settings
+Folder: `public/screenshots/06-stock/6.9-stock-settings/`
 
-- [ ] `fig-8.1.1.png`: Supplier form with group, country, TRN, payment terms and holds
+- [ ] `fig-6.9.1.png`: Stock settings page with valuation method and negative stock options
 
-### 8.2 Material requests
-Folder: `public/screenshots/08-buying/8.2-material-request/`
+### 6.10 Item variants
+Folder: `public/screenshots/06-stock/6.10-item-variants/`
 
-- [ ] `fig-8.2.1.png`: Material request for purchase with items and required-by dates
+- [ ] `fig-6.10.1.png`: Item template with attributes and the variants created from it
 
-### 8.3 Requests for quotation and supplier quotations
-Folder: `public/screenshots/08-buying/8.3-rfq-supplier-quotation/`
+### 6.11 Serial numbers and batches
+Folder: `public/screenshots/06-stock/6.11-serial-batch/`
 
-- [ ] `fig-8.3.1.png`: Request for quotation sent to three suppliers
-- [ ] `fig-8.3.2.png`: Supplier quotation comparison for steel sheets from three suppliers
+- [ ] `fig-6.11.1.png`: Serial number record showing purchase, delivery and warranty dates
 
-### 8.4 Purchase orders
-Folder: `public/screenshots/08-buying/8.4-purchase-order/`
+### 6.12 Units of measure and conversions
+Folder: `public/screenshots/06-stock/6.12-units-of-measure/`
 
-- [ ] `fig-8.4.1.png`: Purchase order with supplier, items, delivery dates and Incoterms
+- [ ] `fig-6.12.1.png`: Item unit of measure conversions for box and carton
 
-### 8.5 Purchase receipts
-Folder: `public/screenshots/08-buying/8.5-purchase-receipt/`
+### 6.13 Pick lists
+Folder: `public/screenshots/06-stock/6.13-pick-list/`
 
-- [ ] `fig-8.5.1.png`: Purchase receipt with accepted and rejected quantities
+- [ ] `fig-6.13.1.png`: Pick list with suggested warehouses and batches for two sales orders
 
-### 8.6 Buying reports
-Folder: `public/screenshots/08-buying/8.6-buying-reports/`
+### 6.14 Putaway rules
+Folder: `public/screenshots/06-stock/6.14-putaway-rules/`
 
-- [ ] `fig-8.6.1.png`: Purchase analytics by supplier group for the last 12 months
+- [ ] `fig-6.14.1.png`: Putaway rules for an item across chiller and ambient warehouses
 
-### 8.7 Buying settings
-Folder: `public/screenshots/08-buying/8.7-buying-settings/`
+### 6.15 Stock reservation
+Folder: `public/screenshots/06-stock/6.15-stock-reservation/`
 
-- [ ] `fig-8.7.1.png`: Buying settings with required documents and default price list
+- [ ] `fig-6.15.1.png`: Sales order with reserved stock entries per warehouse
 
-### 8.8 Supplier scorecards
-Folder: `public/screenshots/08-buying/8.8-supplier-scorecard/`
+### 6.16 Stock valuation methods
+Folder: `public/screenshots/06-stock/6.16-valuation-methods/`
 
-- [ ] `fig-8.8.1.png`: Supplier scorecard with criteria, weights and current score
+- [ ] `fig-6.16.1.png`: Stock ledger showing FIFO queue and valuation rate after each transaction
 
-### 8.9 Supplier prices and item suppliers
-Folder: `public/screenshots/08-buying/8.9-supplier-price-lists/`
+### 6.17 Delivery trips and routes
+Folder: `public/screenshots/06-stock/6.17-delivery-trip/`
 
-- [ ] `fig-8.9.1.png`: Item prices from a supplier's buying price list with validity dates
+- [ ] `fig-6.17.1.png`: Delivery trip with driver, vehicle and ordered stops in Dubai
 
-### 8.10 Purchase returns
-Folder: `public/screenshots/08-buying/8.10-purchase-returns/`
+### 6.18 Goods in transit
+Folder: `public/screenshots/06-stock/6.18-goods-in-transit/`
 
-- [ ] `fig-8.10.1.png`: Purchase return created from a receipt with rejected quantities
+- [ ] `fig-6.18.1.png`: Stock entry moving goods into the goods in transit warehouse
 
-### 8.11 Importing goods end to end
-Folder: `public/screenshots/08-buying/8.11-import-purchases/`
+### 6.19 Inventory dimensions
+Folder: `public/screenshots/06-stock/6.19-inventory-dimensions/`
 
-- [ ] `fig-8.11.1.png`: Purchase order for an import with USD currency and CIF Incoterms
+- [ ] `fig-6.19.1.png`: Inventory dimension for project added to stock transactions
 
-## 09-stock
+### 6.20 Barcodes and scanning
+Folder: `public/screenshots/06-stock/6.20-barcode-scanning/`
 
-### 9.0 Stock at a glance
-Folder: `public/screenshots/09-stock/9.0-overview/`
+- [ ] `fig-6.20.1.png`: Item barcodes table with EAN codes for piece and carton
 
-- [ ] `fig-9.0.1.png`: Stock workspace with stock value by warehouse and recent stock movements
+### 6.21 Retaining samples
+Folder: `public/screenshots/06-stock/6.21-retain-sample/`
 
-### 9.1 Items
-Folder: `public/screenshots/09-stock/9.1-items/`
+- [ ] `fig-6.21.1.png`: Retention stock entry moving samples of a batch to the quality samples warehouse
 
-- [ ] `fig-9.1.1.png`: Item form with code, group, unit of measure and stock settings
-- [ ] `fig-9.1.2.png`: Item with batches, reorder levels and supplier part numbers
+## 07-support
 
-### 9.2 Warehouses
-Folder: `public/screenshots/09-stock/9.2-warehouses/`
+### 7.0 Support at a glance
+Folder: `public/screenshots/07-support/7.0-overview/`
 
-- [ ] `fig-9.2.1.png`: Warehouse tree with Jebel Ali and Al Quoz groups
+- [ ] `fig-7.0.1.png`: Support workspace with open issues by priority, SLA status and maintenance visits due
 
-### 9.3 Stock entries
-Folder: `public/screenshots/09-stock/9.3-stock-entry/`
+### 7.1 Issues and tickets
+Folder: `public/screenshots/07-support/7.1-issues/`
 
-- [ ] `fig-9.3.1.png`: Stock entry transferring stock from Jebel Ali to Al Quoz
+- [ ] `fig-7.1.1.png`: Issue form with customer, priority, SLA timers and email conversation
 
-### 9.4 Stock counts and reconciliation
-Folder: `public/screenshots/09-stock/9.4-stock-reconciliation/`
+### 7.2 Service level agreements
+Folder: `public/screenshots/07-support/7.2-sla/`
 
-- [ ] `fig-9.4.1.png`: Stock reconciliation with system and counted quantities
+- [ ] `fig-7.2.1.png`: SLA with priorities, response and resolution times and working hours
 
-### 9.5 Landed costs
-Folder: `public/screenshots/09-stock/9.5-landed-cost/`
+### 7.3 Warranty, AMC and maintenance visits
+Folder: `public/screenshots/07-support/7.3-warranty-maintenance/`
 
-- [ ] `fig-9.5.1.png`: Landed cost voucher distributing freight and duty across items
+- [ ] `fig-7.3.1.png`: Warranty claim for an oven with serial number, warranty status and resolution
+- [ ] `fig-7.3.2.png`: Maintenance visit with work done, technician and completion status
 
-### 9.6 Stock reports
-Folder: `public/screenshots/09-stock/9.6-stock-reports/`
+### 7.4 Support settings
+Folder: `public/screenshots/07-support/7.4-support-settings/`
 
-- [ ] `fig-9.6.1.png`: Stock balance report filtered by the Jebel Ali warehouse
+- [ ] `fig-7.4.1.png`: Support settings with auto-close days and portal options
 
-### 9.7 Stock settings
-Folder: `public/screenshots/09-stock/9.7-stock-settings/`
+### 7.5 Knowledge base and help articles
+Folder: `public/screenshots/07-support/7.5-knowledge-base/`
 
-- [ ] `fig-9.7.1.png`: Stock settings page with valuation method and negative stock options
+- [ ] `fig-7.5.1.png`: Help article on descaling a combination oven, with category and published flag
 
-### 9.8 Item variants
-Folder: `public/screenshots/09-stock/9.8-item-variants/`
+### 7.6 Support email setup
+Folder: `public/screenshots/07-support/7.6-email-setup/`
 
-- [ ] `fig-9.8.1.png`: Item template with attributes and the variants created from it
+- [ ] `fig-7.6.1.png`: Email account for support with incoming enabled and Append To set to Issue
 
-### 9.9 Serial numbers and batches
-Folder: `public/screenshots/09-stock/9.9-serial-batch/`
+### 7.7 Support reports
+Folder: `public/screenshots/07-support/7.7-support-reports/`
 
-- [ ] `fig-9.9.1.png`: Serial number record showing purchase, delivery and warranty dates
+- [ ] `fig-7.7.1.png`: Support analytics chart of issues opened and closed by week
 
-### 9.10 Units of measure and conversions
-Folder: `public/screenshots/09-stock/9.10-units-of-measure/`
+## 08-manufacturing
 
-- [ ] `fig-9.10.1.png`: Item unit of measure conversions for box and carton
+### 8.0 Manufacturing at a glance
+Folder: `public/screenshots/08-manufacturing/8.0-overview/`
 
-### 9.11 Pick lists
-Folder: `public/screenshots/09-stock/9.11-pick-list/`
+- [ ] `fig-8.0.1.png`: Manufacturing workspace with open work orders, job cards and production by item
 
-- [ ] `fig-9.11.1.png`: Pick list with suggested warehouses and batches for two sales orders
+### 8.1 Bill of materials (BOM)
+Folder: `public/screenshots/08-manufacturing/8.1-bom/`
 
-### 9.12 Putaway rules
-Folder: `public/screenshots/09-stock/9.12-putaway-rules/`
+- [ ] `fig-8.1.1.png`: BOM for a steel storage rack with raw materials, operations and cost summary
 
-- [ ] `fig-9.12.1.png`: Putaway rules for an item across chiller and ambient warehouses
+### 8.2 Workstations, operations and routing
+Folder: `public/screenshots/08-manufacturing/8.2-workstations-routing/`
 
-### 9.13 Stock reservation
-Folder: `public/screenshots/09-stock/9.13-stock-reservation/`
+- [ ] `fig-8.2.1.png`: Workstation with hourly cost breakdown and working hours
 
-- [ ] `fig-9.13.1.png`: Sales order with reserved stock entries per warehouse
+### 8.3 Work orders and job cards
+Folder: `public/screenshots/08-manufacturing/8.3-work-order/`
 
-### 9.14 Stock valuation methods
-Folder: `public/screenshots/09-stock/9.14-valuation-methods/`
+- [ ] `fig-8.3.1.png`: Work order for 40 steel racks with required items, operations and warehouses
+- [ ] `fig-8.3.2.png`: Job card for welding with time logs, employee and completed quantity
 
-- [ ] `fig-9.14.1.png`: Stock ledger showing FIFO queue and valuation rate after each transaction
+### 8.4 Production planning and material requirements
+Folder: `public/screenshots/08-manufacturing/8.4-production-plan/`
 
-### 9.15 Delivery trips and routes
-Folder: `public/screenshots/09-stock/9.15-delivery-trip/`
+- [ ] `fig-8.4.1.png`: Production plan with finished goods, sub-assemblies and raw material requirements
 
-- [ ] `fig-9.15.1.png`: Delivery trip with driver, vehicle and ordered stops in Dubai
+### 8.5 BOM Comparison Tool and Visual Plant Floor
+Folder: `public/screenshots/08-manufacturing/8.5-bom-comparison-plant-floor/`
 
-### 9.16 Goods in transit
-Folder: `public/screenshots/09-stock/9.16-goods-in-transit/`
+- [ ] `fig-8.5.1.png`: BOM Comparison Tool with two BOMs selected and a list of changed, added and removed rows
+- [ ] `fig-8.5.2.png`: Visual Plant Floor showing workstation cards coloured by status
 
-- [ ] `fig-9.16.1.png`: Stock entry moving goods into the goods in transit warehouse
+### 8.6 Manufacturing reports
+Folder: `public/screenshots/08-manufacturing/8.6-manufacturing-reports/`
 
-### 9.17 Inventory dimensions
-Folder: `public/screenshots/09-stock/9.17-inventory-dimensions/`
+- [ ] `fig-8.6.1.png`: Production analytics chart of quantity produced by item and month
 
-- [ ] `fig-9.17.1.png`: Inventory dimension for project added to stock transactions
+### 8.7 Manufacturing settings
+Folder: `public/screenshots/08-manufacturing/8.7-manufacturing-settings/`
 
-### 9.18 Barcodes and scanning
-Folder: `public/screenshots/09-stock/9.18-barcode-scanning/`
+- [ ] `fig-8.7.1.png`: Manufacturing settings with default warehouses and backflush options
 
-- [ ] `fig-9.18.1.png`: Item barcodes table with EAN codes for piece and carton
+### 8.8 Capacity planning
+Folder: `public/screenshots/08-manufacturing/8.8-capacity-planning/`
 
-### 9.19 Retaining samples
-Folder: `public/screenshots/09-stock/9.19-retain-sample/`
+- [ ] `fig-8.8.1.png`: Workstation load chart showing planned hours per day against capacity
 
-- [ ] `fig-9.19.1.png`: Retention stock entry moving samples of a batch to the quality samples warehouse
+### 8.9 Backflushing and material consumption
+Folder: `public/screenshots/08-manufacturing/8.9-backflush-consumption/`
 
-## 10-manufacturing
+- [ ] `fig-8.9.1.png`: Manufacture stock entry showing consumed raw materials and the finished item
 
-### 10.0 Manufacturing at a glance
-Folder: `public/screenshots/10-manufacturing/10.0-overview/`
+### 8.10 Scrap, process loss and rework
+Folder: `public/screenshots/08-manufacturing/8.10-scrap-rework/`
 
-- [ ] `fig-10.0.1.png`: Manufacturing workspace with open work orders, job cards and production by item
+- [ ] `fig-8.10.1.png`: Manufacture entry with finished goods, scrap item and process loss quantity
 
-### 10.1 Bill of materials (BOM)
-Folder: `public/screenshots/10-manufacturing/10.1-bom/`
+### 8.11 Production forecasting
+Folder: `public/screenshots/08-manufacturing/8.11-production-forecast/`
 
-- [ ] `fig-10.1.1.png`: BOM for a steel storage rack with raw materials, operations and cost summary
+- [ ] `fig-8.11.1.png`: Exponential smoothing forecast for date products by month
 
-### 10.2 Workstations, operations and routing
-Folder: `public/screenshots/10-manufacturing/10.2-workstations-routing/`
+## 09-projects
 
-- [ ] `fig-10.2.1.png`: Workstation with hourly cost breakdown and working hours
+### 9.0 Projects at a glance
+Folder: `public/screenshots/09-projects/9.0-overview/`
 
-### 10.3 Work orders and job cards
-Folder: `public/screenshots/10-manufacturing/10.3-work-order/`
+- [ ] `fig-9.0.1.png`: Projects workspace with active projects, overdue tasks and hours logged this month
 
-- [ ] `fig-10.3.1.png`: Work order for 40 steel racks with required items, operations and warehouses
-- [ ] `fig-10.3.2.png`: Job card for welding with time logs, employee and completed quantity
+### 9.1 Setting up a project
+Folder: `public/screenshots/09-projects/9.1-project-setup/`
 
-### 10.4 Production planning and material requirements
-Folder: `public/screenshots/10-manufacturing/10.4-production-plan/`
+- [ ] `fig-9.1.1.png`: Project form with customer, dates, completion method and costing section
 
-- [ ] `fig-10.4.1.png`: Production plan with finished goods, sub-assemblies and raw material requirements
+### 9.2 Tasks, dependencies and Gantt
+Folder: `public/screenshots/09-projects/9.2-tasks/`
 
-### 10.5 Manufacturing reports
-Folder: `public/screenshots/10-manufacturing/10.5-manufacturing-reports/`
+- [ ] `fig-9.2.1.png`: Task form with dependencies, expected time and assignee
+- [ ] `fig-9.2.2.png`: Gantt chart of a fit-out project showing task bars and dependencies
 
-- [ ] `fig-10.5.1.png`: Production analytics chart of quantity produced by item and month
+### 9.3 Timesheets and activity costs
+Folder: `public/screenshots/09-projects/9.3-timesheets/`
 
-### 10.6 Manufacturing settings
-Folder: `public/screenshots/10-manufacturing/10.6-manufacturing-settings/`
+- [ ] `fig-9.3.1.png`: Timesheet with rows for site supervision and design on two projects
 
-- [ ] `fig-10.6.1.png`: Manufacturing settings with default warehouses and backflush options
+### 9.4 Project settings
+Folder: `public/screenshots/09-projects/9.4-project-settings/`
 
-### 10.7 Capacity planning
-Folder: `public/screenshots/10-manufacturing/10.7-capacity-planning/`
+- [ ] `fig-9.4.1.png`: Projects settings with timesheet overlap and working hours options
 
-- [ ] `fig-10.7.1.png`: Workstation load chart showing planned hours per day against capacity
+### 9.5 Project costing and profitability
+Folder: `public/screenshots/09-projects/9.5-project-costing/`
 
-### 10.8 Backflushing and material consumption
-Folder: `public/screenshots/10-manufacturing/10.8-backflush-consumption/`
+- [ ] `fig-9.5.1.png`: Project costing section with labour, materials, purchases, billing and margin
 
-- [ ] `fig-10.8.1.png`: Manufacture stock entry showing consumed raw materials and the finished item
+### 9.6 Milestone and progress billing
+Folder: `public/screenshots/09-projects/9.6-milestone-billing/`
 
-### 10.9 Scrap, process loss and rework
-Folder: `public/screenshots/10-manufacturing/10.9-scrap-rework/`
+- [ ] `fig-9.6.1.png`: Sales order payment schedule with advance, progress and retention milestones
 
-- [ ] `fig-10.9.1.png`: Manufacture entry with finished goods, scrap item and process loss quantity
+### 9.7 Project updates and reporting
+Folder: `public/screenshots/09-projects/9.7-project-updates/`
 
-### 10.10 Production forecasting
-Folder: `public/screenshots/10-manufacturing/10.10-production-forecast/`
+- [ ] `fig-9.7.1.png`: Project update with progress notes from the team
 
-- [ ] `fig-10.10.1.png`: Exponential smoothing forecast for date products by month
+### 9.8 Working with customers on projects
+Folder: `public/screenshots/09-projects/9.8-customer-collaboration/`
+
+- [ ] `fig-9.8.1.png`: Customer portal showing project progress, open tasks and invoices
+
+## 10-quality
+
+### 10.0 Quality at a glance
+Folder: `public/screenshots/10-quality/10.0-overview/`
+
+- [ ] `fig-10.0.1.png`: Quality workspace with inspections, open non-conformances and quality goals
+
+### 10.1 Quality inspections
+Folder: `public/screenshots/10-quality/10.1-inspection/`
+
+- [ ] `fig-10.1.1.png`: Quality inspection template for dates with numeric and visual parameters
+- [ ] `fig-10.1.2.png`: Quality inspection on a purchase receipt row with readings and accepted status
+
+### 10.2 Quality goals, procedures and reviews
+Folder: `public/screenshots/10-quality/10.2-goals-reviews/`
+
+- [ ] `fig-10.2.1.png`: Quality goal for on-time delivery with objectives and monitoring frequency
+
+### 10.3 Non-conformance and corrective actions
+Folder: `public/screenshots/10-quality/10.3-non-conformance/`
+
+- [ ] `fig-10.3.1.png`: Non-conformance record for damaged cartons with corrective and preventive actions
+
+### 10.4 In-process inspection
+Folder: `public/screenshots/10-quality/10.4-in-process-inspection/`
+
+- [ ] `fig-10.4.1.png`: Job card with an in-process quality inspection for weld quality
+
+### 10.5 Customer and internal feedback
+Folder: `public/screenshots/10-quality/10.5-quality-feedback/`
+
+- [ ] `fig-10.5.1.png`: Quality feedback from a customer after a maintenance visit with ratings
+
+### 10.6 Internal audits
+Folder: `public/screenshots/10-quality/10.6-internal-audits/`
+
+- [ ] `fig-10.6.1.png`: Internal audit project with tasks per procedure and linked non-conformances
 
 ## 11-subcontracting
 
@@ -819,454 +865,571 @@ Folder: `public/screenshots/11-subcontracting/11.5-subcontracting-costing/`
 
 - [ ] `fig-11.5.1.png`: Subcontracting receipt cost breakdown with materials, service and additional costs
 
-## 12-quality
+## 12-vat-compliance
 
-### 12.0 Quality at a glance
-Folder: `public/screenshots/12-quality/12.0-overview/`
+### 12.0 VAT Compliance at a glance
+Folder: `public/screenshots/12-vat-compliance/12.0-overview/`
 
-- [ ] `fig-12.0.1.png`: Quality workspace with inspections, open non-conformances and quality goals
+- [x] `fig-12.0.1.png`: The VAT Compliance module with the e-invoicing links at the top of the sidebar, the Returns & Periods, Invoices and Adjustments groups open, and the Filing periods screen listing eight quarterly periods
 
-### 12.1 Quality inspections
-Folder: `public/screenshots/12-quality/12.1-inspection/`
+### 12.1 VAT Settings
+Folder: `public/screenshots/12-vat-compliance/12.1-vat-setup/`
 
-- [ ] `fig-12.1.1.png`: Quality inspection template for dates with numeric and visual parameters
-- [ ] `fig-12.1.2.png`: Quality inspection on a purchase receipt row with readings and accepted status
+- [x] `fig-12.1.1.png`: VAT Settings of Al Noor Trading LLC: Quarterly periodicity with the Jan - Mar cycle, registration date, TRN and TIN, and the reverse charge and Input VAT Awaiting Tax Invoice accounts
 
-### 12.2 Quality goals, procedures and reviews
-Folder: `public/screenshots/12-quality/12.2-goals-reviews/`
+### 12.2 Filing periods and the VAT 201
+Folder: `public/screenshots/12-vat-compliance/12.2-vat-return/`
 
-- [ ] `fig-12.2.1.png`: Quality goal for on-time delivery with objectives and monitoring frequency
+- [x] `fig-12.2.1.png`: The Filing periods screen for Al Noor Trading LLC with eight quarterly periods, one Filed and the rest Open, each with a VAT 201 button
+- [x] `fig-12.2.2.png`: The VAT 201 of an open period in the FTA layout, with the live-figures banner, Taxpayer Information and boxes 1a to 3, and the Print, Download PDF, Invoices of this period, Audit file for this period and File return buttons
+- [x] `fig-12.2.3.png`: The side panel for box 1b (Standard Rated Supplies in Dubai) listing eight documents with date, party, TRN and emirate, including one return
 
-### 12.3 Non-conformance and corrective actions
-Folder: `public/screenshots/12-quality/12.3-non-conformance/`
+### 12.3 Sales and output VAT
+Folder: `public/screenshots/12-vat-compliance/12.3-sales-output-vat/`
 
-- [ ] `fig-12.3.1.png`: Non-conformance record for damaged cartons with corrective and preventive actions
+- [x] `fig-12.3.1.png`: A draft sales invoice with the VAT Scheme set to Standard rules, the Supply Categories field showing Standard supply, and the Date of Supply field, under the E-invoice panel
+- [x] `fig-12.3.2.png`: The Create tax credit note dialog on a sales invoice, with Invoice value (before VAT) 5,650.00, Correct value (before VAT) 5,000.00, the reason Consideration altered and the date
+- [x] `fig-12.3.3.png`: The Invoices screen listing sales invoices with date, customer, status, VAT categories and return period, filtered With VAT only
 
-### 12.4 In-process inspection
-Folder: `public/screenshots/12-quality/12.4-in-process-inspection/`
+### 12.6 Profit margin scheme
+Folder: `public/screenshots/12-vat-compliance/12.6-profit-margin-scheme/`
 
-- [ ] `fig-12.4.1.png`: Job card with an in-process quality inspection for weld quality
+- [ ] `fig-12.6.1.png`: A sales invoice with the VAT Scheme set to Profit Margin Scheme, a line with Margin Scheme Basis Second-hand goods, the selling price, the linked purchase invoice and the computed profit margin and VAT on margin
 
-### 12.5 Customer and internal feedback
-Folder: `public/screenshots/12-quality/12.5-quality-feedback/`
+### 12.7 Purchases and input VAT
+Folder: `public/screenshots/12-vat-compliance/12.7-purchases-input-vat/`
 
-- [ ] `fig-12.5.1.png`: Quality feedback from a customer after a maintenance visit with ratings
+- [x] `fig-12.7.1.png`: The Tax Invoice Received dialog on a submitted purchase invoice, with the supplier's tax invoice number and the tax invoice date, and the note that the input VAT is claimed in the VAT return of this date
 
-### 12.6 Internal audits
-Folder: `public/screenshots/12-quality/12.6-internal-audits/`
+### 12.8 Reverse charge and imports
+Folder: `public/screenshots/12-vat-compliance/12.8-reverse-charge/`
 
-- [ ] `fig-12.6.1.png`: Internal audit project with tasks per procedure and linked non-conformances
+- [x] `fig-12.8.1.png`: The Taxes & VAT tab of a purchase on Purchase Entry, with Recoverable Reverse Charge (Percentage) at 100 and the customs declaration number and date under Imports, zones and schemes
 
-## 13-projects
+### 12.9 Advance tax invoices and the tax point
+Folder: `public/screenshots/12-vat-compliance/12.9-tax-point/`
 
-### 13.0 Projects at a glance
-Folder: `public/screenshots/13-projects/13.0-overview/`
+- [x] `fig-12.9.1.png`: A submitted advance tax invoice with the entity, customer, date, UAE VAT 5% template, Abu Dhabi emirate, an advance of 16,000.00 with 800.00 VAT, and Set Off Status Unused
 
-- [ ] `fig-13.0.1.png`: Projects workspace with active projects, overdue tasks and hours logged this month
+### 12.10 Tax Refund for Tourists Scheme
+Folder: `public/screenshots/12-vat-compliance/12.10-tourist-refund/`
 
-### 13.1 Setting up a project
-Folder: `public/screenshots/13-projects/13.1-project-setup/`
+- [x] `fig-12.10.1.png`: A draft Tax Refund for Tourists Scheme entry with the operator, operator invoice number and date, refund period, VAT Date, taxable amount 8,400.00 and VAT refunded 420.00, and the Import Planet listing button
 
-- [ ] `fig-13.1.1.png`: Project form with customer, dates, completion method and costing section
+### 12.11 Self-billing
+Folder: `public/screenshots/12-vat-compliance/12.11-self-billing/`
 
-### 13.2 Tasks, dependencies and Gantt
-Folder: `public/screenshots/13-projects/13.2-tasks/`
+- [x] `fig-12.11.1.png`: The Taxes & VAT tab of a purchase on Purchase Entry with Self-Billed Invoice ticked under Imports, zones and schemes
 
-- [ ] `fig-13.2.1.png`: Task form with dependencies, expected time and assignee
-- [ ] `fig-13.2.2.png`: Gantt chart of a fit-out project showing task bars and dependencies
+### 12.13 Bad debt relief
+Folder: `public/screenshots/12-vat-compliance/12.13-bad-debt-relief/`
 
-### 13.3 Timesheets and activity costs
-Folder: `public/screenshots/13-projects/13.3-timesheets/`
+- [x] `fig-12.13.1.png`: A new VAT Adjustment of type Bad Debt Relief with the sales invoice, the write-off entry, Consideration Written Off (AED) 11,175.00 and Customer Notified On filled in
 
-- [ ] `fig-13.3.1.png`: Timesheet with rows for site supervision and design on two projects
+### 12.14 Late postings
+Folder: `public/screenshots/12-vat-compliance/12.14-late-postings/`
 
-### 13.4 Project settings
-Folder: `public/screenshots/13-projects/13.4-project-settings/`
+- [x] `fig-12.14.1.png`: The Late postings screen after a scan, with a period banner showing one late posting and its VAT effect, and a pending purchase invoice row marked Correct in current return
+- [x] `fig-12.14.2.png`: The Approve late posting dialog with the Include in return period field and Remarks, over the Include in current return, Approve and Reject buttons of the row
 
-- [ ] `fig-13.4.1.png`: Projects settings with timesheet overlap and working hours options
+### 12.15 Voluntary disclosures and penalties
+Folder: `public/screenshots/12-vat-compliance/12.15-voluntary-disclosure/`
 
-### 13.5 Project costing and profitability
-Folder: `public/screenshots/13-projects/13.5-project-costing/`
+- [x] `fig-12.15.1.png`: A draft voluntary disclosure with the filed tax period, Aware of the Error On date, two error rows totalling AED 1,495.00, the outcome Correct in a tax return and the Correct in Tax Period
 
-- [ ] `fig-13.5.1.png`: Project costing section with labour, materials, purchases, billing and margin
+### 12.16 Exchange rates
+Folder: `public/screenshots/12-vat-compliance/12.16-exchange-rates/`
 
-### 13.6 Milestone and progress billing
-Folder: `public/screenshots/13-projects/13.6-milestone-billing/`
+- [x] `fig-12.16.1.png`: The Exchange rates screen with the Settings card (Central Bank rate required, rate service key, daily fetch, rate service address) and the Rates stored table, with the Standard list of rates, Enter a rate, Fetch now and Import monthly PDF buttons
 
-- [ ] `fig-13.6.1.png`: Sales order payment schedule with advance, progress and retention milestones
+### 12.17 The FTA audit file and records
+Folder: `public/screenshots/12-vat-compliance/12.17-records-audit/`
 
-### 13.7 Project updates and reporting
-Folder: `public/screenshots/13-projects/13.7-project-updates/`
+- [x] `fig-12.17.1.png`: The FTA audit file screen with a quarterly period chosen, the Prepared message, and the Sections table showing the Fta audit file section with its row count and Download .csv button
 
-- [ ] `fig-13.7.1.png`: Project update with progress notes from the team
+### 12.18 VAT reports
+Folder: `public/screenshots/12-vat-compliance/12.18-vat-reports/`
 
-### 13.8 Working with customers on projects
-Folder: `public/screenshots/13-projects/13.8-customer-collaboration/`
+- [x] `fig-12.18.1.png`: The VAT Output Report for a quarter, listing each sales line with party, segment (B2B, B2C, B2G), VAT category, emirate, taxable amount and VAT, with a total row
 
-- [ ] `fig-13.8.1.png`: Customer portal showing project progress, open tasks and invoices
+### 12.21 Connect your DocFlow account
+Folder: `public/screenshots/12-vat-compliance/12.21-e-invoicing-connect/`
 
-## 14-support
+- [x] `fig-12.21.1.png`: The DocFlow account and Sending sections of E-invoicing Settings: Send E-invoices, Environment Sandbox, the provider address, the masked login and password, Send Documents From, E-Invoices Required From, Block Submit Until Ready and Send When Fixed
+- [x] `fig-12.21.2.png`: The DocFlow connection dialog after Test connection, showing that DocFlow refused the login, with the environment and address, above the DocFlow e-invoicing card with its Connection to DocFlow and Seller data for all invoices groups
 
-### 14.0 Support at a glance
-Folder: `public/screenshots/14-support/14.0-overview/`
+### 12.22 Get your records ready
+Folder: `public/screenshots/12-vat-compliance/12.22-e-invoicing-readiness/`
 
-- [ ] `fig-14.0.1.png`: Support workspace with open issues by priority, SLA status and maintenance visits due
+- [x] `fig-12.22.1.png`: The Seller data for all invoices group showing 2 to fix: the trade licence on the entity with a Fix button, and a mode of payment with a payment means code, with 4 ready folded below
+- [x] `fig-12.22.2.png`: The E-invoice readiness of this customer card with two things to fix: the address with the emirate (Add) and the TRN or trade licence (Open)
 
-### 14.1 Issues and tickets
-Folder: `public/screenshots/14-support/14.1-issues/`
+### 12.23 The e-invoice panel on an invoice
+Folder: `public/screenshots/12-vat-compliance/12.23-e-invoice-panel/`
 
-- [ ] `fig-14.1.1.png`: Issue form with customer, priority, SLA timers and email conversation
+- [x] `fig-12.23.1.png`: The E-invoice panel on a draft sales invoice showing Needs Fixing and 0 of 4 fixed, with tasks grouped under This invoice, Customer and Your entity, each with a Choose, Add or Open button
+- [x] `fig-12.23.2.png`: The Add the customer's TRN dialog with the This customer is not VAT registered tick box, the TRN field (15 digits, starts with 1 and ends with 03) and Save & re-check
 
-### 14.2 Service level agreements
-Folder: `public/screenshots/14-support/14.2-sla/`
+### 12.24 Sending and statuses
+Folder: `public/screenshots/12-vat-compliance/12.24-e-invoicing-statuses/`
 
-- [ ] `fig-14.2.1.png`: SLA with priorities, response and resolution times and working hours
+- [x] `fig-12.24.1.png`: The E-invoice panel on a submitted invoice showing Ready To Send, the test mode notice, "Everything is fixed. Press Send now.", one folded suggestion and the Send now button
 
-### 14.3 Warranty, AMC and maintenance visits
-Folder: `public/screenshots/14-support/14.3-warranty-maintenance/`
+### 12.25 E-invoicing at the point of sale
+Folder: `public/screenshots/12-vat-compliance/12.25-e-invoicing-pos/`
 
-- [ ] `fig-14.3.1.png`: Warranty claim for an oven with serial number, warranty status and resolution
-- [ ] `fig-14.3.2.png`: Maintenance visit with work done, technician and completion status
+- [ ] `fig-12.25.1.png`: The point of sale screen with a business customer chosen and the strip above the cart reading "Business sale: e-invoice will be sent" with the E-invoice ready chip
 
-### 14.4 Support settings
-Folder: `public/screenshots/14-support/14.4-support-settings/`
+### 12.26 E-invoice registers and deadlines
+Folder: `public/screenshots/12-vat-compliance/12.26-e-invoicing-registers/`
 
-- [ ] `fig-14.4.1.png`: Support settings with auto-close days and portal options
+- [x] `fig-12.26.1.png`: The Health card on E-invoices Sent showing the Sandbox environment, the last successful send, last-30-day counts by status and the last error with its hint
 
-### 14.5 Knowledge base and help articles
-Folder: `public/screenshots/14-support/14.5-knowledge-base/`
+### 12.27 When the provider does not answer
+Folder: `public/screenshots/12-vat-compliance/12.27-e-invoicing-outage/`
 
-- [ ] `fig-14.5.1.png`: Help article on descaling a combination oven, with category and published flag
+- [x] `fig-12.27.1.png`: The red provider outage notice giving the time the provider stopped answering and the date to tell the Federal Tax Authority
 
-### 14.6 Support email setup
-Folder: `public/screenshots/14-support/14.6-email-setup/`
+### 12.28 Received e-invoices
+Folder: `public/screenshots/12-vat-compliance/12.28-e-invoices-received/`
 
-- [ ] `fig-14.6.1.png`: Email account for support with incoming enabled and Append To set to Issue
+- [x] `fig-12.28.1.png`: The E-invoices received screen listing three supplier e-invoices with issue date, seller and TRN, state (Posted, Supplier unknown, Ready), net, VAT and grand total
+- [x] `fig-12.28.2.png`: An E-Invoice Received in state Ready, with the supplier and buyer TRNs as sent, the matched supplier and the amounts, and the Make Draft Purchase Invoice, Match Again and Ignore buttons
 
-### 14.7 Support reports
-Folder: `public/screenshots/14-support/14.7-support-reports/`
+## 13-crm
 
-- [ ] `fig-14.7.1.png`: Support analytics chart of issues opened and closed by week
+### 13.0 CRM at a glance
+Folder: `public/screenshots/13-crm/13.0-overview/`
 
-## 15-website
+- [x] `fig-13.0.1.png`: The CRM Dashboard with number cards and charts, and the CRM sidebar with Home, Pipeline, Lead, Opportunity, Customer, Reports, Sales Pipeline, Campaign, Setup and Settings
 
-### 15.0 Website and portal at a glance
-Folder: `public/screenshots/15-website/15.0-overview/`
+### 13.1 CRM setup and settings
+Folder: `public/screenshots/13-crm/13.1-crm-settings/`
 
-- [ ] `fig-15.0.1.png`: Website workspace with web pages, web forms, portal settings and website settings
+- [x] `fig-13.1.1.png`: CRM Settings with the Lead, Opportunity, Quotation and Activity sections
+- [x] `fig-13.1.2.png`: The Sales Stage list with eight stages, and the Setup group of the CRM sidebar open
 
-### 15.1 Web pages and the page builder
-Folder: `public/screenshots/15-website/15.1-web-pages/`
+### 13.2 The CRM Dashboard
+Folder: `public/screenshots/13-crm/13.2-crm-dashboard/`
 
-- [ ] `fig-15.1.1.png`: Page builder editing the About Us page with hero and cards blocks
+- [x] `fig-13.2.1.png`: The CRM Dashboard with eight number cards, the Open pipeline by stage and Leads by status charts
 
-### 15.2 Web forms
-Folder: `public/screenshots/15-website/15.2-web-forms/`
+### 13.3 Leads
+Folder: `public/screenshots/13-crm/13.3-leads/`
 
-- [ ] `fig-15.2.1.png`: Web form for quote requests with fields from the Lead document type
+- [x] `fig-13.3.1.png`: The New Lead dialog with First Name, Last Name, Organisation, Email, Mobile No, Source and Territory
+- [x] `fig-13.3.2.png`: The leads split view with status buttons, a lead open on the right, its Timeline tab and the Details panel
+- [x] `fig-13.3.3.png`: The Create Opportunity dialog with Create Prospect ticked and the Prospect Name filled in
 
-### 15.3 Customer, supplier and employee portal
-Folder: `public/screenshots/15-website/15.3-portal/`
+### 13.4 Prospects
+Folder: `public/screenshots/13-crm/13.4-prospects/`
 
-- [ ] `fig-15.3.1.png`: Customer portal showing orders, invoices with pay buttons and issues
+- [x] `fig-13.4.1.png`: A prospect with its Leads tab open, showing one lead with name, email, mobile, owner and status
 
-### 15.4 Blog
-Folder: `public/screenshots/15-website/15.4-blog/`
+### 13.5 The Pipeline board
+Folder: `public/screenshots/13-crm/13.5-pipeline/`
 
-- [ ] `fig-15.4.1.png`: Blog post editor with title, category, intro and featured image
+- [x] `fig-13.5.1.png`: The Pipeline board with deal count, value and weighted value, the Open/Won/Lost/All switch and stage columns with deal cards
 
-### 15.5 Themes and branding
-Folder: `public/screenshots/15-website/15.5-themes-branding/`
+### 13.6 Opportunities (deals)
+Folder: `public/screenshots/13-crm/13.6-opportunities/`
 
-- [ ] `fig-15.5.1.png`: Website theme with brand colour, font and custom styles
+- [x] `fig-13.6.1.png`: A deal page with the stage path, the summary row with amount, probability, weighted value, expected closing and owner, and the Activity tab
+- [x] `fig-13.6.2.png`: The Set as Lost dialog with a lost reason, a competitor and a detailed reason
 
-### 15.6 SEO and analytics
-Folder: `public/screenshots/15-website/15.6-seo-analytics/`
+### 13.7 From quotation to sales order
+Folder: `public/screenshots/13-crm/13.7-quotation-to-order/`
 
-- [ ] `fig-15.6.1.png`: Page settings with meta title, description and image for search engines
+- [x] `fig-13.7.1.png`: A submitted quotation to a lead with UAE VAT 5% taxes and the Create menu open on Sales Order
 
-### 15.7 Careers page
-Folder: `public/screenshots/15-website/15.7-careers-page/`
+### 13.8 Activities, notes and email
+Folder: `public/screenshots/13-crm/13.8-communication/`
 
-- [ ] `fig-15.7.1.png`: Careers page listing open positions with apply buttons
+- [x] `fig-13.8.1.png`: The Tasks tab of a lead with one open task and one open event
+- [x] `fig-13.8.2.png`: The Emails tab of a deal with one sent and one received email
 
-### 15.8 Arabic website
-Folder: `public/screenshots/15-website/15.8-arabic-website/`
+### 13.9 Contracts
+Folder: `public/screenshots/13-crm/13.9-contracts/`
 
-- [ ] `fig-15.8.1.png`: Website in Arabic with right-to-left menu and language switcher
+- [x] `fig-13.9.1.png`: A submitted, active contract with two fulfilment terms, one of them fulfilled, and Signed By (Entity) filled in
 
-## 16-hr-payroll
+### 13.10 Campaigns and email campaigns
+Folder: `public/screenshots/13-crm/13.10-campaigns/`
 
-### 16.0 HR & Payroll at a glance
-Folder: `public/screenshots/16-hr-payroll/16.0-overview/`
+- [x] `fig-13.10.1.png`: A campaign with two Campaign Schedules rows and a description, and the View Leads button
+- [x] `fig-13.10.2.png`: An email campaign for an email group with start and end dates and status Scheduled
 
-- [ ] `fig-16.0.1.png`: HR workspace with headcount, leave today, expiring documents and payroll summary
+### 13.11 Appointments
+Folder: `public/screenshots/13-crm/13.11-appointments/`
 
-### 16.1 Employee records
-Folder: `public/screenshots/16-hr-payroll/16.1-employees/`
+- [x] `fig-13.11.1.png`: Appointment Booking Settings with a 30-minute duration, two agents and Monday to Friday slots from 09:00 to 17:00
+- [x] `fig-13.11.2.png`: The public Book an Appointment page with a date, the Asia/Dubai time zone and free half-hour slots
 
-- [ ] `fig-16.1.1.png`: Employee form with personal, job and contract details
+### 13.12 CRM reports
+Folder: `public/screenshots/13-crm/13.12-crm-reports/`
 
-### 16.2 Recruitment and onboarding
-Folder: `public/screenshots/16-hr-payroll/16.2-recruitment/`
+- [x] `fig-13.12.1.png`: The Sales Pipeline Analytics report by sales stage, monthly, by amount, with a line chart and a table of stages by month
 
-- [ ] `fig-16.2.1.png`: Job applicant list with status and interview stage
-- [ ] `fig-16.2.2.png`: Onboarding checklist with tasks assigned to HR, PRO and IT
+### 13.13 Territories and customer groups
+Folder: `public/screenshots/13-crm/13.13-territories-groups/`
 
-### 16.3 Attendance and leave
-Folder: `public/screenshots/16-hr-payroll/16.3-attendance-leave/`
+- [ ] `fig-13.13.1.png`: The Territory tree with All Territories, United Arab Emirates and the emirates below it
 
-- [ ] `fig-16.3.1.png`: Attendance calendar for a team showing present, absent and on leave
-- [ ] `fig-16.3.2.png`: Leave application with balance, dates and approver
+### 13.14 Sales persons
+Folder: `public/screenshots/13-crm/13.14-sales-persons/`
 
-### 16.4 Salary structures
-Folder: `public/screenshots/16-hr-payroll/16.4-salary-structure/`
+- [ ] `fig-13.14.1.png`: The Sales Person tree with a sales manager and two sales persons below
 
-- [ ] `fig-16.4.1.png`: Salary structure with basic, housing and transport components
+## 14-human-resources
 
-### 16.5 Monthly payroll and WPS
-Folder: `public/screenshots/16-hr-payroll/16.5-wps-payroll/`
+### 14.0 Human Resources at a glance
+Folder: `public/screenshots/14-human-resources/14.0-overview/`
 
-- [ ] `fig-16.5.1.png`: Payroll entry for March 2026 with employees and salary slip totals
-- [ ] `fig-16.5.2.png`: WPS salary file preview with employee detail and summary records
+- [x] `fig-14.0.1.png`: The Human Resources rail with HR Setup open and the Workforce Dashboard link in the sidebar
 
-### 16.6 End-of-service gratuity
-Folder: `public/screenshots/16-hr-payroll/16.6-gratuity/`
+### 14.1 Setup checklist and settings
+Folder: `public/screenshots/14-human-resources/14.1-hr-settings/`
 
-- [ ] `fig-16.6.1.png`: Gratuity rule with 21-day and 30-day slabs
+- [x] `fig-14.1.1.png`: HR Settings, Shift and Attendance tab with Allow Employee Checkin from Mobile App, Allow Geolocation Tracking and Overtime Cap: Warn Only
+- [x] `fig-14.1.2.png`: Payroll Settings with the Working Days and Hours, Salary Slip, Email and Other Settings sections
 
-### 16.7 Separation and final settlement
-Folder: `public/screenshots/16-hr-payroll/16.7-separation/`
+### 14.2 Employees and contracts
+Folder: `public/screenshots/14-human-resources/14.2-employees/`
 
-- [ ] `fig-16.7.1.png`: Full and final statement with salary, leave encashment and gratuity
+- [x] `fig-14.2.1.png`: Employee, Contract and Visa section with one contract row and three Contract Salary rows (Basic, Housing Allowance, Transport Allowance)
+- [x] `fig-14.2.2.png`: Employee, End of Service Accruals section with Accrue Gratuity, Accrue Vacation Pay, Gratuity Basis UAE Mainland and Gratuity Days per Year 21
 
-### 16.8 HR and payroll settings
-Folder: `public/screenshots/16-hr-payroll/16.8-hr-settings/`
+### 14.3 UAE employee documents and PRO tasks
+Folder: `public/screenshots/14-human-resources/14.3-visa-pro/`
 
-- [ ] `fig-16.8.1.png`: Payroll settings with daily wage basis and salary slip emailing
+- [x] `fig-14.3.1.png`: Employee Document for an Emirates ID with Document Number, Issue Date, Expiry Date and the status Expiring Soon
+- [x] `fig-14.3.2.png`: PRO Task list with two Renew tasks, their due dates and the status Open
 
-### 16.9 Shifts and rosters
-Folder: `public/screenshots/16-hr-payroll/16.9-shifts-rosters/`
+### 14.4 Holidays and leave
+Folder: `public/screenshots/14-human-resources/14.4-attendance-leave/`
 
-- [ ] `fig-16.9.1.png`: Weekly roster for warehouse staff with morning and evening shifts
+- [x] `fig-14.4.1.png`: Set up UAE Holidays dialog with Entity and Year over the holiday list
+- [x] `fig-14.4.2.png`: Leave Application with From Date, To Date, Total Leave Days, Leave Balance Before Application, Leave Approver and Status Open
 
-### 16.10 Overtime
-Folder: `public/screenshots/16-hr-payroll/16.10-overtime/`
+### 14.5 Shifts, attendance and the roster
+Folder: `public/screenshots/14-human-resources/14.5-shifts-rosters/`
 
-- [ ] `fig-16.10.1.png`: Overtime approval with hours by type for one employee
+- [x] `fig-14.5.1.png`: The Roster for November with shifts coloured by shift type, WO on weekly offs and Annual Leave days
+- [x] `fig-14.5.2.png`: New Shift Assignment dialog with Shift Type, Start Date, End Date, Status and Schedule Settings
 
-### 16.11 Expense claims
-Folder: `public/screenshots/16-hr-payroll/16.11-expense-claims/`
+### 14.6 Overtime
+Folder: `public/screenshots/14-human-resources/14.6-overtime/`
 
-- [ ] `fig-16.11.1.png`: Expense claim with receipts, expense types and VAT amounts
+- [x] `fig-14.6.1.png`: Overtime Slip for one month with two UAE Overtime rows fetched from attendance and Total Overtime Duration 4
 
-### 16.12 Employee advances and loans
-Folder: `public/screenshots/16-hr-payroll/16.12-advances-loans/`
+### 14.7 Expense claims
+Folder: `public/screenshots/14-human-resources/14.7-expense-claims/`
 
-- [ ] `fig-16.12.1.png`: Employee loan with repayment schedule linked to payroll
+- [x] `fig-14.7.1.png`: Expense Claim with Expense Approver, Approval Status and two expense rows (Travel and Calls)
 
-### 16.13 Performance appraisals
-Folder: `public/screenshots/16-hr-payroll/16.13-appraisals/`
+### 14.9 Recruitment
+Folder: `public/screenshots/14-human-resources/14.9-recruitment/`
 
-- [ ] `fig-16.13.1.png`: Appraisal with KRA scores, self-review and manager feedback
+- [x] `fig-14.9.1.png`: The public careers page listing Job Openings with filters for Company, Department and Employment Type
+- [x] `fig-14.9.2.png`: Interview with Interview Type, Job Applicant, Scheduled On, From Time, To Time, the interviewers and the Submit Feedback button
 
-### 16.14 Training and development
-Folder: `public/screenshots/16-hr-payroll/16.14-training/`
+### 14.10 Performance and appraisals
+Folder: `public/screenshots/14-human-resources/14.10-appraisals/`
 
-- [ ] `fig-16.14.1.png`: Training event with trainer, dates and invited employees
+- [x] `fig-14.10.1.png`: Appraisal on the KRAs tab with the Scores chart, the Appraisal Template and weighted goal rows
 
-### 16.15 Employee self-service
-Folder: `public/screenshots/16-hr-payroll/16.15-self-service/`
+### 14.13 Onboarding
+Folder: `public/screenshots/14-human-resources/14.13-onboarding/`
 
-- [ ] `fig-16.15.1.png`: Employee self-service home screen on mobile
+- [x] `fig-14.13.1.png`: Employee Onboarding with Date of Joining, Onboarding Begins On and four onboarding activities with user, begin day and duration
 
-### 16.16 Air tickets and leave salary
-Folder: `public/screenshots/16-hr-payroll/16.16-air-tickets/`
+### 14.14 Separation
+Folder: `public/screenshots/14-human-resources/14.14-separation/`
 
-- [ ] `fig-16.16.1.png`: Employee air ticket entitlement with frequency, destination and value
+- [ ] `fig-14.14.1.png`: Employee Separation with the employee, the separation template, Separation Begins On and the activities table
 
-### 16.17 Visas, Emirates ID and PRO tasks
-Folder: `public/screenshots/16-hr-payroll/16.17-visa-pro/`
+### 14.15 Payroll setup
+Folder: `public/screenshots/14-human-resources/14.15-salary-structure/`
 
-- [ ] `fig-16.17.1.png`: Visa renewal task list with due dates for one employee
+- [x] `fig-14.15.1.png`: Salary Structure earnings row for Basic with Amount based on formula ticked and the formula contract_B
 
-### 16.18 Pension contributions for UAE and GCC nationals
-Folder: `public/screenshots/16-hr-payroll/16.18-pension/`
+### 14.16 Running payroll
+Folder: `public/screenshots/14-human-resources/14.16-running-payroll/`
 
-- [ ] `fig-16.18.1.png`: Salary structure with employee and employer pension components
+- [x] `fig-14.16.1.png`: Payroll Entry, Employees tab with eight employees and the Get Employees and Create Salary Slips buttons
+- [x] `fig-14.16.2.png`: Submitted Salary Slip, Earnings & Deductions tab with Basic, Housing Allowance and Transport Allowance and the gross pay
 
-### 16.19 Emiratisation targets
-Folder: `public/screenshots/16-hr-payroll/16.19-emiratisation/`
+### 14.17 The WPS salary file
+Folder: `public/screenshots/14-human-resources/14.17-wps-payroll/`
 
-- [ ] `fig-16.19.1.png`: Emiratisation dashboard with current Emirati headcount against target
+- [x] `fig-14.17.1.png`: WPS Salary File with the Employees table (Fixed Income, Variable Income, Days of Unpaid Leave) and the EDR Count and Total Salary
+- [x] `fig-14.17.2.png`: File section after submit with EDR Count, Total Salary, Created On, File Name and the SIF File link
 
-### 16.20 Promotions, transfers and contract changes
-Folder: `public/screenshots/16-hr-payroll/16.20-promotions-transfers/`
+### 14.18 HR month-end provisions
+Folder: `public/screenshots/14-human-resources/14.18-hr-month-end/`
 
-- [ ] `fig-16.20.1.png`: Employee promotion with old and new designation and effective date
+- [x] `fig-14.18.1.png`: HR Month-End with Entity and Month, and the End of service provision, Leave salary provision, Air ticket accrual and Scheme contributions cards showing lines still to book
+- [x] `fig-14.18.2.png`: Pay the pension authority dialog with Contribution Component, Owed up to, Paid From, Reference No and Reference Date
 
-### 16.21 Payroll and HR reports
-Folder: `public/screenshots/16-hr-payroll/16.21-payroll-reports/`
+### 14.19 Gratuity and final settlement
+Folder: `public/screenshots/14-human-resources/14.19-gratuity/`
 
-- [ ] `fig-16.21.1.png`: Salary register for March with earnings and deductions columns
+- [x] `fig-14.19.1.png`: Gratuity, Payment and Accounting tab with Pay via Salary Slip unticked, Total Amount, Mode of Payment, Expense Account and Payable Account
+- [x] `fig-14.19.2.png`: Full and Final Statement with a Gratuity row in Payables, an Employee Advance row in Receivables, the Assets Allocated table and the totals
 
-### 16.22 Health insurance and unemployment insurance
-Folder: `public/screenshots/16-hr-payroll/16.22-insurance/`
+### 14.23 Emiratisation
+Folder: `public/screenshots/14-human-resources/14.23-emiratisation/`
 
-- [ ] `fig-16.22.1.png`: Employee health insurance details with policy and expiry
+- [x] `fig-14.23.1.png`: Emiratisation Summary with the summary cards (Employees, UAE Nationals, Skilled Jobs, MoHRE Target) and the table by department
 
-## 17-uae-compliance
+### 14.25 Dashboards and reports
+Folder: `public/screenshots/14-human-resources/14.25-payroll-reports/`
 
-### 17.0 UAE compliance at a glance
-Folder: `public/screenshots/17-uae-compliance/17.0-overview/`
+- [x] `fig-14.25.1.png`: Workforce dashboard with headcount, joiners, leavers and document expiry cards and the Headcount by Department chart
 
-- [ ] `fig-17.0.1.png`: UAE compliance workspace with VAT summary, return status and upcoming deadlines
+### 14.26 The Employee App
+Folder: `public/screenshots/14-human-resources/14.26-self-service/`
 
-### 17.1 Setting up VAT
-Folder: `public/screenshots/17-uae-compliance/17.1-vat-setup/`
+- [x] `fig-14.26.1.png`: Home tab of the Employee App with the greeting, Check In button, Quick Links and My Requests / Team Requests
+- [x] `fig-14.26.2.png`: Install DocFlow message with the Install button over the Home tab
 
-- [ ] `fig-17.1.1.png`: Sales taxes and charges template for UAE VAT 5%
+### 14.27 Employee App: check in and out
+Folder: `public/screenshots/14-human-resources/14.27-ess-check-in/`
 
-### 17.2 Zero-rated, exempt and out-of-scope supplies
-Folder: `public/screenshots/17-uae-compliance/17.2-zero-rated-exempt/`
+- [x] `fig-14.27.1.png`: Check In sheet with the time, date, latitude and longitude, a map and the Confirm Check In button
 
-- [ ] `fig-17.2.1.png`: Sales invoice for an export to Oman using the zero-rated template
+### 14.28 Employee App: apply for leave
+Folder: `public/screenshots/14-human-resources/14.28-ess-leave/`
 
-### 17.3 Reverse charge
-Folder: `public/screenshots/17-uae-compliance/17.3-reverse-charge/`
+- [x] `fig-14.28.1.png`: Leaves & Holidays tab with Leave Balance cards, the Request a Leave button, Recent Leaves and Upcoming Holidays
+- [x] `fig-14.28.2.png`: New Leave Application with Leave Type, From Date, To Date, Half Day, Total Leave Days, Reason and Leave Balance Before Application
 
-- [ ] `fig-17.3.1.png`: Purchase invoice for imported services with the reverse charge template
+### 14.29 Employee App: expense claims and advances
+Folder: `public/screenshots/14-human-resources/14.29-ess-expenses/`
 
-### 17.4 Designated Zones and free zones
-Folder: `public/screenshots/17-uae-compliance/17.4-designated-zones/`
+- [x] `fig-14.29.1.png`: New Expense Claim with the Expenses, Advances and Totals tabs, Expense Approver, one Travel item and the attachments area
+- [x] `fig-14.29.2.png`: Expense Claims tab with the Expense Claim Summary, the Claim an Expense button, Recent Expenses and Employee Advance Balance
 
-- [ ] `fig-17.4.1.png`: Tax rule applying the Designated Zone template to qualifying sales
+### 14.30 Employee App: attendance and shift requests
+Folder: `public/screenshots/14-human-resources/14.30-ess-attendance/`
 
-### 17.5 The VAT 201 return
-Folder: `public/screenshots/17-uae-compliance/17.5-vat-return/`
+- [x] `fig-14.30.1.png`: Attendance tab with the monthly Attendance Calendar, the Present, Half Day, Absent and On Leave totals and the Request Attendance button
+- [x] `fig-14.30.2.png`: New Shift Request with Shift Type, Approver, From Date and To Date
 
-- [ ] `fig-17.5.1.png`: UAE VAT 201 report with boxes 1a to 14 for Q1 2026
+### 14.31 Employee App: payslips
+Folder: `public/screenshots/14-human-resources/14.31-ess-payslips/`
 
-### 17.6 Corporate Tax
-Folder: `public/screenshots/17-uae-compliance/17.6-corporate-tax/`
+- [x] `fig-14.31.1.png`: Salary Slips screen with Year To Date, the payroll period selector and one monthly payslip
+- [x] `fig-14.31.2.png`: One payslip on the Earnings & Deductions tab with Basic, Housing Allowance, Transport Allowance and the Download PDF button
 
-- [ ] `fig-17.6.1.png`: Profit and loss with a non-deductible expense dimension filter
+### 14.32 Employee App: profile and settings
+Folder: `public/screenshots/14-human-resources/14.32-ess-profile/`
 
-### 17.7 E-invoicing
-Folder: `public/screenshots/17-uae-compliance/17.7-e-invoicing/`
+- [x] `fig-14.32.1.png`: Profile screen with Employee Details, Entity Information, Contact Information, Salary Information, Settings and Log Out
 
-- [ ] `fig-17.7.1.png`: E-invoice readiness report highlighting customers without a TRN
+### 14.33 Employee App: approving requests (managers)
+Folder: `public/screenshots/14-human-resources/14.33-ess-approvals/`
 
-### 17.8 Records, audits and FTA requests
-Folder: `public/screenshots/17-uae-compliance/17.8-records-audit/`
+- [x] `fig-14.33.1.png`: Home tab with Team Requests selected, listing an expense claim and two annual leave requests with their status
+- [x] `fig-14.33.2.png`: Leave Application sheet with leave type, dates, employee, status, reason and the Reject and Approve buttons
 
-- [ ] `fig-17.8.1.png`: FTA audit file generation for a selected tax period
+## 15-administration
 
-### 17.9 Tax point and VAT on advances
-Folder: `public/screenshots/17-uae-compliance/17.9-tax-point/`
+### 15.0 Administration at a glance
+Folder: `public/screenshots/15-administration/15.0-overview/`
 
-- [ ] `fig-17.9.1.png`: Advance payment entry with VAT applied on the advance
+- [x] `fig-15.0.1.png`: The Administration tile open on Automation, with the rail folders Automation, Build, Data, Email, Integrations, Printing, Setup Wizard, System, Users and Website on the left
 
-### 17.10 Bad debt relief
-Folder: `public/screenshots/17-uae-compliance/17.10-bad-debt-relief/`
+### 15.1 Users and roles
+Folder: `public/screenshots/15-administration/15.1-users-roles/`
 
-- [ ] `fig-17.10.1.png`: Write-off journal separating the net amount and the VAT recovered
+- [x] `fig-15.1.1.png`: A user record on the Roles & Permissions tab, with the Role Profiles field, the list of roles with Accounts User ticked, and Allow Modules below
 
-### 17.11 Profit margin scheme
-Folder: `public/screenshots/17-uae-compliance/17.11-profit-margin-scheme/`
+### 15.2 Role profiles and module profiles
+Folder: `public/screenshots/15-administration/15.2-role-profiles/`
 
-- [ ] `fig-17.11.1.png`: Sales invoice for a used vehicle under the profit margin scheme
+- [ ] `fig-15.2.1.png`: Role profile for a storekeeper with the Stock User role ticked
 
-### 17.12 Excise tax
-Folder: `public/screenshots/17-uae-compliance/17.12-excise-tax/`
+### 15.3 Role permissions
+Folder: `public/screenshots/15-administration/15.3-permissions/`
 
-- [ ] `fig-17.12.1.png`: Item with excise category and excise tax template
+- [x] `fig-15.3.1.png`: The Role Permissions Manager for Sales Invoice, with rows for Accounts Manager, VAT Administrator and Accounts User at level 0 and their ticked permissions
 
-### 17.13 Tax refunds for tourists
-Folder: `public/screenshots/17-uae-compliance/17.13-tourist-refund/`
+### 15.4 Version history and audit logs
+Folder: `public/screenshots/15-administration/15.4-audit-logs/`
 
-- [ ] `fig-17.13.1.png`: Point of sale invoice marked for the tourist refund scheme
+- [ ] `fig-15.4.1.png`: Document timeline showing a changed rate and quantity on a sales order
 
-### 17.14 Customs, HS codes and duty
-Folder: `public/screenshots/17-uae-compliance/17.14-customs/`
+### 15.5 Customize Form and custom fields
+Folder: `public/screenshots/15-administration/15.5-customize-form/`
 
-- [ ] `fig-17.14.1.png`: Purchase receipt with bill of entry number and attached customs declaration
+- [x] `fig-15.5.1.png`: Customize Form for Sales Invoice on the Form tab, with the layout in sections and columns and the properties of Posting Date on the right
 
-### 17.15 Transfer pricing
-Folder: `public/screenshots/17-uae-compliance/17.15-transfer-pricing/`
+### 15.7 Naming series and document numbers
+Folder: `public/screenshots/15-administration/15.7-naming-series/`
 
-- [ ] `fig-17.15.1.png`: General ledger filtered by related party dimension
+- [ ] `fig-15.7.1.png`: Document naming settings with two sales invoice series for Dubai and Abu Dhabi
 
-### 17.16 Ultimate beneficial owner register
-Folder: `public/screenshots/17-uae-compliance/17.16-ubo-register/`
+### 15.8 Approval workflows
+Folder: `public/screenshots/15-administration/15.8-workflows/`
 
-- [ ] `fig-17.16.1.png`: Beneficial owner record with ownership percentage and identification
+- [x] `fig-15.8.1.png`: The Workflow Builder for Purchase Order, with Draft, Pending Approval, Approved and Rejected states and Purchase Manager on the Review, Approve and Reject transitions
 
-### 17.17 Anti-money laundering for dealers in precious metals and other DNFBPs
-Folder: `public/screenshots/17-uae-compliance/17.17-aml-goaml/`
+### 15.9 Report builder and custom reports
+Folder: `public/screenshots/15-administration/15.9-report-builder/`
 
-- [ ] `fig-17.17.1.png`: Report of cash sales above the DPMSR threshold
+- [ ] `fig-15.9.1.png`: Report view with chosen columns, group by customer and totals row
 
-### 17.18 Correcting VAT returns
-Folder: `public/screenshots/17-uae-compliance/17.18-voluntary-disclosure/`
+### 15.10 Customising workspaces
+Folder: `public/screenshots/15-administration/15.10-workspace-customisation/`
 
-- [ ] `fig-17.18.1.png`: VAT 201 comparison for the original period before and after corrections
+- [ ] `fig-15.10.1.png`: A workspace in edit mode with blocks being added and moved
+
+### 15.11 Dashboards, charts and number cards
+Folder: `public/screenshots/15-administration/15.11-dashboards/`
+
+- [ ] `fig-15.11.1.png`: Management dashboard with monthly sales, receivables and stock value charts
+
+### 15.12 Automation tools
+Folder: `public/screenshots/15-administration/15.12-automation/`
+
+- [x] `fig-15.12.1.png`: The Automation folder with Assignment Rule, Milestone, Auto Repeat, Auto Email Report and Reminder, and the empty Assignment Rule list
+
+### 15.13 Importing data
+Folder: `public/screenshots/15-administration/15.13-data-import/`
+
+- [x] `fig-15.13.1.png`: The Export Data dialog for Customer, with File Type Excel, Export Type Blank Template and the mandatory columns ticked
+- [x] `fig-15.13.2.png`: A Data Import for Customer with the file attached, Don't Send Emails ticked and the preview of customers with their type, group and territory
+
+### 15.14 Bulk tools
+Folder: `public/screenshots/15-administration/15.14-bulk-tools/`
+
+- [ ] `fig-15.14.1.png`: Bulk edit dialog setting the default warehouse on selected items
+
+### 15.15 Backups
+Folder: `public/screenshots/15-administration/15.15-backups/`
+
+- [x] `fig-15.15.1.png`: The Download Backups page with three backups listed, each with Download buttons for Database and Site Config, and the buttons Set Number of Backups, Get Backup Encryption Key, Backup Database and Backup with Files
+
+### 15.16 Email accounts
+Folder: `public/screenshots/15-administration/15.16-email-accounts/`
+
+- [ ] `fig-15.16.1.png`: A new email account for accounts@alnoortrading.ae, with Entity Al Noor Trading LLC, Email Account Name Accounts, and Enable Incoming and Enable Outgoing ticked
+
+### 15.17 Email templates and Arabic versions
+Folder: `public/screenshots/15-administration/15.17-email-templates/`
+
+- [x] `fig-15.17.1.png`: The email template Sales Invoice (AR), with an Arabic subject and message, Language Arabic and Translation Of Sales Invoice
+
+### 15.18 Integrations
+Folder: `public/screenshots/15-administration/15.18-integrations-api/`
+
+- [ ] `fig-15.18.1.png`: The Integrations folder of Administration with the Google settings and Social Login Key
+
+### 15.19 Letter head and print formats
+Folder: `public/screenshots/15-administration/15.19-letter-head-print-formats/`
+
+- [ ] `fig-15.19.1.png`: A letter head with Letter Head Based On Image, the logo band uploaded, and Default Letter Head ticked
+- [x] `fig-15.19.2.png`: The Print Format Builder editing the Tax Invoice format of Sales Invoice, with the Fields list on the left and the customer, address and items sections on the page
+
+### 15.21 System Settings and the country
+Folder: `public/screenshots/15-administration/15.21-system-settings/`
+
+- [x] `fig-15.21.1.png`: System Settings on the Details tab, with Country United Arab Emirates, Time Zone Asia/Dubai, Language English, Currency AED and the date and number formats
+
+### 15.22 Arabic labels and translations
+Folder: `public/screenshots/15-administration/15.22-translations/`
+
+- [ ] `fig-15.22.1.png`: Translation record changing the Arabic label for Delivery Note
+
+### 15.23 The Help menu and About
+Folder: `public/screenshots/15-administration/15.23-help-menu/`
+
+- [x] `fig-15.23.1.png`: The menu at the top of the sidebar open on Help, showing About, Keyboard Shortcuts and DocFlow Support
+
+### 15.24 Website and portal
+Folder: `public/screenshots/15-administration/15.24-website-overview/`
+
+- [ ] `fig-15.24.1.png`: The Website folder of Administration with Web Page, Web Form, Portal Settings, Website Script and Website Theme
+
+### 15.25 Web pages
+Folder: `public/screenshots/15-administration/15.25-web-pages/`
+
+- [ ] `fig-15.25.1.png`: Web page for About Us with title, route and content
+
+### 15.26 Web forms
+Folder: `public/screenshots/15-administration/15.26-web-forms/`
+
+- [ ] `fig-15.26.1.png`: Web form for quote requests with fields from the Lead document type
+
+### 15.27 Customer and supplier portal
+Folder: `public/screenshots/15-administration/15.27-portal/`
+
+- [ ] `fig-15.27.1.png`: Customer portal showing orders, invoices and issues
+
+## 16-organization
+
+### 16.0 Organization at a glance
+Folder: `public/screenshots/16-organization/16.0-overview/`
+
+- [ ] `fig-16.0.1.png`: The Organization tile open, with Entity, Branch and Department in the sidebar
+
+### 16.1 Entities
+Folder: `public/screenshots/16-organization/16.1-company/`
+
+- [ ] `fig-16.1.1.png`: New entity form with name, abbreviation, currency, country and chart of accounts
+- [ ] `fig-16.1.2.png`: Entity accounts tab showing default receivable, payable and bank accounts
+
+### 16.2 Branches and departments
+Folder: `public/screenshots/16-organization/16.2-branches-departments/`
+
+- [ ] `fig-16.2.1.png`: Department tree with Operations, Finance and Sales departments
+
+### 16.3 Fiscal years
+Folder: `public/screenshots/16-organization/16.3-fiscal-year/`
+
+- [ ] `fig-16.3.1.png`: Fiscal year 2026 with start and end dates and linked entities
+
+### 16.4 Holiday lists
+Folder: `public/screenshots/16-organization/16.4-holiday-list/`
+
+- [ ] `fig-16.4.1.png`: Holiday list for 2026 with weekly offs and UAE public holidays
+
+### 16.5 Addresses and contacts
+Folder: `public/screenshots/16-organization/16.5-addresses-contacts/`
+
+- [ ] `fig-16.5.1.png`: Address form for a customer with emirate, P.O. Box and billing preference
+
+### 16.6 Running several entities
+Folder: `public/screenshots/16-organization/16.6-multi-company/`
+
+- [ ] `fig-16.6.1.png`: Entity selector with two group entities
+
+## 17-settings
+
+### 17.0 Settings at a glance
+Folder: `public/screenshots/17-settings/17.0-overview/`
+
+- [x] `fig-17.0.1.png`: The Settings sidebar with Global Defaults, System Settings, Accounts Settings, POS Settings, Selling Settings, Buying Settings, Stock Settings, Manufacturing Settings, Projects Settings, CRM Settings, Support Settings and Other Settings, with System Settings open
 
 ## 18-guides
-
-### 18.0 Guides at a glance
-Folder: `public/screenshots/18-guides/18.0-overview/`
-
-- [ ] `fig-18.0.1.png`: Guides section listing process walkthroughs and role guides
-
-### 18.1 Order to cash
-Folder: `public/screenshots/18-guides/18.1-order-to-cash/`
-
-- [ ] `fig-18.1.1.png`: Quotation to Jumeirah Grand Hotel with optional installation line
-- [ ] `fig-18.1.2.png`: Delivery note with serial numbers and stamped copy attached
-
-### 18.2 Procure to pay with an import
-Folder: `public/screenshots/18-guides/18.2-procure-to-pay/`
-
-- [ ] `fig-18.2.1.png`: Purchase order in USD with CIF terms and advance payment schedule
-- [ ] `fig-18.2.2.png`: Purchase invoice in USD with the advance applied and the balance due
 
 ### 18.3 Month-end close
 Folder: `public/screenshots/18-guides/18.3-month-end-close/`
 
-- [ ] `fig-18.3.1.png`: Month-end checklist as a project with tasks and owners
+- [x] `fig-18.3.1.png`: The Month-End Closing screen with the Entity, Month and Closing Account filled in and the preview listing each step
 
 ### 18.4 A VAT quarter
 Folder: `public/screenshots/18-guides/18.4-vat-quarter/`
 
-- [ ] `fig-18.4.1.png`: VAT 201 report for the quarter with reconciliation notes
+- [x] `fig-18.4.1.png`: The VAT 201 of an open period in the FTA layout with the live-figures banner and the File return button
 
 ### 18.5 Monthly payroll
 Folder: `public/screenshots/18-guides/18.5-monthly-payroll/`
 
-- [ ] `fig-18.5.1.png`: Payroll entry with salary slip totals and the WPS file action
+- [x] `fig-18.5.1.png`: WPS Salary File with the Employees table and the EDR Count and Total Salary
 
 ### 18.6 A fit-out project
 Folder: `public/screenshots/18-guides/18.6-fit-out-project/`
 
 - [ ] `fig-18.6.1.png`: Gantt chart for the lobby fit-out with authority approval tasks
-
-### 18.7 Accountant's guide
-Folder: `public/screenshots/18-guides/18.7-role-accountant/`
-
-- [ ] `fig-18.7.1.png`: Accounting workspace customised for an accountant
-
-### 18.8 Storekeeper's guide
-Folder: `public/screenshots/18-guides/18.8-role-storekeeper/`
-
-- [ ] `fig-18.8.1.png`: Stock workspace on a tablet for warehouse use
-
-### 18.9 HR officer's guide
-Folder: `public/screenshots/18-guides/18.9-role-hr/`
-
-- [ ] `fig-18.9.1.png`: HR workspace with expiring documents card
-
-### 18.10 Salesperson's guide
-Folder: `public/screenshots/18-guides/18.10-role-sales/`
-
-- [ ] `fig-18.10.1.png`: CRM workspace showing a salesperson's open opportunities

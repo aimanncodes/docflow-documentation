@@ -1,0 +1,4 @@
+10.1 Quality inspections
+
+fig-10.1.1.png  —  Quality inspection template for dates with numeric and visual parameters
+fig-10.1.2.png  —  Quality inspection on a purchase receipt row with readings and accepted status

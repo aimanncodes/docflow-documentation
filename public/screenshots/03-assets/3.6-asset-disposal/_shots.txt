@@ -1,0 +1,4 @@
+3.6 Selling, scrapping and revaluing assets
+
+fig-3.6.1.png  —  Sales invoice selling a used vehicle with the asset selected on the item row
+fig-3.6.2.png  —  Asset value adjustment reducing the value of damaged equipment

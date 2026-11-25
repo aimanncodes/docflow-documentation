@@ -1,3 +1,0 @@
-10.2 Workstations, operations and routing
-
-fig-10.2.1.png  —  Workstation with hourly cost breakdown and working hours

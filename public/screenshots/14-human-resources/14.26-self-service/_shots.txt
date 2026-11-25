@@ -1,0 +1,4 @@
+14.26 The Employee App
+
+fig-14.26.1.png  —  Home tab of the Employee App with the greeting, Check In button, Quick Links and My Requests / Team Requests
+fig-14.26.2.png  —  Install DocFlow message with the Install button over the Home tab

@@ -1,0 +1,3 @@
+7.7 Support reports
+
+fig-7.7.1.png  —  Support analytics chart of issues opened and closed by week

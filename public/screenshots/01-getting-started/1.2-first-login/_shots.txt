@@ -1,0 +1,4 @@
+1.2 First-time setup
+
+fig-1.2.1.png  —  Setup wizard step 1 of 4, Welcome, with Your Language set to English, Your Country to United Arab Emirates, Time Zone to Asia/Dubai, Currency to AED and the Next button
+fig-1.2.2.png  —  Setup wizard step 4 of 4, Setup your organization, with Entity Name "Al Noor Trading LLC", Entity Abbreviation "ANT", an empty Chart of Accounts, Financial Year Begins On 01/01/2026, the Generate Demo Data for Exploration check box and the Previous and Complete Setup buttons

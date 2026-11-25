@@ -1,3 +1,0 @@
-12.4 In-process inspection
-
-fig-12.4.1.png  —  Job card with an in-process quality inspection for weld quality

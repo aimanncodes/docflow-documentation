@@ -1,0 +1,3 @@
+16.5 Addresses and contacts
+
+fig-16.5.1.png  —  Address form for a customer with emirate, P.O. Box and billing preference

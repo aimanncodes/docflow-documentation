@@ -1,0 +1,4 @@
+12.23 The e-invoice panel on an invoice
+
+fig-12.23.1.png  —  The E-invoice panel on a draft sales invoice showing Needs Fixing and 0 of 4 fixed, with tasks grouped under This invoice, Customer and Your entity, each with a Choose, Add or Open button
+fig-12.23.2.png  —  The Add the customer's TRN dialog with the This customer is not VAT registered tick box, the TRN field (15 digits, starts with 1 and ends with 03) and Save & re-check

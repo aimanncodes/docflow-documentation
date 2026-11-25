@@ -1,0 +1,4 @@
+8.5 BOM Comparison Tool and Visual Plant Floor
+
+fig-8.5.1.png  —  BOM Comparison Tool with two BOMs selected and a list of changed, added and removed rows
+fig-8.5.2.png  —  Visual Plant Floor showing workstation cards coloured by status

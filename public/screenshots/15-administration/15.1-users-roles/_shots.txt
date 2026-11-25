@@ -1,0 +1,3 @@
+15.1 Users and roles
+
+fig-15.1.1.png  —  A user record on the Roles & Permissions tab, with the Role Profiles field, the list of roles with Accounts User ticked, and Allow Modules below

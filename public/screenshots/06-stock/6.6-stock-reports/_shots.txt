@@ -1,0 +1,4 @@
+6.6 Stock reports
+
+fig-6.6.1.png  —  Stock balance report filtered by the Jebel Ali warehouse
+fig-6.6.2.png  —  Unbilled Goods Notes report with the Entity and As on Date filters and the Received Items To Be Billed and Delivered Items To Be Billed sections

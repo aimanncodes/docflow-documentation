@@ -1,3 +1,0 @@
-9.17 Inventory dimensions
-
-fig-9.17.1.png  —  Inventory dimension for project added to stock transactions

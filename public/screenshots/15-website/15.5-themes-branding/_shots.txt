@@ -1,3 +1,0 @@
-15.5 Themes and branding
-
-fig-15.5.1.png  —  Website theme with brand colour, font and custom styles

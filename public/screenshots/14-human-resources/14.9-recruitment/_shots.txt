@@ -1,0 +1,4 @@
+14.9 Recruitment
+
+fig-14.9.1.png  —  The public careers page listing Job Openings with filters for Company, Department and Employment Type
+fig-14.9.2.png  —  Interview with Interview Type, Job Applicant, Scheduled On, From Time, To Time, the interviewers and the Submit Feedback button

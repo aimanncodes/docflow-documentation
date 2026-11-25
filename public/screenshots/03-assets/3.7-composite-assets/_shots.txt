@@ -1,0 +1,3 @@
+3.7 Composite and grouped assets
+
+fig-3.7.1.png  —  Fixed Asset Entry combining stock items, a service and an existing asset into a cold room

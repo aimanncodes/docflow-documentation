@@ -1,0 +1,5 @@
+1.11 Working with forms
+
+fig-1.11.1.png  —  A new Sales Invoice form marked Not Saved, with the Details, Payments, Address & Contact, Terms and More Info tabs, mandatory fields marked with a red star and the Save button
+fig-1.11.2.png  —  A submitted Sales Invoice with the status Unpaid, the View, Create and E-invoice buttons, the Cancel button, the Connections tab and the form sidebar with Assign, Attachments, Tags and Share
+fig-1.11.3.png  —  The bottom of a Sales Invoice with the Comments box, a comment that mentions @Hessa Al Falasi, the Activity list with field changes, the Show all activity switch and New Email

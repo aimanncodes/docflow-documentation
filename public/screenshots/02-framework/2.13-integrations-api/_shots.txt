@@ -1,3 +1,0 @@
-2.13 Integrations and API
-
-fig-2.13.1.png  —  Integrations page listing connected services and their status

@@ -1,3 +1,0 @@
-13.4 Project settings
-
-fig-13.4.1.png  —  Projects settings with timesheet overlap and working hours options

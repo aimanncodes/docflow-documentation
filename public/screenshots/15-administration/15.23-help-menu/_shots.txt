@@ -1,0 +1,3 @@
+15.23 The Help menu and About
+
+fig-15.23.1.png  —  The menu at the top of the sidebar open on Help, showing About, Keyboard Shortcuts and DocFlow Support

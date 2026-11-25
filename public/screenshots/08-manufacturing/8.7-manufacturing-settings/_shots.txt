@@ -1,0 +1,3 @@
+8.7 Manufacturing settings
+
+fig-8.7.1.png  —  Manufacturing settings with default warehouses and backflush options

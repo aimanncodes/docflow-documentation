@@ -1,3 +1,0 @@
-14.2 Service level agreements
-
-fig-14.2.1.png  —  SLA with priorities, response and resolution times and working hours

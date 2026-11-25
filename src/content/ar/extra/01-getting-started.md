@@ -9,7 +9,7 @@
 | تعمل في مستودع | [دليل أمين المستودع](/guides/role-storekeeper) |
 | في الموارد البشرية | [دليل موظف الموارد البشرية](/guides/role-hr) |
 | في المبيعات | [دليل مندوب المبيعات](/guides/role-sales) |
-| تستعد للفوترة الإلكترونية | [الفوترة الإلكترونية](/uae-compliance/e-invoicing) |
+| تستعد للفوترة الإلكترونية | [الفوترة الإلكترونية](/vat-compliance/e-invoicing) |
 
 @@ first-login
 @after
@@ -33,5 +33,5 @@
 ## صفحات ذات صلة
 
 - [القوائم وعوامل التصفية وطرق العرض](/getting-started/list-views)
-- [تخصيص مساحات العمل](/framework/workspace-customisation)
+- [تخصيص مساحات العمل](/administration/workspace-customisation)
 

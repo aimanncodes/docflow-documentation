@@ -1,0 +1,4 @@
+14.18 HR month-end provisions
+
+fig-14.18.1.png  —  HR Month-End with Entity and Month, and the End of service provision, Leave salary provision, Air ticket accrual and Scheme contributions cards showing lines still to book
+fig-14.18.2.png  —  Pay the pension authority dialog with Contribution Component, Owed up to, Paid From, Reference No and Reference Date

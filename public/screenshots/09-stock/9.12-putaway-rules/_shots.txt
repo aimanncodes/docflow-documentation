@@ -1,3 +1,0 @@
-9.12 Putaway rules
-
-fig-9.12.1.png  —  Putaway rules for an item across chiller and ambient warehouses

@@ -1,3 +1,0 @@
-5.7 Shift-based depreciation
-
-fig-5.7.1.png  —  Asset shift allocation changing future months to double shift

@@ -1,0 +1,3 @@
+6.13 Pick lists
+
+fig-6.13.1.png  —  Pick list with suggested warehouses and batches for two sales orders

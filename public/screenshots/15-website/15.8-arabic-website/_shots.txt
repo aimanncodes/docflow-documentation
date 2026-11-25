@@ -1,3 +1,0 @@
-15.8 Arabic website
-
-fig-15.8.1.png  —  Website in Arabic with right-to-left menu and language switcher

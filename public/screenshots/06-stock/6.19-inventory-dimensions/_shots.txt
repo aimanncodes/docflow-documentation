@@ -1,0 +1,3 @@
+6.19 Inventory dimensions
+
+fig-6.19.1.png  —  Inventory dimension for project added to stock transactions

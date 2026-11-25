@@ -1,3 +1,0 @@
-10.5 Manufacturing reports
-
-fig-10.5.1.png  —  Production analytics chart of quantity produced by item and month

@@ -1,3 +1,0 @@
-9.11 Pick lists
-
-fig-9.11.1.png  —  Pick list with suggested warehouses and batches for two sales orders

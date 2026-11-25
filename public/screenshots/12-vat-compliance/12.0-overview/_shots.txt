@@ -1,0 +1,3 @@
+12.0 VAT Compliance at a glance
+
+fig-12.0.1.png  —  The VAT Compliance module with the e-invoicing links at the top of the sidebar, the Returns & Periods, Invoices and Adjustments groups open, and the Filing periods screen listing eight quarterly periods

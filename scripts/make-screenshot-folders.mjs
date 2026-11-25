@@ -15,6 +15,10 @@ const shotsDir = path.join(root, "public/screenshots");
 const files = fs.readdirSync(contentDir).filter((f) => /^\d{2}-.+\.md$/.test(f)).sort();
 const lines = ["# Screenshot checklist", "", "Save each PNG with the exact file name shown. The manual picks it up automatically.", ""];
 let total = 0;
+// Real screenshots from the product team (kept locally, not in git). A figure line
+// "!fig Caption @shot 03-finance/01-x.png" copies that file into its numbered slot.
+const srcShots = path.join(root, "user-manual-updated-20-11-26/img");
+const missing = [];
 
 for (const file of files) {
   const modFolder = file.replace(/\.md$/, "");
@@ -30,7 +34,10 @@ for (const file of files) {
       current = { num: `${modNum}.${pageIdx - 1}`, slug: head[1], title: head[2].trim(), figs: [] };
       pages.push(current);
     } else if (current && line.trim().startsWith("!fig ")) {
-      current.figs.push(line.trim().slice(5).trim());
+      {
+      const m = line.trim().slice(5).match(/^(.*?)\s*(?:@shot\s+(\S+))?\s*$/);
+      current.figs.push({ cap: m[1].trim(), shot: m[2] });
+    }
     }
   }
 
@@ -38,7 +45,7 @@ for (const file of files) {
   for (const p of pages) {
     const folder = path.join(shotsDir, modFolder, `${p.num}-${p.slug}`);
     fs.mkdirSync(folder, { recursive: true });
-    const list = p.figs.map((cap, i) => `fig-${p.num}.${i + 1}.png  —  ${cap}`);
+    const list = p.figs.map((f, i) => `fig-${p.num}.${i + 1}.png  —  ${f.cap}`);
     fs.writeFileSync(
       path.join(folder, "_shots.txt"),
       `${p.num} ${p.title}\n\n${list.length ? list.join("\n") : "(no screenshots on this page)"}\n`
@@ -46,9 +53,12 @@ for (const file of files) {
     if (p.figs.length) {
       lines.push(`### ${p.num} ${p.title}`);
       lines.push(`Folder: \`public/screenshots/${modFolder}/${p.num}-${p.slug}/\``, "");
-      p.figs.forEach((cap, i) => {
+      p.figs.forEach(({ cap, shot }, i) => {
         const name = `fig-${p.num}.${i + 1}.png`;
-        const done = fs.existsSync(path.join(folder, name)) ? "x" : " ";
+        const dest = path.join(folder, name);
+        if (shot && fs.existsSync(path.join(srcShots, shot))) fs.copyFileSync(path.join(srcShots, shot), dest);
+        const done = fs.existsSync(dest) ? "x" : " ";
+        if (done === " ") missing.push({ mod: modFolder, page: `${p.num} ${p.title}`, file: `public/screenshots/${modFolder}/${p.num}-${p.slug}/${name}`, cap });
         lines.push(`- [${done}] \`${name}\`: ${cap}`);
       });
       lines.push("");
@@ -59,4 +69,11 @@ for (const file of files) {
 
 lines.splice(3, 0, `Total screenshots: **${total}**`, "");
 fs.writeFileSync(path.join(root, "SCREENSHOTS.md"), lines.join("\n"));
+const miss = ["# Screenshots still needed", "", `${missing.length} screenshots are still needed. Save each PNG at the exact path shown (1440x900, light theme, English).`, ""];
+let lastMod = "";
+for (const m of missing) {
+  if (m.mod !== lastMod) { miss.push("", `## ${m.mod}`, "", "| Page | Save as | What to show |", "| --- | --- | --- |"); lastMod = m.mod; }
+  miss.push(`| ${m.page} | \`${m.file}\` | ${m.cap.replace(/\|/g, "/")} |`);
+}
+fs.writeFileSync(path.join(root, "MISSING_SCREENSHOTS.md"), miss.join("\n") + "\n");
 console.log(`Created folders for ${files.length} modules, ${total} screenshots listed in SCREENSHOTS.md`);

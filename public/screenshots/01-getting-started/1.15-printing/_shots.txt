@@ -1,0 +1,3 @@
+1.15 Printing and PDF
+
+fig-1.15.1.png  —  The print page of a sales invoice with Print Format "UAE Bilingual Tax Invoice", Language "English" and a letter head on the left, the Default language chip, the Full Page, PDF, Refresh and Print buttons, and a bilingual Tax Invoice preview

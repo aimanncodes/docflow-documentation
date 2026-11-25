@@ -1,0 +1,5 @@
+12.3 Sales and output VAT
+
+fig-12.3.1.png  —  A draft sales invoice with the VAT Scheme set to Standard rules, the Supply Categories field showing Standard supply, and the Date of Supply field, under the E-invoice panel
+fig-12.3.2.png  —  The Create tax credit note dialog on a sales invoice, with Invoice value (before VAT) 5,650.00, Correct value (before VAT) 5,000.00, the reason Consideration altered and the date
+fig-12.3.3.png  —  The Invoices screen listing sales invoices with date, customer, status, VAT categories and return period, filtered With VAT only

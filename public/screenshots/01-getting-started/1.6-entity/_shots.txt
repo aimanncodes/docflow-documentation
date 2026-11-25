@@ -1,0 +1,3 @@
+1.6 Choosing your entity
+
+fig-1.6.1.png  —  The Entity picker at the top right of the Sales Invoice list, open with Al Noor Trading LLC (checked) and Al Noor Logistics FZE

@@ -1,3 +1,0 @@
-8.2 Material requests
-
-fig-8.2.1.png  —  Material request for purchase with items and required-by dates

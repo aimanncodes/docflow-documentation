@@ -1,0 +1,3 @@
+6.7 Stock Balance
+
+fig-6.7.1.png  —  Stock Balance page filtered by one warehouse, showing opening, in, out and balance quantity and value per item

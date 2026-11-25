@@ -1,3 +1,0 @@
-10.10 Production forecasting
-
-fig-10.10.1.png  —  Exponential smoothing forecast for date products by month

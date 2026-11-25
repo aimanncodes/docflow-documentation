@@ -1,0 +1,3 @@
+2.33 Bank guarantees and letters of credit
+
+fig-2.33.1.png  —  Bank guarantee record with amount, bank and validity dates

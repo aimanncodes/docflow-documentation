@@ -1,3 +1,0 @@
-15.2 Web forms
-
-fig-15.2.1.png  —  Web form for quote requests with fields from the Lead document type

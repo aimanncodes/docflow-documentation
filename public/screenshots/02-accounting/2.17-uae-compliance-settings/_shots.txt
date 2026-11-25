@@ -1,0 +1,3 @@
+2.17 UAE Compliance Settings
+
+fig-2.17.1.png  —  UAE Compliance Settings with its three sections: Corporate Tax Provision (estimate), Corporate Tax Ledgers per Entity and Large Cash Receipts (AML)

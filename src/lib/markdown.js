@@ -51,7 +51,7 @@ export function parseBlocks(src) {
     if (t.startsWith("### ")) { blocks.push({ type: "h3", text: t.slice(4) }); i++; continue; }
     if (t.startsWith("## ")) { blocks.push({ type: "h2", text: t.slice(3) }); i++; continue; }
 
-    if (t.startsWith("!fig ")) { blocks.push({ type: "figure", caption: t.slice(5).trim() }); i++; continue; }
+    if (t.startsWith("!fig ")) { blocks.push({ type: "figure", caption: t.slice(5).replace(/\s*@shot\s+\S+\s*$/, "").trim() }); i++; continue; }
 
     if (t.startsWith("|")) {
       const rows = [];

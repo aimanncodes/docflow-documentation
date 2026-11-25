@@ -1,3 +1,0 @@
-2.9 Customising workspaces
-
-fig-2.9.1.png  —  Accounting workspace in edit mode with blocks being added and moved

@@ -1,0 +1,3 @@
+5.5 Delivery notes
+
+fig-5.5.1.png  —  Delivery note with items, batch numbers and transporter details

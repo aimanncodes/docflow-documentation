@@ -1,0 +1,4 @@
+13.6 Opportunities (deals)
+
+fig-13.6.1.png  —  A deal page with the stage path, the summary row with amount, probability, weighted value, expected closing and owner, and the Activity tab
+fig-13.6.2.png  —  The Set as Lost dialog with a lost reason, a competitor and a detailed reason

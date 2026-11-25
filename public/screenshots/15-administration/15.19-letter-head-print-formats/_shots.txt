@@ -1,0 +1,4 @@
+15.19 Letter head and print formats
+
+fig-15.19.1.png  —  A letter head with Letter Head Based On Image, the logo band uploaded, and Default Letter Head ticked
+fig-15.19.2.png  —  The Print Format Builder editing the Tax Invoice format of Sales Invoice, with the Fields list on the left and the customer, address and items sections on the page

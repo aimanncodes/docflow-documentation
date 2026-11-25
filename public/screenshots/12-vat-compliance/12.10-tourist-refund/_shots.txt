@@ -1,0 +1,3 @@
+12.10 Tax Refund for Tourists Scheme
+
+fig-12.10.1.png  —  A draft Tax Refund for Tourists Scheme entry with the operator, operator invoice number and date, refund period, VAT Date, taxable amount 8,400.00 and VAT refunded 420.00, and the Import Planet listing button

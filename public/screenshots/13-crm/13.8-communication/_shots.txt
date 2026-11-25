@@ -1,0 +1,4 @@
+13.8 Activities, notes and email
+
+fig-13.8.1.png  —  The Tasks tab of a lead with one open task and one open event
+fig-13.8.2.png  —  The Emails tab of a deal with one sent and one received email

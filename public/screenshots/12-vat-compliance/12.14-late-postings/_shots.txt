@@ -1,0 +1,4 @@
+12.14 Late postings
+
+fig-12.14.1.png  —  The Late postings screen after a scan, with a period banner showing one late posting and its VAT effect, and a pending purchase invoice row marked Correct in current return
+fig-12.14.2.png  —  The Approve late posting dialog with the Include in return period field and Remarks, over the Include in current return, Approve and Reject buttons of the row

@@ -1,3 +1,0 @@
-9.8 Item variants
-
-fig-9.8.1.png  —  Item template with attributes and the variants created from it

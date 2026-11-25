@@ -1,0 +1,4 @@
+9.2 Tasks, dependencies and Gantt
+
+fig-9.2.1.png  —  Task form with dependencies, expected time and assignee
+fig-9.2.2.png  —  Gantt chart of a fit-out project showing task bars and dependencies

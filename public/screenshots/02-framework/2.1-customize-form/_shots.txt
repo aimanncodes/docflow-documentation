@@ -1,4 +1,0 @@
-2.1 Customise form
-
-fig-2.1.1.png  —  Customise Form for Customer with the fields table and property panel
-fig-2.1.2.png  —  Field properties showing a Depends On condition for free zone customers

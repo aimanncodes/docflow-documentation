@@ -1,0 +1,4 @@
+16.1 Entities
+
+fig-16.1.1.png  —  New entity form with name, abbreviation, currency, country and chart of accounts
+fig-16.1.2.png  —  Entity accounts tab showing default receivable, payable and bank accounts

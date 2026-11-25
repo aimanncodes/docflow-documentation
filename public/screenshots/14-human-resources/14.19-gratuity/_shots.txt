@@ -1,0 +1,4 @@
+14.19 Gratuity and final settlement
+
+fig-14.19.1.png  —  Gratuity, Payment and Accounting tab with Pay via Salary Slip unticked, Total Amount, Mode of Payment, Expense Account and Payable Account
+fig-14.19.2.png  —  Full and Final Statement with a Gratuity row in Payables, an Employee Advance row in Receivables, the Assets Allocated table and the totals

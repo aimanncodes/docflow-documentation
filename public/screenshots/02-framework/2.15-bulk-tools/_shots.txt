@@ -1,3 +1,0 @@
-2.15 Bulk tools
-
-fig-2.15.1.png  —  Bulk edit dialog setting the default warehouse on selected items

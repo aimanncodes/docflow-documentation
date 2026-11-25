@@ -1,0 +1,3 @@
+2.38 Customers who are also suppliers
+
+fig-2.38.1.png  —  A Mutual Settlement with a customer and a supplier chosen and their open items listed

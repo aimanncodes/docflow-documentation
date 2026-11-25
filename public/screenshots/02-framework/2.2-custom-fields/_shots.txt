@@ -1,3 +1,0 @@
-2.2 Custom fields
-
-fig-2.2.1.png  —  New custom field for trade licence expiry on the Customer form

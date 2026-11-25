@@ -1,3 +1,0 @@
-8.5 Purchase receipts
-
-fig-8.5.1.png  —  Purchase receipt with accepted and rejected quantities

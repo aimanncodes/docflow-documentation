@@ -1,0 +1,3 @@
+2.1 The Finance workspace
+
+fig-2.1.1.png  —  The Finance workspace: sidebar on the left, Payments Received per Month chart, and the Received This Month, Paid This Month, Due Post-Dated Cheques and Uncleared Post-Dated Cheques cards

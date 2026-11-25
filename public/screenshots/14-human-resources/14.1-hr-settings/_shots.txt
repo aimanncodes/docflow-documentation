@@ -1,0 +1,4 @@
+14.1 Setup checklist and settings
+
+fig-14.1.1.png  —  HR Settings, Shift and Attendance tab with Allow Employee Checkin from Mobile App, Allow Geolocation Tracking and Overtime Cap: Warn Only
+fig-14.1.2.png  —  Payroll Settings with the Working Days and Hours, Salary Slip, Email and Other Settings sections

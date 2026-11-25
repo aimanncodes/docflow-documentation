@@ -1,3 +1,0 @@
-17.15 Transfer pricing
-
-fig-17.15.1.png  —  General ledger filtered by related party dimension

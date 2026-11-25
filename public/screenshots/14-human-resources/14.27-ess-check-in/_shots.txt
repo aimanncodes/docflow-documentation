@@ -1,0 +1,3 @@
+14.27 Employee App: check in and out
+
+fig-14.27.1.png  —  Check In sheet with the time, date, latitude and longitude, a map and the Confirm Check In button

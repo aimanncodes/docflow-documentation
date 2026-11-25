@@ -1,0 +1,3 @@
+9.1 Setting up a project
+
+fig-9.1.1.png  —  Project form with customer, dates, completion method and costing section

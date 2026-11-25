@@ -1,0 +1,3 @@
+15.3 Role permissions
+
+fig-15.3.1.png  —  The Role Permissions Manager for Sales Invoice, with rows for Accounts Manager, VAT Administrator and Accounts User at level 0 and their ticked permissions

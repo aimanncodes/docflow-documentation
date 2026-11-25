@@ -1,3 +1,0 @@
-6.8 CRM settings
-
-fig-6.8.1.png  —  CRM settings with lead duplication, contact creation and carry-forward options

@@ -1,0 +1,3 @@
+13.4 Prospects
+
+fig-13.4.1.png  —  A prospect with its Leads tab open, showing one lead with name, email, mobile, owner and status

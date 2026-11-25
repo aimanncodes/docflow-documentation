@@ -1,0 +1,5 @@
+13.3 Leads
+
+fig-13.3.1.png  —  The New Lead dialog with First Name, Last Name, Organisation, Email, Mobile No, Source and Territory
+fig-13.3.2.png  —  The leads split view with status buttons, a lead open on the right, its Timeline tab and the Details panel
+fig-13.3.3.png  —  The Create Opportunity dialog with Create Prospect ticked and the Prospect Name filled in
