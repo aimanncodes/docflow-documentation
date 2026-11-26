@@ -910,8 +910,7 @@
 | الدولة | تقارير الموارد البشرية المعروضة |
 | --- | --- |
 | **United Arab Emirates** | WPS Salary Register وPension Contributions وEmiratisation Summary وGratuity Provision Check وLeave Salary Provision Check |
-| **India** | Income Tax Computation وIncome Tax Deductions وProvident Fund Deductions وProfessional Tax Deductions وSalary Payments via ECS |
-| أي دولة أخرى | لا هذه ولا تلك |
+| أي دولة أخرى | لا تظهر |
 
 تُعرض تقارير الموارد البشرية الأخرى لكل الدول. راجع [تقارير الرواتب والموارد البشرية](/human-resources/payroll-reports).
 

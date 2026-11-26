@@ -1529,7 +1529,7 @@ MoHRE sets the target percentages, deadlines and contributions for missed target
 @@ tax-benefits | Tax and benefits
 @summary The Tax & Benefits screens for employers who deduct income tax from salaries. A UAE entity does not need them.
 
-The **Tax & Benefits** rail item is for employers who deduct income tax from salaries, as in India. The UAE has no personal income tax, so UAE users can ignore all of these screens.
+The **Tax & Benefits** rail item is for employers who deduct income tax from salaries in countries that have personal income tax. The UAE has no personal income tax, so UAE users can ignore all of these screens.
 
 **Where to find it:** **Tax & Benefits**: **Benefit Application**, **Benefit Claim**, **Exemption Declaration**, **Exemption Proof**, and under **Setup** **Income Tax Slab**, **Exemption Category** and **Exemption Sub Category**.
 
@@ -1548,13 +1548,12 @@ The **Tax & Benefits** rail item is for employers who deduct income tax from sal
 
 ## What happens next
 
-Salary slips deduct tax by the slab, less the declared or proved exemptions. The tax reports show only on a site whose country is India.
+Salary slips deduct tax by the slab, less the declared or proved exemptions.
 
 ## Common problems
 
 | Message | What to do |
 | --- | --- |
-| The tax reports are missing | The site's country is not India. |
 | No tax is deducted | Check the **Income Tax Slab**, the **Payroll Period** and the tax component in the salary structure. |
 
 ## Related pages

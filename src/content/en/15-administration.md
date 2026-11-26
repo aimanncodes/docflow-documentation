@@ -910,8 +910,7 @@ The HR reports follow the **Country** as soon as you save:
 | Country | HR reports shown |
 | --- | --- |
 | **United Arab Emirates** | WPS Salary Register, Pension Contributions, Emiratisation Summary, Gratuity Provision Check, Leave Salary Provision Check |
-| **India** | Income Tax Computation, Income Tax Deductions, Provident Fund Deductions, Professional Tax Deductions, Salary Payments via ECS |
-| Any other country | Neither set |
+| Any other country | Not shown |
 
 The other HR reports are shown for every country. See [Payroll and HR reports](/human-resources/payroll-reports).
 
