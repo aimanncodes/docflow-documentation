@@ -1,0 +1,3 @@
+2.8 Sales Returns and Purchase Returns
+
+fig-2.8.1.png  —  A new sales return with Is Return (Credit Note) ticked, Return Against filled and the Return Type field with its help text

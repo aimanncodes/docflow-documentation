@@ -1,0 +1,4 @@
+15.13 Importing data
+
+fig-15.13.1.png  —  The Export Data dialog for Customer, with File Type Excel, Export Type Blank Template and the mandatory columns ticked
+fig-15.13.2.png  —  A Data Import for Customer with the file attached, Don't Send Emails ticked and the preview of customers with their type, group and territory

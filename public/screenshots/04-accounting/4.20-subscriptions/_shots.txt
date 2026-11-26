@@ -1,3 +1,0 @@
-4.20 Subscriptions and recurring billing
-
-fig-4.20.1.png  —  Subscription with a monthly plan and the next invoice date

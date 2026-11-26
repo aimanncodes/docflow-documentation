@@ -1,0 +1,4 @@
+14.16 Running payroll
+
+fig-14.16.1.png  —  Payroll Entry, Employees tab with eight employees and the Get Employees and Create Salary Slips buttons
+fig-14.16.2.png  —  Submitted Salary Slip, Earnings & Deductions tab with Basic, Housing Allowance and Transport Allowance and the gross pay

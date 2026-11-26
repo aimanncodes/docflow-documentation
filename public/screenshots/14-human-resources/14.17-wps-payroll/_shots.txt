@@ -1,0 +1,4 @@
+14.17 The WPS salary file
+
+fig-14.17.1.png  —  WPS Salary File with the Employees table (Fixed Income, Variable Income, Days of Unpaid Leave) and the EDR Count and Total Salary
+fig-14.17.2.png  —  File section after submit with EDR Count, Total Salary, Created On, File Name and the SIF File link

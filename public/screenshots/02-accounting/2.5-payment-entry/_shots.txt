@@ -1,0 +1,3 @@
+2.5 Bank and Cash Transactions
+
+fig-2.5.1.png  —  A new Bank Transaction with Receipt / Payment set to Receipt, Type set to Receipt from customer, and Payment Type and Party Type filled in

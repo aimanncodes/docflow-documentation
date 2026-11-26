@@ -1,0 +1,3 @@
+15.11 Dashboards, charts and number cards
+
+fig-15.11.1.png  —  Management dashboard with monthly sales, receivables and stock value charts

@@ -1,3 +1,0 @@
-15.3 Customer, supplier and employee portal
-
-fig-15.3.1.png  —  Customer portal showing orders, invoices with pay buttons and issues

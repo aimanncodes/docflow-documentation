@@ -1,0 +1,4 @@
+12.22 Get your records ready
+
+fig-12.22.1.png  —  The Seller data for all invoices group showing 2 to fix: the trade licence on the entity with a Fix button, and a mode of payment with a payment means code, with 4 ready folded below
+fig-12.22.2.png  —  The E-invoice readiness of this customer card with two things to fix: the address with the emirate (Add) and the TRN or trade licence (Open)

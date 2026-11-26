@@ -1,0 +1,3 @@
+14.32 Employee App: profile and settings
+
+fig-14.32.1.png  —  Profile screen with Employee Details, Entity Information, Contact Information, Salary Information, Settings and Log Out

@@ -1,0 +1,3 @@
+6.14 Putaway rules
+
+fig-6.14.1.png  —  Putaway rules for an item across chiller and ambient warehouses

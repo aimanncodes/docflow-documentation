@@ -3,3 +3,9 @@ dist
 .DS_Store
 .vercel
 *.log
+
+# Local working notes and source material (never commit)
+user-manual-updated-20-11-26/
+CLAUDE.md
+MISSING_SCREENSHOTS.md
+NOTES*.md

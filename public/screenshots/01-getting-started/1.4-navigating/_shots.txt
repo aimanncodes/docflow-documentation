@@ -1,0 +1,4 @@
+1.4 Moving around a module
+
+fig-1.4.1.png  —  A module with the module rail on the far left, the sidebar with Search, Notification and the module links, the page head with breadcrumbs, and the module home with a Profit and Loss chart, number cards, the Accounting Setup card and Quick Links
+fig-1.4.2.png  —  The page head of the Sales Invoice list: breadcrumbs, List View, Saved Filters, the refresh and menu buttons, + Add Sales Invoice, the bookmark, the Setup pill showing 0/6 and the theme button

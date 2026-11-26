@@ -1,0 +1,4 @@
+1.1 Signing in
+
+fig-1.1.1.png  —  The Sign In page with the Email and Password fields, the Forgot password? link, the Continue button, the Login with Email Link button and the Open Employee Self Service link
+fig-1.1.2.png  —  The Verification screen with the text "Enter Code displayed in OTP App.", the Verification Code field, the Verify button and the Back to sign in button

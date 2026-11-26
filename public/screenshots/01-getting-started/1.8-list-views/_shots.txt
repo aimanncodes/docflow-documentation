@@ -1,3 +1,0 @@
-1.8 Lists, filters and views
-
-fig-1.8.1.png  —  Sales invoice list filtered to unpaid invoices for the Abu Dhabi territory

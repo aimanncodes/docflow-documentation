@@ -1,3 +1,0 @@
-4.28 Customers who are also suppliers
-
-fig-4.28.1.png  —  Contra journal settling a customer balance against the same company's supplier balance

@@ -1,0 +1,3 @@
+4.10 Supplier prices and item suppliers
+
+fig-4.10.1.png  —  Item prices from a supplier's buying price list with validity dates

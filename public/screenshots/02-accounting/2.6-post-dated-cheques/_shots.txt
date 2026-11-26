@@ -1,0 +1,4 @@
+2.6 Post-dated cheques
+
+fig-2.6.1.png  —  A submitted PDC Received: Account Paid To is PDC Receivable, the amount and the sales invoice it settles are shown, and the Clear button is at the top
+fig-2.6.2.png  —  A cleared PDC Received with Cleared ticked and the Bank Transaction link at the top

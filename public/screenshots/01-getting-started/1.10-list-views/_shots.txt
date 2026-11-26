@@ -1,0 +1,4 @@
+1.10 Working with lists
+
+fig-1.10.1.png  —  The Sales Invoice list filtered with Customer "Gulf Horizon Hospitality LLC" and Status "Paid", showing one record, 1 of 1
+fig-1.10.2.png  —  The Sales Invoice list with three rows ticked, "3 items selected", and the Actions menu open with Payment, Copy to Clipboard, Edit, Export, Assign To, Clear Assignment, Apply Assignment Rule, Add Tags, Print, Submit, Cancel and Delete

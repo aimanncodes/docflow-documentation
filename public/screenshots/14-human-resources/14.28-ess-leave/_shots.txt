@@ -1,0 +1,4 @@
+14.28 Employee App: apply for leave
+
+fig-14.28.1.png  —  Leaves & Holidays tab with Leave Balance cards, the Request a Leave button, Recent Leaves and Upcoming Holidays
+fig-14.28.2.png  —  New Leave Application with Leave Type, From Date, To Date, Half Day, Total Leave Days, Reason and Leave Balance Before Application

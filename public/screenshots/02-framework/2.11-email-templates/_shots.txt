@@ -1,3 +1,0 @@
-2.11 Email templates
-
-fig-2.11.1.png  —  Email template with subject and body using invoice fields

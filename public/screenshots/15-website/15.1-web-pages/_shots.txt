@@ -1,3 +1,0 @@
-15.1 Web pages and the page builder
-
-fig-15.1.1.png  —  Page builder editing the About Us page with hero and cards blocks

@@ -1,0 +1,4 @@
+14.33 Employee App: approving requests (managers)
+
+fig-14.33.1.png  —  Home tab with Team Requests selected, listing an expense claim and two annual leave requests with their status
+fig-14.33.2.png  —  Leave Application sheet with leave type, dates, employee, status, reason and the Reject and Approve buttons

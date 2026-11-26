@@ -1,0 +1,4 @@
+14.3 UAE employee documents and PRO tasks
+
+fig-14.3.1.png  —  Employee Document for an Emirates ID with Document Number, Issue Date, Expiry Date and the status Expiring Soon
+fig-14.3.2.png  —  PRO Task list with two Renew tasks, their due dates and the status Open

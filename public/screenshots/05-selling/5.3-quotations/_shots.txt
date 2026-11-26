@@ -1,0 +1,4 @@
+5.3 Quotations
+
+fig-5.3.1.png  —  Quotation with items, VAT, validity date and terms
+fig-5.3.2.png  —  A submitted quotation with the Create menu open on Sales Order

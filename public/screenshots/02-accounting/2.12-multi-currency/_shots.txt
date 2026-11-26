@@ -1,0 +1,3 @@
+2.12 Foreign currency transactions
+
+fig-2.12.1.png  —  Sales invoice in USD showing exchange rate and AED equivalent

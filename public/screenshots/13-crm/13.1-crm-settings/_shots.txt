@@ -1,0 +1,4 @@
+13.1 CRM setup and settings
+
+fig-13.1.1.png  —  CRM Settings with the Lead, Opportunity, Quotation and Activity sections
+fig-13.1.2.png  —  The Sales Stage list with eight stages, and the Setup group of the CRM sidebar open

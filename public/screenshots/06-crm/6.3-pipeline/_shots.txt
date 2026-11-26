@@ -1,3 +1,0 @@
-6.3 Pipeline and sales forecasting
-
-fig-6.3.1.png  —  Opportunity kanban board with cards grouped by sales stage

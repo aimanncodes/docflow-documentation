@@ -1,0 +1,4 @@
+13.11 Appointments
+
+fig-13.11.1.png  —  Appointment Booking Settings with a 30-minute duration, two agents and Monday to Friday slots from 09:00 to 17:00
+fig-13.11.2.png  —  The public Book an Appointment page with a date, the Asia/Dubai time zone and free half-hour slots

@@ -1,0 +1,3 @@
+14.25 Dashboards and reports
+
+fig-14.25.1.png  —  Workforce dashboard with headcount, joiners, leavers and document expiry cards and the Headcount by Department chart

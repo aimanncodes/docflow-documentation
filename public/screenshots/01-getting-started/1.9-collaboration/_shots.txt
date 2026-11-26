@@ -1,3 +1,0 @@
-1.9 Working together: comments, assignments and sharing
-
-fig-1.9.1.png  —  Document timeline with a comment, a mention and a version change

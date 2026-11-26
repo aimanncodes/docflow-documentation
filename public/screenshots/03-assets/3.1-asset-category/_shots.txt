@@ -1,0 +1,3 @@
+3.1 Asset categories
+
+fig-3.1.1.png  —  Asset category for motor vehicles with depreciation settings and accounts per Entity

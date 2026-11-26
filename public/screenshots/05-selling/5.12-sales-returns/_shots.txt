@@ -1,0 +1,4 @@
+5.12 Sales Returns
+
+fig-5.12.1.png  —  Sales return created from a delivery note with negative quantities
+fig-5.12.2.png  —  A new sales return showing Is Return ticked, the Return Type field with its help text, Return Against and the Tax Credit Note Values section

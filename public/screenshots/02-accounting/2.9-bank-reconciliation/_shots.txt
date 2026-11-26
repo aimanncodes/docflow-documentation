@@ -1,0 +1,3 @@
+2.9 Bank reconciliation
+
+fig-2.9.1.png  —  Bank Reconciliation Tool matching a bank credit to a Bank Transaction

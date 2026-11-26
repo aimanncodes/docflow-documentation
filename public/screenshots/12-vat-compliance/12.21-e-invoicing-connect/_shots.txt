@@ -1,0 +1,4 @@
+12.21 Connect your DocFlow account
+
+fig-12.21.1.png  —  The DocFlow account and Sending sections of E-invoicing Settings: Send E-invoices, Environment Sandbox, the provider address, the masked login and password, Send Documents From, E-Invoices Required From, Block Submit Until Ready and Send When Fixed
+fig-12.21.2.png  —  The DocFlow connection dialog after Test connection, showing that DocFlow refused the login, with the environment and address, above the DocFlow e-invoicing card with its Connection to DocFlow and Seller data for all invoices groups

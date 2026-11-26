@@ -1,0 +1,4 @@
+13.10 Campaigns and email campaigns
+
+fig-13.10.1.png  —  A campaign with two Campaign Schedules rows and a description, and the View Leads button
+fig-13.10.2.png  —  An email campaign for an email group with start and end dates and status Scheduled

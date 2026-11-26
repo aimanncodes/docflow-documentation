@@ -1,0 +1,3 @@
+2.19 Related parties and transfer pricing
+
+fig-2.19.1.png  —  Related Party Transactions report listing each related party with its relationship and the sales, purchases, journals, received and paid totals

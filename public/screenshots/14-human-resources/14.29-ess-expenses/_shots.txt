@@ -1,0 +1,4 @@
+14.29 Employee App: expense claims and advances
+
+fig-14.29.1.png  —  New Expense Claim with the Expenses, Advances and Totals tabs, Expense Approver, one Travel item and the attachments area
+fig-14.29.2.png  —  Expense Claims tab with the Expense Claim Summary, the Claim an Expense button, Recent Expenses and Employee Advance Balance

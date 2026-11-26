@@ -1,0 +1,4 @@
+8.3 Work orders and job cards
+
+fig-8.3.1.png  —  Work order for 40 steel racks with required items, operations and warehouses
+fig-8.3.2.png  —  Job card for welding with time logs, employee and completed quantity

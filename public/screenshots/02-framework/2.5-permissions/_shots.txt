@@ -1,3 +1,0 @@
-2.5 Role permissions
-
-fig-2.5.1.png  —  Role Permissions Manager for Sales Invoice with roles and rights

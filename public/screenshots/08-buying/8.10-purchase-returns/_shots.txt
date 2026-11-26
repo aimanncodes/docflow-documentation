@@ -1,3 +1,0 @@
-8.10 Purchase returns
-
-fig-8.10.1.png  —  Purchase return created from a receipt with rejected quantities

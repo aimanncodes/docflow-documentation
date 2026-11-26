@@ -1,0 +1,3 @@
+12.9 Advance tax invoices and the tax point
+
+fig-12.9.1.png  —  A submitted advance tax invoice with the entity, customer, date, UAE VAT 5% template, Abu Dhabi emirate, an advance of 16,000.00 with 800.00 VAT, and Set Off Status Unused

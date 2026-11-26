@@ -1,3 +1,0 @@
-4.16 Payment requests and payment links
-
-fig-4.16.1.png  —  Payment request email with a pay now link

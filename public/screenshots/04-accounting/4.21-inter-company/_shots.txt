@@ -1,3 +1,0 @@
-4.21 Inter-company transactions
-
-fig-4.21.1.png  —  Inter-company purchase invoice created from the matching sales invoice

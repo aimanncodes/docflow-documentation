@@ -1,0 +1,3 @@
+12.6 Profit margin scheme
+
+fig-12.6.1.png  —  A sales invoice with the VAT Scheme set to Profit Margin Scheme, a line with Margin Scheme Basis Second-hand goods, the selling price, the linked purchase invoice and the computed profit margin and VAT on margin

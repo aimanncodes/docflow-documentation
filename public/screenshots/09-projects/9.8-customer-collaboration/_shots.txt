@@ -1,0 +1,3 @@
+9.8 Working with customers on projects
+
+fig-9.8.1.png  —  Customer portal showing project progress, open tasks and invoices

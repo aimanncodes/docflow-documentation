@@ -1,0 +1,3 @@
+6.15 Stock reservation
+
+fig-6.15.1.png  —  Sales order with reserved stock entries per warehouse

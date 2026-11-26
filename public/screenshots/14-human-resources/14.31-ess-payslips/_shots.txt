@@ -1,0 +1,4 @@
+14.31 Employee App: payslips
+
+fig-14.31.1.png  —  Salary Slips screen with Year To Date, the payroll period selector and one monthly payslip
+fig-14.31.2.png  —  One payslip on the Earnings & Deductions tab with Basic, Housing Allowance, Transport Allowance and the Download PDF button

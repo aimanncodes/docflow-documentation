@@ -1,0 +1,4 @@
+14.2 Employees and contracts
+
+fig-14.2.1.png  —  Employee, Contract and Visa section with one contract row and three Contract Salary rows (Basic, Housing Allowance, Transport Allowance)
+fig-14.2.2.png  —  Employee, End of Service Accruals section with Accrue Gratuity, Accrue Vacation Pay, Gratuity Basis UAE Mainland and Gratuity Days per Year 21

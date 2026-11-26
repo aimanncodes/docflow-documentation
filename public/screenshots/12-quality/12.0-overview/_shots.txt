@@ -1,3 +1,0 @@
-12.0 Quality at a glance
-
-fig-12.0.1.png  —  Quality workspace with inspections, open non-conformances and quality goals

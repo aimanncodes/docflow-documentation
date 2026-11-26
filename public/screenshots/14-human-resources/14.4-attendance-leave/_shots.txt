@@ -1,0 +1,4 @@
+14.4 Holidays and leave
+
+fig-14.4.1.png  —  Set up UAE Holidays dialog with Entity and Year over the holiday list
+fig-14.4.2.png  —  Leave Application with From Date, To Date, Total Leave Days, Leave Balance Before Application, Leave Approver and Status Open

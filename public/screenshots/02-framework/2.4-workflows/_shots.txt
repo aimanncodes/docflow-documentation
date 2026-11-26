@@ -1,4 +1,0 @@
-2.4 Approval workflows
-
-fig-2.4.1.png  —  Workflow for purchase orders with states and transitions table
-fig-2.4.2.png  —  Purchase order showing workflow actions Approve and Reject in the toolbar

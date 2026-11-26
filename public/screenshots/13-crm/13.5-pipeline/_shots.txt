@@ -1,0 +1,3 @@
+13.5 The Pipeline board
+
+fig-13.5.1.png  —  The Pipeline board with deal count, value and weighted value, the Open/Won/Lost/All switch and stage columns with deal cards

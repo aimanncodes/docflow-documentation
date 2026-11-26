@@ -3,6 +3,8 @@
 
 Subcontracting is when another company does part or all of the production for you using your materials: powder coating of steel parts in a Sharjah workshop, printing and packing of cartons, or assembly of kits by a contract packer in JAFZA. DocFlow tracks the materials you send, what the subcontractor still holds, the service charge and the finished goods you receive.
 
+Open it from the **Subcontracting** tile in the **Production** group on the home screen. The tile reads "Outsourced production and receipts".
+
 !fig Subcontracting workspace with open subcontracting orders and materials at suppliers
 
 ## The subcontracting flow
@@ -97,7 +99,7 @@ Create the **Purchase Invoice** from the purchase order or receipt for the servi
 | Case | Action |
 | --- | --- |
 | Finished goods rejected | Receive into rejected warehouse; return to supplier for rework with a return receipt |
-| Materials damaged by supplier | Recover the cost with a debit note |
+| Materials damaged by supplier | Recover the cost with a **Purchase Return** |
 | Leftover materials | **Return of Components** stock entry |
 
 :::example Example
@@ -126,7 +128,7 @@ Saqr Steel sends 200 bare frames and 80 kg powder to Al Noor Coating in Sharjah 
 
 ## Reconciling with the supplier
 
-Monthly, send the subcontractor their stock balance and agree it. Differences are usually waste above BOM, unrecorded returns or theft. Record agreed losses with a stock entry (material issue) and, if chargeable, a debit note.
+Monthly, send the subcontractor their stock balance and agree it. Differences are usually waste above BOM, unrecorded returns or theft. Record agreed losses with a stock entry (material issue) and, if chargeable, a **Purchase Return**.
 
 ## Batches and serials
 
@@ -173,7 +175,7 @@ Processing customer-owned goods is a supply of services. VAT applies at 5% on yo
 ## Related pages
 
 - [Subcontracting overview](/subcontracting/overview)
-- [Zero-rated and exempt supplies](/uae-compliance/zero-rated-exempt)
+- [Zero-rated and exempt supplies](/vat-compliance/zero-rated-exempt)
 
 @@ subcontracting-costing | Subcontracting costs
 @summary How the cost of subcontracted goods is built up from supplied materials, the service charge and additional costs such as transport, and how to review it.

@@ -1,0 +1,5 @@
+12.2 Filing periods and the VAT 201
+
+fig-12.2.1.png  —  The Filing periods screen for Al Noor Trading LLC with eight quarterly periods, one Filed and the rest Open, each with a VAT 201 button
+fig-12.2.2.png  —  The VAT 201 of an open period in the FTA layout, with the live-figures banner, Taxpayer Information and boxes 1a to 3, and the Print, Download PDF, Invoices of this period, Audit file for this period and File return buttons
+fig-12.2.3.png  —  The side panel for box 1b (Standard Rated Supplies in Dubai) listing eight documents with date, party, TRN and emirate, including one return

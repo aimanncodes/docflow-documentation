@@ -1,0 +1,3 @@
+6.8 Warehouse Capacity Summary
+
+fig-6.8.1.png  —  Warehouse Capacity Summary page with one card per item and warehouse showing capacity, balance quantity and percentage occupied

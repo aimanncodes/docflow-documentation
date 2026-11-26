@@ -1,3 +1,0 @@
-1.12 Using DocFlow on mobile and tablet
-
-fig-1.12.1.png  —  DocFlow list view on a phone showing sales orders and the search bar

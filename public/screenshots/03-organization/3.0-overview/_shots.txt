@@ -1,3 +1,0 @@
-3.0 Organisation at a glance
-
-fig-3.0.1.png  —  Organisation workspace with links to company, branches, departments and fiscal years

@@ -16,11 +16,11 @@ const GROUPS = [
       ar: "ضريبة القيمة المضافة وضريبة الشركات والفوترة الإلكترونية وسائر القواعد الإماراتية التي يجب أن تتبعها حساباتك.",
     },
     pages: [
-      "uae-compliance/overview", "uae-compliance/vat-setup", "uae-compliance/zero-rated-exempt", "uae-compliance/reverse-charge",
-      "uae-compliance/designated-zones", "uae-compliance/vat-return", "uae-compliance/tax-point", "uae-compliance/corporate-tax",
-      "uae-compliance/e-invoicing", "uae-compliance/records-audit", "uae-compliance/bad-debt-relief", "uae-compliance/profit-margin-scheme",
-      "uae-compliance/excise-tax", "uae-compliance/tourist-refund", "uae-compliance/customs", "uae-compliance/transfer-pricing",
-      "uae-compliance/ubo-register", "uae-compliance/aml-goaml", "uae-compliance/voluntary-disclosure",
+      "vat-compliance/overview", "vat-compliance/vat-setup", "vat-compliance/zero-rated-exempt", "vat-compliance/reverse-charge",
+      "vat-compliance/designated-zones", "vat-compliance/vat-return", "vat-compliance/tax-point", "accounting/corporate-tax",
+      "vat-compliance/e-invoicing", "vat-compliance/records-audit", "vat-compliance/bad-debt-relief", "vat-compliance/profit-margin-scheme",
+      "vat-compliance/tourist-refund", "buying/customs", "accounting/transfer-pricing",
+      "accounting/ubo-register", "accounting/aml-goaml", "vat-compliance/voluntary-disclosure",
     ],
   },
   {
@@ -32,8 +32,8 @@ const GROUPS = [
       ar: "رواتب نظام حماية الأجور ومكافأة نهاية الخدمة وقواعد الإجازات والعمل الإضافي والتأشيرات وسائر واجبات صاحب العمل في الإمارات.",
     },
     pages: [
-      "hr-payroll/wps-payroll", "hr-payroll/gratuity", "hr-payroll/attendance-leave", "hr-payroll/overtime", "hr-payroll/separation",
-      "hr-payroll/air-tickets", "hr-payroll/visa-pro", "hr-payroll/pension", "hr-payroll/emiratisation", "hr-payroll/insurance",
+      "human-resources/wps-payroll", "human-resources/gratuity", "human-resources/attendance-leave", "human-resources/overtime", "human-resources/separation",
+      "human-resources/air-tickets", "human-resources/visa-pro", "human-resources/pension", "human-resources/emiratisation", "human-resources/insurance",
     ],
   },
   {
@@ -45,7 +45,7 @@ const GROUPS = [
       ar: "شركات البر الرئيسي والمناطق الحرة، والعطل والعناوين الإماراتية، والاستيراد، والفواتير المستوفية للقواعد الإماراتية.",
     },
     pages: [
-      "organization/multi-company", "organization/holiday-list", "organization/addresses-contacts", "framework/naming-series",
+      "organization/multi-company", "organization/holiday-list", "organization/addresses-contacts", "administration/naming-series",
       "accounting/sales-invoice", "accounting/bank-guarantee", "buying/import-purchases",
     ],
   },
@@ -54,10 +54,10 @@ const GROUPS = [
     en: "Arabic and bilingual",
     ar: "العربية وثنائية اللغة",
     intro: {
-      en: "Use DocFlow in Arabic, print bilingual documents and publish an Arabic website.",
-      ar: "استخدم DocFlow بالعربية واطبع مستندات ثنائية اللغة وانشر موقعاً عربياً.",
+      en: "Use DocFlow in Arabic, print bilingual documents and send Arabic emails.",
+      ar: "استخدم DocFlow بالعربية واطبع مستندات ثنائية اللغة وأرسل رسائل بريد عربية.",
     },
-    pages: ["getting-started/printing", "framework/translations", "website/arabic-website"],
+    pages: ["getting-started/printing", "administration/translations", "administration/email-templates"],
   },
   {
     id: "guides",

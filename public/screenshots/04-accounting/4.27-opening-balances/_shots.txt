@@ -1,3 +1,0 @@
-4.27 Opening balances and migration
-
-fig-4.27.1.png  —  Trial balance on go-live day with the temporary opening account at zero

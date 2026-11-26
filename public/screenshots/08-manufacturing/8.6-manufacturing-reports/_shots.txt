@@ -1,0 +1,3 @@
+8.6 Manufacturing reports
+
+fig-8.6.1.png  —  Production analytics chart of quantity produced by item and month

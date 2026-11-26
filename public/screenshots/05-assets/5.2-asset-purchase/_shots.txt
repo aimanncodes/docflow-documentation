@@ -1,3 +1,0 @@
-5.2 Buying and capitalising assets
-
-fig-5.2.1.png  —  Asset form created from a purchase receipt with location, custodian and depreciation schedule

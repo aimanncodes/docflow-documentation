@@ -1,0 +1,4 @@
+1.7 Theme and language
+
+fig-1.7.1.png  —  The Switch Theme window over the home screen with the Light (selected), Dark and Automatic previews
+fig-1.7.2.png  —  The home screen in Arabic, laid out from right to left, with the logo at the top right, the AR / EN switch and the module tiles under المالية, التجارة and الإنتاج

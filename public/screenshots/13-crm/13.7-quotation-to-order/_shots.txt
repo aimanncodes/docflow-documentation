@@ -1,0 +1,3 @@
+13.7 From quotation to sales order
+
+fig-13.7.1.png  —  A submitted quotation to a lead with UAE VAT 5% taxes and the Create menu open on Sales Order

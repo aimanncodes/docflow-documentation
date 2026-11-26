@@ -1,0 +1,3 @@
+2.10 Bank Statement Import
+
+fig-2.10.1.png  —  Bank Statement Import for an entity's AED current account, with the column mapping messages and the preview of deposits and withdrawals

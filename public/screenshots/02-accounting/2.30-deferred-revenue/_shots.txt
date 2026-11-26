@@ -1,0 +1,3 @@
+2.30 Deferred revenue and expenses
+
+fig-2.30.1.png  —  Sales invoice line with service start and end dates for deferred revenue

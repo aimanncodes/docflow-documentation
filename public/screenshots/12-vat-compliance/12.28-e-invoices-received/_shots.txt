@@ -1,0 +1,4 @@
+12.28 Received e-invoices
+
+fig-12.28.1.png  —  The E-invoices received screen listing three supplier e-invoices with issue date, seller and TRN, state (Posted, Supplier unknown, Ready), net, VAT and grand total
+fig-12.28.2.png  —  An E-Invoice Received in state Ready, with the supplier and buyer TRNs as sent, the matched supplier and the amounts, and the Make Draft Purchase Invoice, Match Again and Ignore buttons

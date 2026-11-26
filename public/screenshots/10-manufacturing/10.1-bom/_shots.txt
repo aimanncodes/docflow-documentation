@@ -1,3 +1,0 @@
-10.1 Bill of materials (BOM)
-
-fig-10.1.1.png  —  BOM for a steel storage rack with raw materials, operations and cost summary

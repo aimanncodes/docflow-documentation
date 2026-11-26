@@ -1,0 +1,3 @@
+15.22 Arabic labels and translations
+
+fig-15.22.1.png  —  Translation record changing the Arabic label for Delivery Note

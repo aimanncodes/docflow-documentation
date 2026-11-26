@@ -1,0 +1,3 @@
+2.16 Non-deductible expenses and Insight
+
+fig-2.16.1.png  —  A Purchase Entry line opened for editing, with Non-Deductible ticked, Non-Deductible Classification set to Entertainment and Disallowed % showing 50%

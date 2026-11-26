@@ -1,0 +1,3 @@
+2.23 Accounts settings
+
+fig-2.23.1.png  —  Accounts settings with frozen date, credit controller and payment options

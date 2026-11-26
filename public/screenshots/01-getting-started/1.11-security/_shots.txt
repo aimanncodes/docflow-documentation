@@ -1,3 +1,0 @@
-1.11 Passwords, 2FA and security
-
-fig-1.11.1.png  —  Two-factor sign-in screen asking for the six-digit code

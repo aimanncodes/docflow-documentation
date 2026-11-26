@@ -1,0 +1,3 @@
+2.15 Corporate Tax
+
+fig-2.15.1.png  —  UAE Compliance Settings with the Corporate Tax Rate, Annual Threshold, the Corporate Tax Ledgers table and the Cash Receipt Threshold

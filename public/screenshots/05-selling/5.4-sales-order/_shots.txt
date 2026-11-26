@@ -1,0 +1,3 @@
+5.4 Sales orders
+
+fig-5.4.1.png  —  Sales order with customer LPO number, delivery dates and warehouse

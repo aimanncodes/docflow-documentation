@@ -1,0 +1,4 @@
+2.29 Point of sale
+
+fig-2.29.1.png  —  POS profile with warehouse, payment modes and print format
+fig-2.29.2.png  —  Point of sale screen with items, cart and payment buttons

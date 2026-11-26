@@ -1,3 +1,0 @@
-2.12 Arabic labels and translations
-
-fig-2.12.1.png  —  Translation record changing the Arabic label for a field

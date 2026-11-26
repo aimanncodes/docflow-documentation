@@ -1,3 +1,0 @@
-10.0 Manufacturing at a glance
-
-fig-10.0.1.png  —  Manufacturing workspace with open work orders, job cards and production by item

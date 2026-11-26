@@ -1,0 +1,4 @@
+1.5 Searching
+
+fig-1.5.1.png  —  The search bar opened over the home screen with "sales inv" typed and the results Sales Invoice List, Sales Invoice Report, New Sales Invoice, Report Sales Invoice Trends and Search for sales inv; the footer shows the keys to navigate, select, close and open Global Search
+fig-1.5.2.png  —  Global Search for "Gulf Horizon" with the chips All, Customer, Supplier, Item, Warehouse, Account and More, and the results grouped as Sales Invoice (4 results) and Customer (1 result)

@@ -1,0 +1,4 @@
+1.14 Other views
+
+fig-1.14.1.png  —  The view switcher open on the Sales Invoice list with Report View, Dashboard View and Kanban View
+fig-1.14.2.png  —  The Sales Invoice Report View grouped by Customer, with a Count column for each customer and a Totals row of 13
