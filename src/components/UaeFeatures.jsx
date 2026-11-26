@@ -19,7 +19,7 @@ const GROUPS = [
       "vat-compliance/overview", "vat-compliance/vat-setup", "vat-compliance/zero-rated-exempt", "vat-compliance/reverse-charge",
       "vat-compliance/designated-zones", "vat-compliance/vat-return", "vat-compliance/tax-point", "accounting/corporate-tax",
       "vat-compliance/e-invoicing", "vat-compliance/records-audit", "vat-compliance/bad-debt-relief", "vat-compliance/profit-margin-scheme",
-      "buying/excise-tax", "vat-compliance/tourist-refund", "buying/customs", "accounting/transfer-pricing",
+      "vat-compliance/tourist-refund", "buying/customs", "accounting/transfer-pricing",
       "accounting/ubo-register", "accounting/aml-goaml", "vat-compliance/voluntary-disclosure",
     ],
   },

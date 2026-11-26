@@ -872,45 +872,24 @@ Import VAT is 5% on the CIF value plus duty. VAT-registered importers usually ac
 - [Importing goods](/buying/import-purchases)
 - [Landed costs](/stock/landed-cost)
 - [Designated Zones](/vat-compliance/designated-zones)
-- [Excise tax](/buying/excise-tax)
+- [Excise tax (not supported in this release)](/buying/excise-tax)
 
 @@ excise-tax | Excise tax
-@summary Account for excise tax on tobacco, energy drinks, carbonated and sweetened drinks and other excise goods.
+@summary Excise tax is not supported in this release of DocFlow Suite.
 
-Excise tax applies to specific goods that are harmful to health or the environment, when imported, produced in the UAE, or released from a designated zone.
-
-| Goods | Rate |
-| --- | --- |
-| Tobacco products | 100% |
-| Electronic smoking devices and liquids | 100% |
-| Energy drinks | 100% |
-| Carbonated drinks | 50% |
-| Sweetened drinks | Based on sugar content under the tiered model |
-
-## Who must register
-
-Businesses that import excise goods, produce them, hold them in a designated zone, or release them from a designated zone must register for excise tax with the FTA.
-
-## Setting up
-
-1. Mark affected items as excise goods (add an **Is Excise Good** field with [custom fields](/administration/custom-fields) if needed) and record the excise category and the retail sale price used for the excise value.
-2. Create accounts for **Excise Tax Payable** and, for recoverable amounts, **Excise Tax Recoverable**.
-3. Create an **Excise Tax** template for purchases (imports) and production.
-4. Track stock of excise goods in separate warehouses if you hold them in a designated zone.
-5. Use the **Excise Tax Return** report to prepare the monthly return. {planned}
-
-!fig Item with excise category and excise tax template
-
-## VAT and excise together
-
-VAT is charged on the selling price including excise tax. On a sales invoice for excise goods, the excise is part of the price and VAT 5% applies to the total.
-
-:::warning Rates and rules change
-The method for sweetened drinks moved to a sugar-content based model. Always check the FTA's current rules and the published price lists for excise goods.
+:::warning Excise tax is not supported in this release
+DocFlow Suite does not calculate, post or report excise tax. **Do not add excise tax rows to purchases or purchase tax templates.** Every tax row on a purchase is treated as VAT, so an excise row would be counted in **box 9** of the VAT return and overstate your recoverable VAT.
 :::
+
+## What you can do in DocFlow
+
+- **Pay excise tax you owe.** Record the payment as a **Bank Transaction** with the type **Tax payment**, and choose **Excise Tax** as the tax type. See [Bank and Cash Transactions](/accounting/payment-entry).
+- **Keep excise goods in their own warehouse** if you hold them in a designated zone. See [Designated Zones](/vat-compliance/designated-zones).
+
+Work out, file and pay your excise tax returns on EmaraTax, outside DocFlow.
 
 ## Related pages
 
 - [Customs, HS codes and duty](/buying/customs)
 - [Importing goods](/buying/import-purchases)
-- [Items](/stock/items)
+- [Purchases and input VAT](/vat-compliance/purchases-input-vat)

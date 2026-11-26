@@ -78,7 +78,7 @@ You rarely pick the category by hand. It comes from the **Item Tax Template** of
 | Checks and records | [Exchange rates](/vat-compliance/exchange-rates), [FTA audit file](/vat-compliance/records-audit), [VAT reports](/vat-compliance/vat-reports) |
 | E-invoicing | [E-invoicing](/vat-compliance/e-invoicing), [Connect your account](/vat-compliance/e-invoicing-connect), [Get records ready](/vat-compliance/e-invoicing-readiness), [The e-invoice panel](/vat-compliance/e-invoice-panel), [Sending and statuses](/vat-compliance/e-invoicing-statuses), [Point of sale](/vat-compliance/e-invoicing-pos), [Registers and deadlines](/vat-compliance/e-invoicing-registers), [Provider outages](/vat-compliance/e-invoicing-outage), [Received e-invoices](/vat-compliance/e-invoices-received), [Troubleshooting](/vat-compliance/e-invoicing-troubleshooting) |
 
-Corporate Tax, transfer pricing, the UBO register and AML are in Accounting: see [Corporate Tax](/accounting/corporate-tax). Customs and excise are in Buying: see [Customs](/buying/customs).
+Corporate Tax, transfer pricing, the UBO register and AML are in Accounting: see [Corporate Tax](/accounting/corporate-tax). Customs is in Buying: see [Customs](/buying/customs). Excise tax is not supported in this release: see [Excise tax](/buying/excise-tax).
 
 :::note Not tax advice
 This module explains how DocFlow handles VAT. It is not tax advice. For the law itself, see the Federal Tax Authority (FTA) website or ask your tax adviser.

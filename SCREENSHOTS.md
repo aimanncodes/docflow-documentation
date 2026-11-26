@@ -1,7 +1,7 @@
 # Screenshot checklist
 
 Save each PNG with the exact file name shown. The manual picks it up automatically.
-Total screenshots: **334**
+Total screenshots: **333**
 
 
 ## 01-getting-started
@@ -434,11 +434,6 @@ Folder: `public/screenshots/04-buying/4.12-import-purchases/`
 Folder: `public/screenshots/04-buying/4.13-customs/`
 
 - [ ] `fig-4.13.1.png`: Purchase receipt with bill of entry number and attached customs declaration
-
-### 4.14 Excise tax
-Folder: `public/screenshots/04-buying/4.14-excise-tax/`
-
-- [ ] `fig-4.14.1.png`: Item with excise category and excise tax template
 
 ## 05-selling
 
