@@ -233,7 +233,7 @@ Agents can paste article links when replying to issues; look at the most common 
 
 ## Connecting the mailbox
 
-1. Go to **Framework › Email Account › New**.
+1. Go to **Administration › Email Account › New**.
 2. Enter the support address, for example support@yourcompany.ae, and choose the service (Microsoft 365, Google Workspace or IMAP).
 3. Tick **Enable Incoming** and set **Append To** = Issue.
 4. Tick **Enable Outgoing** and set it as the default for issues.
